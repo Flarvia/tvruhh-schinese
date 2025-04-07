@@ -193,7 +193,33 @@
 	},
 
 
-
+	"BNT_cracked_mirror" : {
+		"name"    : "碎裂镜面",
+		"memory"  : "Coming Soon v8.22c",
+		"card"    : "屏幕水平镜像|L|魔尘分数+[VAL2]%",
+	},
+	"BNT_broken_mirror" : {
+		"name"    : "破损镜面",
+		"memory"  : "Coming Soon v8.22c",
+		"card"    : "屏幕水平镜像|L|魔尘分数+[VAL2]%",
+	},
+	"BNT_dizzy" : {
+		"name"    : "昏沉",
+		"memory"  : "Coming Soon v8.22c",
+		"card"    : "屏幕垂直翻转|L|魔尘分数+[VAL2]%",
+	},
+	"BNT_vertigo" : {
+		"name"    : "晕眩",
+		"memory"  : "Coming Soon v8.22c",
+		"card"    : "屏幕垂直翻转|L|魔尘分数+[VAL2]%",
+	},
+	"BNT_pirouette" : {
+		"name"    : "趾尖旋转",
+		"memory"  : "Coming Soon v8.22c",
+		"card"    : "水平且垂直翻转屏幕！|L|魔尘分数+[VAL3]%",
+	},
+	
+	
 	"BNT_wrath_a" : {
 		"name"    : "狂怒碎片",
 		"memory"  : "咱生气。|L|咱大生气！|L|咱，呃... |shake|双倍超级大生气！",

@@ -210,6 +210,15 @@
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
 	},
+	"E_stage_mirror" : {
+		"name"		: "翻转之梦",
+		"hint"		: "[hint_stage_common]",
+		"details"	: "我面对这群怪物时感觉有点晕晕的。虽然好像没什么大不了的，但然后我们的梦境就被|C3|左右镜像，上下翻转了！|C0|在自己梦境的另一边让我感觉非常混乱！其他的一切都和往常一样，但我没预料到这非常影响我。",
+		"rule1"		: "[rule_stage1]",
+		"rule2"		: "[rule_stage2]",
+		"rule3"		: "[rule_karma]",
+		"rule4"		: "[rule_bounty_limit]",
+	},
 	"E_stage_no_panic" : {
 		"name"		: "不要恐慌！",
 		"hint"		: "如果你有一些剩余的恐慌，这个事件可能会出现在任何普通关卡中",

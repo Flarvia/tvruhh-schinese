@@ -53,6 +53,29 @@
 			"dialog"			: "我需要向她们道歉。|L||!|不过，主要是绿色的，有着阳光发色的那个。",
 		},
 	],
+	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "我知道你不认识我，但你看起来-",
+			"dialog_rand2"		: "我知道我们不认识彼此，但是-",
+			"dialog_rand3"		: "你不认识我，但看起来-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "你今天有见过扎拉登吗？",
+			"dialog_rand2"		: "你也在和扎拉登的战斗中失败了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "大概我之前有点害怕她，但是现在-",
+		},
+	],
+	
+
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -68,6 +91,27 @@
 			"random"			: 2,
 			"dialog_rand1"		: "我会确保她们收到的！",
 			"dialog_rand2"		: "我现在就去把这个带给她们！",
+		},
+	],
+	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "太谢谢你了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "很高兴见到你。|L||!|顺便一提，我是[VAL2]。",
+		},
+	],
+	"step1_leave_B_lila"				: "step1_leave_eyeball",
+	"step1_leave_B_burning_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_eyeball" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛之后见你！",
 		},
 	],
 	
@@ -182,6 +226,72 @@
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
 			"dialog"			: "我们就去永远躲在则个角落里了，好耶？",
+		},
+	],
+	
+	"step1_ask_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_sad"],
+			"dialog"			: "所以，你真的想让她原谅你？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "是啊，我确实这样想。",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_surprised"],
+			"dialog"			: "那你就做我们战斗时会做的事情吧。",
+		},
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+			"dialog"			: "你要给她礼物。",
+		},
+	],
+	
+	"step1_ask_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元侦测到有着极低恐惧等级的怪物。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "你今天是否被一位扎拉登拜访过？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "是呀，你是怎么知道的？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "你认识她吗？",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "存在这种可能性。本单元训练了数位扎拉登掌握她们的爱之力量。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "原来是那个吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|真是美妙的感觉。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "但现在我对自己的行为感到糟糕了。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元有个解决方案，可能会缓解你剩余的负面情绪。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|建议:|C0|给扎拉登一个礼物。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元收集了许多礼物，可以从中选择。",
 		},
 	],
 	
@@ -348,7 +458,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "|shake|不，等一下！|norm|    就是那回事，    我是说-",
+			"dialog"			: "|shake|不，等一下！|norm|    就是那回事，    |L|我是说-",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],

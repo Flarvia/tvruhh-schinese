@@ -118,6 +118,41 @@
 		},
 	],
 	
+	
+	"comment_pickup_B_knot_knott"	: {
+		"character"	: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+		"dialog"	: "给她这些中的一个。",
+	},
+	"confirm_pickup_B_knot_knott"		: {
+		"character"	: ["VOICE_knot", "CHAR_knot_right", "MOOD_normal"],
+		"dialog"	: "这个吗？",
+	},
+	"pickup_next_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+			"dialog"			: "或许再来一个礼物，    以防万一。",
+		},
+	],
+	"comment_pickup_B_knot_knott_2"	: {
+		"character"	: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+		"dialog"	: "我猜她估计会喜欢这个的。",
+	},
+	"confirm_pickup_B_knot_knott_2"		: {
+		"character"	: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+		"dialog"	: "那个，你确定吗？",
+	},
+	"step1_bye_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+			"dialog"			: "这绝对能行。",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+			"dialog"			: "|wave|相信我们。",
+		},
+	],
+	
+	
 	"step1_response_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
@@ -211,6 +246,213 @@
 		{
 			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
 			"dialog"			: "这会让扎拉登女孩开心的。|L|相信兰迪！",
+		},
+	],
+	
+	"step1_response_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+			"dialog"			: "你也和扎拉登战斗？",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "咱有个主意！",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+			"dialog"			: "咱喜欢水果，所以扎拉登一定喜欢水果？",
+		},
+	],
+	"comment_pickup_B_lila"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "给扎拉登食物。",
+	},
+	"confirm_pickup_B_lila"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "这个吗？",
+	},
+	"step1_bye_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
+			"dialog"			: "告诉扎拉登们咱也很对不起。",
+		},
+	],
+	"step1_bye_eyeball_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛之后见你！",
+		},
+	],
+	
+	
+	"step1_response_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "你对自己的行为感到糟糕，是吧？",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "相信我。你没什么需要担心的。",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_surprised"],
+			"dialog"			: "但如果你真的感觉那么糟糕-",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_confused"],
+			"dialog"			: "你要不要给她点什么？",
+		},
+	],
+	"comment_pickup_B_ombroah"	: {
+		"character"	: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+		"dialog"	: "给她这些中的一个。",
+	},
+	"confirm_pickup_B_ombroah"		: {
+		"character"	: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_normal"],
+		"dialog"	: "这个可以吗？",
+	},
+	"step1_bye_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "别担心，她有个美好的灵魂。",
+		},
+	],
+	"step1_bye_B_ombroah_twins" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "别担心，她们都有美好的灵魂。",
+		},
+	],
+	"step1_bye_B_ombroah_devil" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_confused"],
+			"dialog"			: "她可能看上去很吓人，并且可能还会让你加入她的乐队，但是-",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "她真的有一个美好的灵魂。",
+		},
+	],
+	"step1_bye_unknown_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "你可以叫我[VAL1]。",
+		},
+	],
+	
+	
+	"step1_response_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "|wave|好的好的！|norm||L||!|一位扎拉登今天向我轰击了爱！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_sad"],
+			"dialog"			: "我之前一直在躲着。|L|我不认识任何人。|L|我只会从远处拍摄照片。",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_very_happy"],
+			"dialog"			: "但是现在我不再害怕了。|L||wave|我会做你的朋友！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "我知道应该做什么。",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "好的好的，我们会给扎拉登更多的礼物！",
+		},
+	],
+	"comment_pickup_B_photoxai"	: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+		"dialog"	: "我给她做了这些！",
+	},
+	"confirm_pickup_B_photoxai"		: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_normal"],
+		"dialog"	: "好的好的？",
+	},
+	"pickup_next_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "等下等下，我做了更多。",
+		},
+	],
+	"step1_bye_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "好的好的，我要叫你[VAL3]！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "你可以叫我[VAL1]！",
+		},
+	],
+	
+	
+	"comment_pickup_B_unit_lulu"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "选择这些礼物中的一个。",
+	},
+	"confirm_pickup_B_unit_lulu"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "你会接受这个吗？",
+	},
+	"step1_bye_unknown_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元整合了这些新信息。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元被给予了[VAL1]的称呼。|L|你可以以此称呼她。",
+		},
+	],
+	
+	
+	"step1_response_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "所以她也打败你了，嗯？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"dialog"			: "这之后我自己觉得有点糟糕。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但然后我意识到她接纳了我自己的样子。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|即使有着那么多燃烧！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "如果你真的想要道歉，就把这些里的一个给她吧。",
+		},
+	],
+	"comment_pickup_B_burning_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+		"dialog"	: "选择任何一个。",
+	},
+	"confirm_pickup_B_burning_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+		"dialog"	: "这足够热吗？",
+	},
+	"step1_bye_unknown_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我的名字记起来很容易。|L|是[VAL1]！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_angry"],
+			"dialog"			: "毕竟有这么多|shake|燃烧！",
+		},
+	],
+	"step1_bye_eyeball_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛之后见你！",
 		},
 	],
 

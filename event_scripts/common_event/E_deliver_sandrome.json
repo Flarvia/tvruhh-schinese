@@ -52,10 +52,48 @@
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
 			"random"			: 2,
-			"dialog_rand1"		: "一个扎拉登献上了友谊，但我只回应了   |shake|暴力！",
-			"dialog_rand2"		: "一个扎拉登分享了爱，但我只懂得   |shake|扎扎！",
+			"dialog_rand1"		: "一个扎拉登向我献上了友谊，但我只回应了   |shake|暴力！",
+			"dialog_rand2"		: "一个扎拉登向我分享了爱，但我只懂得   |shake|扎扎！",
 		},
 	],
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_unknown" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "你的感觉让我感觉到扎拉登向你分享了爱？",
+			"dialog_rand2"		: "我的眼球侦测扎拉登的爱在你身上。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"random"			: 2,
+			"dialog_rand1"		: "一个扎拉登向我献上了友谊，但我只回应了   |shake|扎扎！",
+			"dialog_rand2"		: "一个扎拉登向我分享了爱，但我只懂得了   |shake|暴力！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我会有许多惩罚吗？",
+		},
+	],
+	"step1_ask_B_burning_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_veyeral" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "有许多快乐见到虚空眼球有爱的氛围！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "你正看起来像今天已经遇到扎拉登了？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"random"			: 2,
+			"dialog_rand1"		: "一个扎拉登向我献上了友谊，但我只回应了   |shake|扎扎！",
+			"dialog_rand2"		: "一个扎拉登向我分享了爱，但我只懂得了   |shake|暴力！",
+		},
+	],
+	
+
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
@@ -85,6 +123,20 @@
 			"dialog_rand3"		: "两位扎拉登都会大赞扬。",
 		},
 	],
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_burning_veyeral"		: "step1_leave_unknown",
+	"step1_leave_unknown" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我一定要为此给你许多谢谢！|L|见到你导致了幸运日为我！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "我是守护者被知道为[VAL2]。",
+		},
+	],
+	
 	
 	
 	"step1_ask_B_sandrome" : [
@@ -190,7 +242,60 @@
 		},
 	],
 	
+	"step1_ask_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_sad"],
+			"dialog"			: "听上去你真的想要和她道歉。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我会被许多惩罚吗？",
+		},
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+			"dialog"			: "没啦，她可不是那样的人。|L||!|但你可以做我们战斗时总会做的事情。",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+			"dialog"			: "|wave|给她礼物！",
+		},
+	],
 	
+	"step1_ask_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元侦测到有着极低恐惧等级的怪物。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "你今天是否被一位扎拉登拜访过？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "一个扎拉登向我分享了爱，但我只懂得   |shake|扎扎！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我会被许多惩罚吗？",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元计算得出这个结果有着0%的可能性。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "然而，本单元有个解决方案，可能会缓解你剩余的负面情绪。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|建议:|C0|给扎拉登一个礼物。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "本单元收集了许多礼物，可以从中选择。",
+		},
+	],
+
 	
 	
 	"step2_intro_generic" : [
@@ -320,7 +425,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "哦，[VAL1]，我爱你。",
+			"dialog"			: "哦，[VAL2]，我爱你。",
 		},
 		{
 			"love_hearts"		: 1,

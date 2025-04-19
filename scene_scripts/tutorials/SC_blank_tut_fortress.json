@@ -1,0 +1,63 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "本单元有着重要信息，必须打断你目前的梦境。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "本单元现将解释|C3|堡垒战斗|C0|的特殊规则。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|堡垒战斗|C0|是一种特殊的|C3|羞涩战斗|C0|，你必须在怪物的堡垒中穿梭。",
+		},
+		{
+			"show_tutorial"	: "combo_bar6",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|堡垒怪物|C0|会像其他|C3|羞涩怪物|C0|一样维持你的连击，然而二者有着很大的不同之处。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "堡垒怪物有着许多高防御的陷阱装置与炮台，但它们含有的魔尘非常少。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你可以让这些陷阱直接离开场地，不用担心会失去自己的连击。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你的主要目标会是破坏守卫堡垒的|C3|特殊随从。|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "这些|C3|特殊随从|C0|在外观上与堡垒中其他可破坏部件相差极大。",
+		},
+		{
+			"show_tutorial"	: "combo_bar7",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "仅当|C3|特殊随从没有被爱而离开场地时，|C0|连击才会结束。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|建议:|C0|寻找这位 堡垒怪物的特殊随从，并且不让任何特殊随从逃脱。",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "关于|C3|堡垒战斗|C0|本单元要告诉你的全部信息就是这些了。",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "本单元感觉到温度突然上升。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "没有堡垒能够阻挡这么多的爱。",
+		}
+	]
+}

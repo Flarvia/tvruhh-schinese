@@ -94,7 +94,11 @@
 		"desc"		: "小机器人解释闪亮战斗的独特机制。",
 		"hint"		: "[hint_story_any]",
 	},
-	
+	"SC_blank_tut_fortress" : {
+		"name"		: "Fortress Battles",
+		"desc"		: "小机器人解释堡垒战斗的独特机制。",
+		"hint"		: "[hint_story_any]",
+	},
 	
 	
 	

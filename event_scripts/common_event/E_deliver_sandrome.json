@@ -57,6 +57,8 @@
 		},
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -75,7 +77,14 @@
 			"dialog"			: "我会有许多惩罚吗？",
 		},
 	],
+	"step1_ask_B_split_veyeral"		: "step1_ask_veyeral",
 	"step1_ask_B_burning_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_voltage_veyeral"	: "step1_ask_veyeral",
+	"step1_ask_B_venom_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_frozen_veyeral"	: "step1_ask_veyeral",
+	"step1_ask_B_vibrant_veyeral"	: "step1_ask_veyeral",
+	"step1_ask_B_veyeral_rain"		: "step1_ask_veyeral",
+	"step1_ask_B_molten_veyeral"	: "step1_ask_veyeral",
 	"step1_ask_veyeral" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -124,16 +133,25 @@
 		},
 	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_glacia"				: "step1_leave_unknown",
+	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
 	"step1_leave_B_burning_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_voltage_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_venom_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_frozen_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_vibrant_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_veyeral_rain"		: "step1_leave_unknown",
+	"step1_leave_B_molten_veyeral"		: "step1_leave_unknown",
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "我一定要为此给你许多谢谢！|L|见到你导致了幸运日为我！",
+			"dialog"			: "我一定要为此给你许多谢谢！|L|见到你为我导致了幸运日！",
 		},
 		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "我是守护者被知道为[VAL2]。",
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我是守护者被知道为[VAL2]。你的名字叫什么？",
 		},
 	],
 	
@@ -261,6 +279,117 @@
 		},
 	],
 	
+	"step1_leave_B_snowball" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "我必须为此给你许多感谢！",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_angry"],
+			"dialog"			: "停！|!||L|这可不行！",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
+			"dialog"			: "来吧，我们来锻炼汝送达时的言语。",
+		},
+	],
+	
+	"step1_ask_B_heliola" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "今天能看到[VAL1]在外面可真不错！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "我不会再那样躲起来了！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "世界需要我的星光！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
+			"dialog"			: "但是你没事吗，小星尘？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "你的气氛告诉我同一个扎拉登和你分享了爱？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我尝试了许多扎扎回应她。",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "啊，你也攻击她了，是吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "那把这个给她就好！",
+		},
+	],
+	"step1_ask_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sad"],
+			"dialog"			: "你真觉得她们会对你生气？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "阳光看起来不像是会那样的。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我的许多扎扎无法原谅。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "但是，你的气氛告诉我对阳光有许多感觉。",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "哦。我的。星星。你见过她了吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "|shake|我要失去理智了。",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "我想要给她更多礼物。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "或许我可以交通你的礼物，然后从她那里收到原谅？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"dialog"			: "你会为我这样做吗？",
+		},
+	],
+	"step1_leave_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "当你把礼物给她时告诉我她说了什么！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_pain"],
+			"dialog"			: "|shake|不，别告诉我！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到许多心心从你的眼中爆炸出来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你生病了吗？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "|shake|快停下，|norm|   我已经足够慌了。",
+		},
+	],
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -295,7 +424,30 @@
 			"dialog"			: "本单元收集了许多礼物，可以从中选择。",
 		},
 	],
-
+	
+	"step1_leave_B_momo" : [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "|wave|骑大虫。骑大虫。骑大虫。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
+			"dialog"			: "从她身上下来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "但是，我很擅长交通！",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "啊，你不介意的话-",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "我们等下回来。",
+		},
+	],
+	
 	
 	
 	"step2_intro_generic" : [
@@ -373,6 +525,7 @@
 		},
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -514,6 +667,30 @@
 			"dialog"			: "我就当这是是了。",
 		},
 	],
+	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_crush_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"dialog"			: "[VAL1]眼中有心心爆炸出来，你是说？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "有许多心心爆炸！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|太多了！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "这意味着什么？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|可能没什么，阳光。",
+		},
+	],
 	
 	
 	
@@ -581,4 +758,190 @@
 			"dialog"			: "我要慢慢的让她放下。",
 		},
 	],
+	
+	"step2_intro_B_snowball_blank" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|此等特别... 快送至汝...来自女皇陛下。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "你之前和[VAL1]聊过吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "对，她之前在给你送礼物。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "非常抱歉许多尝试的扎扎。",
+		},
+	],
+	"step2_intro_B_snowball_defect" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|此等特别... 快送至汝...虚空公主。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "是[VAL1]说的吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "对，她之前在给你送礼物。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "非常抱歉许多尝试的扎扎。",
+		},
+	],
+	"step2_intro_B_snowball_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|此等特别... 快送...至汝...皇家拥抱者。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "是[VAL1]让你这么说的吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|吾有着后悔... 悔恨... 还有... 呃。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "对，你正在发现我们的秘密。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "她给你们两个都送礼物。",
+		},
+	],
+	"step2_intro_B_snowball_devil" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|她带来特别... 快送至汝...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "[VAL1]对你做了什么？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|吾有着后悔... 悔恨... 还有... 呃。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "对，就是[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "她之前在给你送礼物",
+		},
+	],
+	
+	"step2_intro_B_momo" 	: [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "我们来了。|L|清出道路。|L|礼物要来了。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "我带了特别快送给扎拉登！",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "[VAL1]送来她的祝福。|L|只为你的礼物。|L|没有选择，只有接收。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "我今天交通的非常好！",
+		},
+	],
+	"step2_leave_B_momo_blank" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "我们现在必须回归[VAL1]了。",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "离开的时间已经到来。|L|我们必须回到起舞的地方。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "等下！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|前进！满速！",
+		},
+	],
+	"step2_leave_B_momo_defect" 	: [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "离开的时间已经到来。|L|我们必须回到起舞的地方。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|前进！满速！",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "什么？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "她们互相认识吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我的重力会将所有族群聚在一起。",
+		},
+	],
+	"step2_leave_B_momo_twins" 	: [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "离开的时间已经到来。|L|我们必须回到起舞的地方。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我马上回来！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
+			"dialog"			: "小绿，别骑到大虫身上！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|前进！满速！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content2"],
+			"dialog"			: "你最好马上回来。",
+		},
+	],
+	"step2_leave_B_momo_devil" 	: [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "离开的时间已经到来。|L|我们必须回到起舞的地方。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|前进！满速！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "真是正义。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "那总有一天会作为我的巡回座驾。",
+		},
+	],
+
 }

@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|Shake|好耶！|norm|我们想一起玩！",
+			"dialog"			: "|shake|好耶！|norm|我们想一起玩！",
 		},
 	],
 	

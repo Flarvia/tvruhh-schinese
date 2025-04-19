@@ -53,8 +53,10 @@
 			"dialog"			: "我需要向她们道歉。|L||!|不过，主要是绿色的，有着阳光发色的那个。",
 		},
 	],
-	"step1_ask_B_ombroah"				: "step1_ask_unknown",
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -93,9 +95,18 @@
 			"dialog_rand2"		: "我现在就去把这个带给她们！",
 		},
 	],
-	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_amalga"				: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_ombroah"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_null_unit"			: "step1_leave_unknown",
+	"step1_leave_B_prisma"				: "step1_leave_unknown",
+	"step1_leave_B_syncron"				: "step1_leave_unknown",
+	"step1_leave_B_flip_flap"			: "step1_leave_unknown",
+	"step1_leave_B_sentinel_4x"			: "step1_leave_unknown",
+	"step1_leave_B_glacia"				: "step1_leave_unknown",
+	"step1_leave_B_momo"				: "step1_leave_unknown",
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -107,7 +118,14 @@
 		},
 	],
 	"step1_leave_B_lila"				: "step1_leave_eyeball",
+	"step1_leave_B_split_veyeral"		: "step1_leave_eyeball",
 	"step1_leave_B_burning_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_voltage_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_venom_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_frozen_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_vibrant_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_veyeral_rain"		: "step1_leave_eyeball",
+	"step1_leave_B_molten_veyeral"		: "step1_leave_eyeball",
 	"step1_leave_eyeball" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -248,6 +266,120 @@
 		},
 	],
 	
+	"step1_ask_B_amalga" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我知道你不认识我，但是我在想-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "看起来你今天见到了一位扎拉登？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "你个小可怜！",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "你没事吗？你看起来累坏了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "嗯，我因为自己之前的行为很伤心。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
+			"dialog"			: "哦，扎拉登会原谅你，我们很确信！",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "但她总会卷入战斗，并且会让我们担心。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "你应该给她一个礼物，这样你就能知道她原谅了你。",
+		},
+	],
+	
+	"step1_ask_B_heliola" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "你今天没有藏起来吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "不会的，小星尘！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"dialog"			: "那段时间已经结束了！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "世界需要我的星光！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
+			"dialog"			: "确实看起来你用得上一些星光。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我觉得我需要向一位扎拉登道歉。",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "哦，她也打败你了吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "把这个给她就好！",
+		},
+	],
+	"step1_ask_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
+			"dialog"			: "所以，你也见到双子扎拉登了吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "哦。我的。星星。你见到那个阳光了吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "|shake|我要失去理智了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "好吧，我本来想为我的行为向她道歉。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "你想让我给她带什么吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "你会的吗？！",
+		},
+	],
+	"step1_leave_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我要告诉她是来自你的，好吗？",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "告诉我她说了什么！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_pain"],
+			"dialog"			: "|shake|不，别告诉我！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "|shake|我要失去理智了。",
+		},
+	],
+
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -295,6 +427,175 @@
 		},
 	],
 	
+	"step1_ask_B_prisma" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "你不会试着杀了吧，是吧？",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
+			"dialog"			: "本单元从这位虚空生物处未计算出威胁。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "在与一位扎拉登相见后，本单元的许多想法都被改变了。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
+			"dialog"			: "本单元侦测到我们之间共有的悔恨。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "是呀，我之前也攻击过她。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "本单元运算出了一个计划！",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "本单元扫描了扎拉登今天所获取的所有简单礼物。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "使用你的能量输出，有可能用复制机为扎拉登制造礼物！",
+		},
+	],
+	
+	"step1_ask_B_sentinel_4x" : [
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
+			"dialog"			: "停下。虚空生物。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|请不要伤害我！",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
+			"dialog"			: "本单元不想伤害你。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_angry"],
+			"dialog"			: "只要你能活过她的智力问答。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|什？",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|问题1:|C0|有扎拉登今天向你展示爱了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "是呀？你怎么-",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "回答正确。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|问题2:|C0|你是否为之前的行为感到后悔？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "呃... 是的。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "回答正确。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|问题3:|C0|你是否愿意帮助本单元将一个礼物送给扎拉登？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我可以帮你。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "回答正确。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|问题4:|C0|在所有阶级1的礼物中，扎拉登最喜欢哪一个？",
+		},
+	],
+	
+	"step1_ask_B_momo" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "真是美丽的舞蹈。",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "侦测到入侵者。|L|谋杀时间到。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
+			"dialog"			: "女孩们，快下来！",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "真是对不起。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "你真的赞美了我的舞蹈？|L|你有什么不一样了。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "你今天是不是见到了一个扎拉登？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "是呀。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
+			"dialog"			: "我完全知道你现在的感觉。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "我实际上正要把这些花朵和礼物一起送给扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+			"dialog"			: "但是，或许应该由你来送给她！",
+		},
+	],
+	
+	"step1_ask_B_split_veyeral_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "所以，你也见到蓝色维目尔了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "是呀，但我差不多攻击了她的朋友。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我们    也这样做了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我感觉非常糟糕。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我知道，我们从收藏里给她一个礼物吧！",
+		},
+	],
+	
+	
+
 	
 	
 	
@@ -373,6 +674,7 @@
 		},
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -492,6 +794,31 @@
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
 			"dialog"			: "我就当这是个肯定的回答了。",
+		},
+	],
+	
+	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_crush_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"dialog"			: "[VAL1]|wave|真的真的|norm|想要阳光收下这个吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|真的真的真的。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "哦，|wave|真的？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "那是什么意思？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|可能没什么，阳光。",
 		},
 	],
 	

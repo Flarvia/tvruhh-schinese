@@ -151,8 +151,98 @@
 			"dialog"			: "|wave|相信我们。",
 		},
 	],
+		
 	
+	"step1_response_B_amalga" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "你也见到她了吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "她好瘦！有人给她东西吃吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "她还总是会遇到许多战斗-",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "我们非常担心她。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
+			"dialog"			: "如果你要再去找她的话，你能不能把这些礼物中的一个带给她？",
+		},
+	],
+	"step1_response_B_amalga_twins" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "你也见到她们了吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "她们好瘦！有人给她们东西吃吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "她们还总是会和怪物们战斗，总会让我们担心。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
+			"dialog"			: "如果你要再去找她们的话，你能不能把这些礼物中的一个带给她们？",
+		},
+	],
+	"comment_pickup_B_amalga"	: {
+		"character"	: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
+		"dialog"	: "给她这些中的一个。",
+	},
+	"confirm_pickup_B_amalga"		: {
+		"character"	: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_normal"],
+		"dialog"	: "带走这个吗？",
+	},
+	"pickup_next_B_amalga" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
+			"dialog"			: "等下。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
+			"dialog"			: "你能否再带走一个，以防万一？",
+		},
+	],
+	"step1_bye_B_amalga" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_angry"],
+			"dialog"			: "记得告诉她要更小心，好吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "她让我们担心坏了！",
+		},
+	],
+	"step1_bye_B_amalga_twins" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_angry"],
+			"dialog"			: "记得告诉她们要更小心，好吗？",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "尤其是有小翅膀的那个。",
+		},
+	],
+	"step1_bye_unknown_B_amalga" : [
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
+			"dialog"			: "你可以称呼我们为[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_content"],
+			"dialog"			: "并且你也要小心，好吗？",
+		},
+	],
 	
+
 	"step1_response_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
@@ -212,7 +302,7 @@
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_confused"],
-			"dialog"			: "我们一直都只在想她。",
+			"dialog"			: "我们一直都只在想阳光的事情。",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
@@ -249,6 +339,99 @@
 		},
 	],
 	
+	
+	"step1_response_B_snowball" : [
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "女皇殿下预知到了与梦境守财者的会面！",
+			"dialog_rand2"		: "女皇陛下预知到了与沉眠财政官的会面！",
+			"dialog_rand3"		: "女皇陛下预知到了与沉眠鉴赏者的会面！",
+			"dialog_rand4"		: "女皇陛下预知到了与沉眠守财者的会面！",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
+			"dialog"			: "请不要恐惧，我的皇家臣民，因为我，雪球一世，已经准备了一个绝妙的安排。",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
+			"dialog"			: "汝将伴随皇家军队中最出色的成员前往我们最为皇家恒温器的所在地。",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
+			"dialog"			: "其将整天为她服务，而你也将会因此次护送得到她的祝福。",
+		},
+	],
+	"comment_pickup_B_snowball"	: {
+		"character"	: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_angry"],
+		"dialog"	: "我们的皇家军队无人能及！",
+	},
+	"confirm_pickup_B_snowball"		: {
+		"character"	: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
+		"dialog"	: "选择这个吗？",
+	},
+	"step1_bye_B_snowball" : [
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
+			"dialog"			: "女皇陛下无需任何赞美。",
+		},
+		{
+			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
+			"dialog"			: "毕竟，女皇陛下必须照料她的许多皇家臣民。",
+		},
+	],
+	
+	
+	"step1_response_B_roundsaw" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "|shake|扎拉登非常强大！",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_normal"],
+			"dialog"			: "让她们更加强大。值得原谅！",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "圆锯还会分享力量！",
+		},
+	],
+	"step1_response_B_roundsaw_devil" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "|shake|这个扎拉登带来爱之末日！",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "她必须用爱之力量征服苜里斯星！",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "给她力量，并且加入乐队！",
+		},
+	],
+	"comment_pickup_B_roundsaw"	: {
+		"character"	: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+		"dialog"	: "让扎拉登更强！",
+	},
+	"confirm_pickup_B_roundsaw"	: {
+		"character"	: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_normal"],
+		"dialog"	: "带走这个吗？",
+	},
+	"step1_bye_B_roundsaw" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "扎拉登很强大，但也会怜悯。",
+		},
+	],
+	"step1_bye_B_roundsaw_devil" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "加入乐队，就会有原谅！",
+		},
+	],
+	
+
 	"step1_response_B_lila" : [
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
@@ -285,6 +468,115 @@
 	],
 	
 	
+	"step1_response_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "|wave|好的好的！|norm||L||!|一位扎拉登今天向我轰击了爱！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_sad"],
+			"dialog"			: "我之前一直在躲着。|L|我不认识任何人。|L|我只会从远处拍摄照片。",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_very_happy"],
+			"dialog"			: "但是现在我不再害怕了。|L||wave|我会做你的朋友！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "我知道应该做什么。",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "好的好的，我们会给扎拉登更多的礼物！",
+		},
+	],
+	"comment_pickup_B_photoxai"	: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+		"dialog"	: "我给她做了这些！",
+	},
+	"confirm_pickup_B_photoxai"		: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_normal"],
+		"dialog"	: "好的好的？",
+	},
+	"pickup_next_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "等下等下，我做了更多。",
+		},
+	],
+	"step1_bye_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "好的好的，我要叫你[VAL3]！",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "你可以叫我[VAL1]！",
+		},
+	],
+	
+	
+	
+	"step1_response_unknown_B_hematoren" : [
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
+			"dialog"			: "你说的是我的全新密友！",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_confused"],
+			"dialog"			: "你真的觉得她对你生气了？",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_surprised"],
+			"dialog"			: "我有个主意。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
+			"dialog"			: "扎拉登喜欢让她们的爱之液体漏出一点来。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
+			"dialog"			: "所以给她一些尖尖的东西！",
+		},
+	],
+	"comment_pickup_B_hematoren"	: {
+		"character"	: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
+		"dialog"	: "我知道我的密友喜欢什么！",
+	},
+	"confirm_pickup_B_hematoren"		: {
+		"character"	: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_normal"],
+		"dialog"	: "就是这个吗？",
+	},
+	"pickup_next_B_hematoren_devil" : [
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_sad"],
+			"dialog"			: "等下，要是她漏太多了可能会晕倒的。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_aggressive"],
+			"dialog"			: "恶魔看起来很坚强，但是看见哪怕一点点心的液体都会让她|wave|晕晕的。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_surprised"],
+			"dialog"			: "这样的话她会需要吃点东西。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|你最好把这个也给她。",
+		},
+	],
+	"step1_bye_unknown_B_hematoren" : [
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
+			"dialog"			: "叫我[VAL1]就好。",
+		},
+		{
+			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
+			"dialog"			: "这样我们就是最好的朋友了！",
+		},
+	],
+	
+
 	"step1_response_B_ombroah" : [
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
@@ -341,52 +633,49 @@
 	],
 	
 	
-	"step1_response_unknown_B_photoxai" : [
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
-			"dialog"			: "|wave|好的好的！|norm||L||!|一位扎拉登今天向我轰击了爱！",
-		},
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_sad"],
-			"dialog"			: "我之前一直在躲着。|L|我不认识任何人。|L|我只会从远处拍摄照片。",
-		},
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_very_happy"],
-			"dialog"			: "但是现在我不再害怕了。|L||wave|我会做你的朋友！",
-		},
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
-			"dialog"			: "我知道应该做什么。",
-		},
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
-			"dialog"			: "好的好的，我们会给扎拉登更多的礼物！",
-		},
-	],
-	"comment_pickup_B_photoxai"	: {
-		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
-		"dialog"	: "我给她做了这些！",
+	"comment_pickup_B_heliola"	: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+		"dialog"	: "你觉得她喜欢什么？",
 	},
-	"confirm_pickup_B_photoxai"		: {
-		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_normal"],
-		"dialog"	: "好的好的？",
+	"comment_pickup_B_heliola_I_sun_stone"	: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused_blush"],
+		"dialog"	: "我给她做了这个。",
 	},
-	"pickup_next_B_photoxai" : [
+	"comment_pickup_B_heliola_I_heart_cookie"	: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+		"dialog"	: "我已经咬了一口。|L||wave|她会不会认为这是间接接吻？",
+	},
+	"confirm_pickup_B_heliola"		: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+		"dialog"	: "她会喜欢吗？",
+	},
+	"pickup_next_B_heliola_twins" : [
 		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
-			"dialog"			: "等下等下，我做了更多。",
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "|shake|啊！|norm| 一个礼物对她而言还不够！",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"dialog"			: "我还有别的东西。",
 		},
 	],
-	"step1_bye_unknown_B_photoxai" : [
+	"step1_bye_B_heliola" : [
 		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
-			"dialog"			: "好的好的，我要叫你[VAL3]！",
-		},
-		{
-			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
-			"dialog"			: "你可以叫我[VAL1]！",
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content"],
+			"dialog"			: "相信我小星尘，她永远不会对你生气的。",
 		},
 	],
+	"step1_bye_B_heliola_devil" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_aggressive"],
+			"dialog"			: "相信我小星尘，那个扎拉登很爱和我们战斗的。",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "你可能已经在她的乐队里了，之类的。",
+		},
+	],
+	
 	
 	
 	"comment_pickup_B_unit_lulu"	: {
@@ -407,6 +696,298 @@
 			"dialog"			: "本单元被给予了[VAL1]的称呼。|L|你可以以此称呼她。",
 		},
 	],
+	
+	"step1_response_B_prisma" : [
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
+			"dialog"			: "本单元检测到一种共通的后悔感觉。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "本单元可能可以协助你！",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "本单元扫描了扎拉登今天获取的所有简单礼物。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "可以制作复制礼物，你会把它交给扎拉登！",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "现在将准备复制装置。",
+		},
+	],
+	"comment_pickup_B_prisma"	: {
+		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+		"dialog"	: "选择一个让本单元复制的礼物。",
+	},
+	"comment_pickup_B_prisma_BNS_karma_a"	: {
+		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_blush3"],
+		"dialog"	: "这个蓝图扫描似乎失败了。",
+	},
+	"confirm_pickup_B_prisma"		: {
+		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+		"dialog"	: "构造这个礼物吗？",
+	},
+	"pickup_next_B_prisma" : [
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "仍有足够的能量复制另一个礼物！",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "将再次准备这个装置。",
+		},
+	],
+	"step1_bye_B_prisma" : [
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "本单元很高兴能够提供帮助。",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_blush2"],
+			"dialog"			: "这也能够缓解本单元积累起的负罪感。",
+		},
+	],
+	"step1_bye_unknown_B_prisma" : [
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "本单元被给予了棱镜的称呼。",
+		},
+	],
+	
+	
+	"step1_response_B_sentinel_4x" : [
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
+			"dialog"			: "本单元今天同样也出于暴力升起了机械爪。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "然而，本单元也学到了扎拉登对收到礼物会有正面反应。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "本单元有个问题想问你。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|提问:|C0|所有的阶级1额外礼物中，扎拉登最喜欢哪一个？",
+		},
+	],
+	"comment_pickup_B_sentinel_4x"	: {
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+		"dialog"	: "只有一个正确答案。",
+	},
+	"confirm_pickup_B_sentinel_4x"		: {
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+		"dialog"	: "这是你的最终回答吗？",
+	},
+	"step1_bye_B_sentinel_4x" : [
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
+			"dialog"			: "本单元必须承认实际上没有正确答案。",
+		},
+	],
+	"step1_bye_unknown_B_sentinel_4x" : [
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "本单元的全名是哨卫型号4X。",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "然而，你也可以使用哨卫的简称。",
+		},
+	],
+	
+	
+	"step1_response_unknown_B_glacia" : [
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked"],
+			"dialog"			: "她也找到你了吗？",
+		},
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
+			"dialog"			: "当我尝试和，呃...任何人战斗的时候，我总是会试着给出一个礼物。",
+		},
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused_blush"],
+			"dialog"			: "我实际上现在在找某种特定的礼物。",
+		},
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_normal"],
+			"dialog"			: "但是，   我确实也有一些你能给她的东西。",
+		},
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
+			"dialog"			: "虽然，其实没有多少。",
+		},
+	],
+	"comment_pickup_B_glacia"	: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
+		"dialog"	: "你觉得她会想要这些里的一个吗？",
+	},
+	"confirm_pickup_B_glacia"		: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_normal"],
+		"dialog"	: "她会喜欢这个吗？",
+	},
+	"step1_bye_unknown_B_glacia" : [
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_happy"],
+			"dialog"			: "你可以叫我[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_very_happy"],
+			"dialog"			: "我可以叫你[VAL3]吗？",
+		},
+	],
+	
+	
+	"step1_response_B_momo" : [
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "我也做了一样的事情！",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
+			"dialog"			: "我实在是太过分了。",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "我尝试扎了她很多次。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "我刚刚在想要不要把这些花朵和礼物一起送去给她。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+			"dialog"			: "但是，或许应该让你送去！",
+		},
+	],
+	"step1_response_B_momo_twins" : [
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "我也见到她们了！",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
+			"dialog"			: "并且我也做出了一样的反应。",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "我们的舞蹈极度凶残。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "我刚刚在想要不要把这些花朵和礼物一起送去。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+			"dialog"			: "你要不要把这些送给她们呢？",
+		},
+	],
+	"comment_pickup_B_momo"	: {
+		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+		"dialog"	: "你觉得她最喜欢这里面的哪一个？",
+	},
+	"confirm_pickup_B_momo"		: {
+		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
+		"dialog"	: "是这个吗？",
+	},
+	"step1_bye_unknown_B_momo" : [
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+			"dialog"			: "我是[VAL1]，而这些-",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "我们是谋杀之花。|L|我们舞蹈以杀戮。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "对，就这样。",
+		},
+	],
+	
+	
+	"step1_response_B_split_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "不过她人真的很好。|L|她绝对不可能对你生气的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|对！|norm| 她和我们玩了游戏！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "从我们的收藏里给她一个礼物，你就能知道了！",
+		},
+	],
+	"step1_response_unknown_B_split_veyeral_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她就是那个和蓝色维目尔在一起的吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她绝对不会对你生气的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|对！|norm| 她是最棒的维目尔！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你应该从我们的收藏里给小蓝的扎拉登一个礼物。",
+		},
+	],
+	"step1_response_B_split_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "不过她们人真的非常好。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|对！|norm| 她们会和我们玩游戏！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "从我们的收藏里给她们一个礼物，你就能知道了！",
+		},
+	],
+	"comment_pickup_B_split_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "给她这些中的一个！",
+	},
+	"confirm_pickup_B_split_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "这个可以吗？",
+	},
+	"step1_bye_unknown_B_split_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我们都是[VAL1]！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|下次来和我们玩一些游戏吧！",
+		},
+	],
+	"step1_bye_eyeball_B_split_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+	],
+	
 	
 	
 	"step1_response_B_burning_veyeral" : [

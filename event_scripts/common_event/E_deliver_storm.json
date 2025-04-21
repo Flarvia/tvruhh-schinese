@@ -57,6 +57,7 @@
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
+	"step1_ask_B_pearl"					: "step1_ask_unknown",
 	"step1_ask_unknown" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -74,6 +75,81 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
 			"dialog"			: "大概我之前有点害怕她，但是现在-",
+		},
+	],
+	"step1_ask_B_emerald"				: "step1_ask_gem",
+	"step1_ask_B_ruby"					: "step1_ask_gem",
+	"step1_ask_B_topaz"					: "step1_ask_gem",
+	"step1_ask_B_sapphire"				: "step1_ask_gem",
+	"step1_ask_B_citrine"				: "step1_ask_gem",
+	"step1_ask_B_amethyst"				: "step1_ask_gem",
+	"step1_ask_gem" 	: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "不要恐惧。",
+			"dialog_rand2"		: "不要害怕该球体。",
+			"dialog_rand3"		: "无需惧怕你面前的球体。",
+			"dialog_rand4"		: "该球体无需被惧怕。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|不要伤害我！",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体在这里只是为了帮助你。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你会向爱你的扎拉登递送一份祝福。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "你是怎么知道的？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体在你体内感觉到了强烈的情绪材料。",
+		},
+	],
+	"step1_ask_B_emerald_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_ruby_devil"			: "step1_ask_gem_extra",
+	"step1_ask_B_topaz_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_citrine_blank"			: "step1_ask_gem_extra",
+	"step1_ask_B_amethyst_defect"		: "step1_ask_gem_extra",
+	"step1_ask_gem_extra" 	: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体在你体内感觉到了强烈的情绪材料。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你会向爱你的扎拉登递送一份祝福。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "但是，你是怎么知道的？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体从爱你的扎拉登处感到了强烈共鸣。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你现在带着那种强烈的情绪材料。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "这是好事吗？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "需知该球体有着额外的祝福可供选择。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "理性选择你的礼物。",
 		},
 	],
 	
@@ -129,10 +205,38 @@
 	"step1_leave_eyeball" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "|wave|我的眼睛之后见你！",
+			"dialog"			: "|wave|我的眼睛向你再见！",
 		},
 	],
-	
+	"step1_leave_B_emerald"				: "step1_leave_gem",
+	"step1_leave_B_ruby"				: "step1_leave_gem",
+	"step1_leave_B_topaz"				: "step1_leave_gem",
+	"step1_leave_B_sapphire"			: "step1_leave_gem",
+	"step1_leave_B_citrine"				: "step1_leave_gem",
+	"step1_leave_B_amethyst"			: "step1_leave_gem",
+	"step1_leave_gem" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "要是她不想见我怎么办？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你会为扎拉登递送祝福，然后你就会明白了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "呃，好吧。我会尝试的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "嗯，你是谁？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你面前的球体就是[VAL1],    你面前的球体。",
+		},
+	],
+
 	
 	"step1_ask_B_storm_veyeral" : [
 		{
@@ -527,6 +631,70 @@
 			"dialog"			: "|C3|问题4:|C0|在所有阶级1的礼物中，扎拉登最喜欢哪一个？",
 		},
 	],
+	"step1_ask_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_angry"],
+			"dialog"			: "好吧！我懂了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我会把你的礼物带给她，好吗？",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|（花朵非常兴奋的扭动着）",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我还是觉得你应该哪天自己去，但今天我会帮你的。",
+		},
+	],
+	"step1_leave_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我会告诉她是来自你的，[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "这样可以吗？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|（在听到这些话后，珍珠的整个身体僵住了，她昏了过去，脸上带着微笑）",
+		},
+	],
+	"step1_leave_B_pearl" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "太感谢你了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "哦，呃...我应该怎么称呼你？",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|（她在地上草草写下|la||ris|）",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "好的[VAL1]！你可以叫我[VAL2]-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "哦，你不用实际讲出来的。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
 	
 	"step1_ask_B_momo" : [
 		{
@@ -693,6 +861,28 @@
 			"dialog"			: "谈论到你们时，她看起来|wave|真的真的很开心。|norm|",
 		},
 	],
+	"step2_intro_B_pearl_twins" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我给你带了你可能会喜欢的东西！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "[VAL1]|wave|真的|norm|想让我把这些给你。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "在谈起你时她|wave|真的真的很开心。|norm|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "好吧，没有真的在谈啦，但是-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我觉得你应该知道她什么样的。",
+		},
+	],
 	"comment_delivery_single"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 		"dialog"	: "请收下吧。",
@@ -799,6 +989,7 @@
 	
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],

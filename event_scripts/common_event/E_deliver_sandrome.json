@@ -101,6 +101,82 @@
 			"dialog_rand2"		: "一个扎拉登向我分享了爱，但我只懂得了   |shake|暴力！",
 		},
 	],
+	"step1_ask_B_emerald"				: "step1_ask_gem",
+	"step1_ask_B_ruby"					: "step1_ask_gem",
+	"step1_ask_B_topaz"					: "step1_ask_gem",
+	"step1_ask_B_sapphire"				: "step1_ask_gem",
+	"step1_ask_B_citrine"				: "step1_ask_gem",
+	"step1_ask_B_amethyst"				: "step1_ask_gem",
+	"step1_ask_gem" 	: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "不要恐惧。",
+			"dialog_rand2"		: "不要害怕该球体。",
+			"dialog_rand3"		: "无需惧怕你面前的球体。",
+			"dialog_rand4"		: "该球体无需被惧怕。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|[VAL2]对一切都不会害怕！",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "是这样吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "或许[VAL2]    有一点点害怕爱。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体在你体内感觉到了强烈的情绪材料。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你会向爱你的扎拉登传递祝福。",
+		},
+	],
+	"step1_ask_B_emerald_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_ruby_devil"			: "step1_ask_gem_extra",
+	"step1_ask_B_topaz_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_citrine_blank"			: "step1_ask_gem_extra",
+	"step1_ask_B_amethyst_defect"		: "step1_ask_gem_extra",
+	"step1_ask_gem_extra" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "你有问题问我？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你会向今天为你展现爱的扎拉登递送一份祝福。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我只害怕一个，就是爱的扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "为扎拉登递送祝福，你就会明白了。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "我在接受这个任务！",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "该球体从爱你的扎拉登处感到了强烈共鸣。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "需知该球体有着额外的祝福可供选择。",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "理性选择你的礼物。",
+		},
+	],
+	
 	
 
 	"step1_leave_generic" : [
@@ -152,6 +228,30 @@
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
 			"dialog"			: "我是守护者被知道为[VAL2]。你的名字叫什么？",
+		},
+	],
+	"step1_leave_B_emerald"				: "step1_leave_gem",
+	"step1_leave_B_ruby"				: "step1_leave_gem",
+	"step1_leave_B_topaz"				: "step1_leave_gem",
+	"step1_leave_B_sapphire"			: "step1_leave_gem",
+	"step1_leave_B_citrine"				: "step1_leave_gem",
+	"step1_leave_B_amethyst"			: "step1_leave_gem",
+	"step1_leave_gem" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "这场快送能为我带来原谅？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "礼物送达时你才会明白。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "那么这个礼物来源署名是谁呢？",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "你可以用[VAL1]称呼该球体。",
 		},
 	],
 	
@@ -425,6 +525,48 @@
 		},
 	],
 	
+	"step1_ask_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "你在任务给我？",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|（花朵非常兴奋地摇晃着）",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我正在接收这个任务会快送这些礼物！",
+		},
+	],
+	"step1_leave_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "这是给阳光头发的爱之扎拉登，是吗？",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|（珍珠疯狂地点着头）",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到你的眼中爆炸出了许多爱心！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你生病了吗？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|（珍珠的整个身体僵住了，她昏了过去，脸上带着微笑）",
+		},
+	],
+	
 	"step1_leave_B_momo" : [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
@@ -526,6 +668,7 @@
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
+	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -669,6 +812,7 @@
 	],
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],

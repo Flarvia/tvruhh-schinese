@@ -845,6 +845,119 @@
 	],
 	
 	
+	"step1_response_B_pearl" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|(花朵兴奋地扭动着，仿佛她知道应该做什么）",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|（藤蔓继续延伸，直至另一端一个扎拉登的形象破土而出）",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+			"dialog"			: "|C3|（她拿出了一些礼物，想让[VAL2]带走一个）",
+		},
+	],
+	"comment_pickup_B_pearl"	: {
+		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+		"dialog"	: "|C3|（珍珠拿出了这些礼物）",
+	},
+	"confirm_pickup_B_pearl"		: {
+		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+		"dialog"	: "|C3|（她期待地看着）",
+	},
+	"pickup_next_B_pearl" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|（她拿出了更多礼物）",
+		},
+	],
+	"step1_bye_B_pearl" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	
+	"step1_response_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "我是唯一一个注意到的人吗？",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "大   姐   姐   爱   你。",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "感觉对不起的话，只要给她礼物就可以了。",
+		},
+	],
+	"step1_response_B_kiwi_twins" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "我是唯一一个注意到的人吗？",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "我   们   的  大   姐   姐   们   爱   你。",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "感觉对不起的话，只要给她们礼物就可以了。",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_aggressive"],
+			"dialog"			: "把这些给阳光，因为她超爱力量！",
+		},
+	],
+	"step1_response_B_kiwi_devil" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "我是唯一一个注意到的人吗？",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "那   个   恶   魔   爱   你。",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "感觉对不起的话，只要加入她的乐队，给她礼物就好了。",
+		},
+	],
+	"comment_pickup_B_kiwi"	: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+		"dialog"	: "她或许会喜欢我们的老玩具。",
+	},
+	"pickup_next_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "哦，等等，我和妹妹们也给她做了这些。",
+		},
+	],
+	"comment_pickup_B_kiwi_2"	: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+		"dialog"	: "你能猜出来哪个是我做的吗？",
+	},
+	"confirm_pickup_B_kiwi"		: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+		"dialog"	: "这个吗？",
+	},
+	"step1_bye_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_content"],
+			"dialog"			: "好了，[VAL3]，但你下次必须和我们一起玩几维的死亡与毁灭地下城！",
+		},
+	],
+	
+
 	"step1_response_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
@@ -1036,5 +1149,184 @@
 			"dialog"			: "|wave|我的眼睛之后见你！",
 		},
 	],
+	
+	"step1_response_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你全都理解错了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "她不会对你生气的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "到她那里时你就明白了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "如果你还在担心的话，你可以把这个礼物带给她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "要再去见她，这也算是个好借口。|L||!|我们许多人都会这样做的！",
+		},
+	],
+	"step1_response_B_voltage_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你全都理解错了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "她们不会对你生气的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "去见一下她们，你就明白了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "如果你还在担心的话，你可以把这个礼物带给她们。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "许多我们这种都会用礼物作为借口再去见她们。",
+		},
+	],
+	"comment_pickup_B_voltage_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+		"dialog"	: "选择这些里的一个。",
+	},
+	"confirm_pickup_B_voltage_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+		"dialog"	: "这足够明亮吗？",
+	},
+	"step1_bye_unknown_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你可以叫我[VAL1]！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我们确实没什么创意。",
+		},
+	],
+	"step1_bye_eyeball_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+	],
+	
+	
+	"step1_response_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "哦，是她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "你知道她对我做了什么吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|她让我感到被爱！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "我所有的东西！ |shake|全部都！|norm||L||!|尝起来就像垃圾了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "但是，    她似乎挺喜欢这种垃圾的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "所以，可能我可以让你带一些给她。",
+		},
+	],
+	"comment_pickup_B_venom_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+		"dialog"	: "把它拿出我的视线。",
+	},
+	"confirm_pickup_B_venom_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+		"dialog"	: "她真的会喜欢这个吗？",
+	},
+	"step1_bye_unknown_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我是[VAL1]，但是-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我不知道这个名字现在是否合适了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我确实还挺喜欢的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|呃啊，我也不知道了！",
+		},
+	],
+	"step1_bye_eyeball_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+	],
+	
+	
+	"comment_pickup_B_emerald"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些感到骄傲之羞愧的人给以祝福。",
+	},
+	"confirm_pickup_B_emerald"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
+	"comment_pickup_B_ruby"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些满足于沮丧之人给以祝福。",
+	},
+	"confirm_pickup_B_ruby"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
+	"comment_pickup_B_topaz"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些接收否认之人给以祝福。",
+	},
+	"confirm_pickup_B_topaz"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
+	"comment_pickup_B_sapphire"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些感到安宁之焦虑的人给以祝福。",
+	},
+	"confirm_pickup_B_sapphire"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
+	"comment_pickup_B_citrine"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些感到自信之不安的人给以祝福。",
+	},
+	"confirm_pickup_B_citrine"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
+	"comment_pickup_B_amethyst"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "该球体为那些归属于孤独之人给以祝福。",
+	},
+	"confirm_pickup_B_amethyst"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "这是你想要的吗？",
+	},
 
 }

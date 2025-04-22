@@ -53,6 +53,34 @@
 			"dialog"			: "我需要向她们道歉。|L||!|不过，主要是绿色的，有着阳光发色的那个。",
 		},
 	],
+	"step1_ask_B_storm_veyeral"			: "step1_ask_self",
+	"step1_ask_B_anomaly"				: "step1_ask_self",
+	"step1_ask_self" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她拥有的是什么力量？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|感觉起来真棒。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我现在就像是个不同的人了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_angry"],
+			"dialog"			: "我袭击她到底是在想什么？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我应该向她道歉。",
+		},
+	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
@@ -171,6 +199,24 @@
 			"dialog_rand2"		: "我现在就去把这个带给她们！",
 		},
 	],
+	"step1_leave_B_storm_veyeral"		: "step1_leave_self",
+	"step1_leave_B_anomaly"				: "step1_leave_self",
+	"step1_leave_self" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "希望她心里能原谅我。",
+		},
+	],
+	"step1_leave_self_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她妹妹看上去也像是准备要攻击我的样子。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "希望她们能原谅我。",
+		},
+	],
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
@@ -238,48 +284,8 @@
 	],
 
 	
-	"step1_ask_B_storm_veyeral" : [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "她拥有的是什么力量？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|感觉起来真棒。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "我现在就像是个不同的人了。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_angry"],
-			"dialog"			: "我袭击她到底是在想什么？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "...",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "我应该向她道歉。",
-		},
-	],
-	"step1_leave_B_storm_veyeral" : [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "希望她心里能原谅我。",
-		},
-	],
-	"step1_leave_B_storm_veyeral_twins" : [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "她妹妹看上去也像是准备要攻击我的样子。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "希望她们能原谅我。",
-		},
-	],
+
+
 	
 	"step1_ask_B_scrambla_defect" : [
 		{
@@ -803,6 +809,7 @@
 		},
 	],
 	"step2_intro_B_storm_veyeral"		: "step2_intro_self",
+	"step2_intro_B_anomaly"				: "step2_intro_self",
 	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -986,6 +993,51 @@
 			"dialog"			: "我就当这是个肯定的回答了。",
 		},
 	],
+	"step2_leave_B_storm_veyeral_blank"		: "step2_leave_self",
+	"step2_leave_B_storm_veyeral_defect"	: "step2_leave_self",
+	"step2_leave_B_anomaly_blank"			: "step2_leave_self",
+	"step2_leave_B_anomaly_defect"			: "step2_leave_self",
+	"step2_leave_self_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "你没必要这样做的。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "但我知道那对你来说非常难。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "哦，有那么简单吗？",
+		},
+	],
+	"step2_leave_self_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "你来找我，只为了道歉？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "是啊？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "哦，   呃-|L||!|没关系？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "我不知道我应该说什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
+		},
+	],
 	
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
@@ -1014,48 +1066,7 @@
 	],
 	
 	
-	"step2_leave_B_storm_veyeral_blank" 	: [
-		{
-			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "你没必要这样做的。",
-		},
-		{
-			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "但我知道那对你来说非常难。",
-		},
-		{
-			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "|wave|我爱你！",
-		},
-		{
-			"love_hearts"		: 1,
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "哦，有那么简单吗？",
-		},
-	],
-	"step2_leave_B_storm_veyeral_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "你来找我，只为了道歉？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "是啊？",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "哦，   呃-|L||!|没关系？",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
-			"dialog"			: "我不知道我应该说什么。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
-		},
-	],
-	
+
 	
 	"step2_intro_B_scrambla_defect" 	: [
 		{

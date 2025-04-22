@@ -56,6 +56,34 @@
 			"dialog_rand2"		: "一个扎拉登向我分享了爱，但我只懂得   |shake|扎扎！",
 		},
 	],
+	"step1_ask_B_sandrome"				: "step1_ask_self",
+	"step1_ask_B_anomaly"				: "step1_ask_self",
+	"step1_ask_self" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "我感到许多复杂。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "扎拉登给我大快乐。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "但也有许多后悔，因为我做过的暴力。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "这是什么？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "我的幸运日！|L||!|这些礼物中的一个会给我带来许多原谅。",
+		},
+	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
@@ -208,6 +236,14 @@
 			"dialog_rand3"		: "两位扎拉登都会大赞扬。",
 		},
 	],
+	"step1_leave_B_sandrome"			: "step1_leave_self",
+	"step1_leave_B_anomaly"				: "step1_leave_self",
+	"step1_leave_self" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "扎拉登会为此给出许多赞美与赞美！",
+		},
+	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
@@ -256,40 +292,7 @@
 	],
 	
 	
-	
-	"step1_ask_B_sandrome" : [
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "我感到许多复杂。",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "扎拉登给了我大开心。",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "但也有许多后悔，来自我做过的暴力。",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "...",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "这是什么？",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "我的幸运日！|L||!|其中一个礼物会带来许多原谅。",
-		},
-	],
-	"step1_leave_B_sandrome" : [
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "扎拉登会为此给我许多赞美和赞美！",
-		},
-	],
-	
+
 	"step1_ask_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
@@ -632,6 +635,7 @@
 		},
 	],
 	"step2_intro_B_sandrome"		: "step2_intro_self",
+	"step2_intro_B_anomaly"			: "step2_intro_self",
 	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
@@ -810,6 +814,30 @@
 			"dialog"			: "我就当这是是了。",
 		},
 	],
+	"step2_leave_B_sandrome_defect"		: "step2_leave_self",
+	"step2_leave_B_anomaly_defect"		: "step2_leave_self",
+	"step2_leave_self_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "你来找我，只是为了道歉？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "我在乞求任何原谅。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "哦，呃-|L||!|没关系？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "我不知道我应该说什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
+		},
+	],
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
@@ -838,29 +866,7 @@
 	
 	
 	
-	
-	"step2_leave_B_sandrome_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "你来找我，只是为了道歉？",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "我在乞求任何原谅。",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "哦，呃-|L||!|没关系？",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
-			"dialog"			: "我不知道我应该说什么。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
-		},
-	],
+
 	
 	"step2_intro_B_scrambla_defect" 	: [
 		{

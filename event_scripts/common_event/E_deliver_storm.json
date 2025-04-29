@@ -82,6 +82,7 @@
 		},
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_B_blot"					: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
@@ -217,6 +218,7 @@
 			"dialog"			: "希望她们能原谅我。",
 		},
 	],
+	"step1_leave_B_blot"				: "step1_leave_unknown",
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
@@ -537,6 +539,71 @@
 		},
 	],
 	
+	"step1_ask_B_null_unit" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "你不会试着伤害我的，是吧？",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "我就是，完全不会做那种事情。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "并且同样，你就是    对于虚空眷族而言过于礼貌了。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "她也击败你了，我猜。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "所以你确实见到了扎拉登！|L|我就知道！",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "你在袭击她后也完全觉得愧疚，我敢猜。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|你是能读心吗？",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "没。我就是，有同样的感觉。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "但是，我觉得扎拉登会收下垃圾，如同接收歉意。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "把我的垃圾带给她当作礼物，之类的。",
+		},
+	],
+	"step1_ask_B_null_unit_twins" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "真不敢相信我们今天就是，攻击了同一个扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "但是我们应该怎么做呢？",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "完全不会有问题的。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "我认为扎拉登会收下垃圾作为就是，歉意，之类的。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "把我的一些垃圾作为礼物带给她就好。",
+		},
+	],
+
 	"step1_ask_B_prisma" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -848,6 +915,7 @@
 			"dialog"			: "|shake|对不起我之前攻击了你！",
 		},
 	],
+	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
@@ -1038,13 +1106,44 @@
 			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
 		},
 	],
-	
+	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
+	"step2_leave_crush_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "当你说她“真的真的”看起来很开心-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我就直说了！|L|她爱上你了！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
+			"dialog"			: "哦，[VAL1]...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我懂了...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "看起来无论如何，你都让她更加开心了。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "谢谢你这样说。|L|我爱你，[VAL3]。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我觉得我能代表我们向你这样说，  我们也爱你。",
+		},
+	],
 	"step2_leave_crush_twins" 	: [
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
 			"dialog"			: "[VAL1]|wave|真的真的|norm|想要阳光收下这个吗？",
 		},
 		{

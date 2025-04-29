@@ -153,6 +153,114 @@
 	],
 		
 	
+	"step1_response_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "你是说那个小可爱？",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "她太容易满足了。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "给她点什么就好。可以是任何东西。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "我们看看，这附近有什么？",
+		},
+	],
+	"step1_response_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "哦我的缪斯啊，你是在说|shake|那个     小可爱？！",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "|wave|她太擅长画画了。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "并且她的皮肤就像空白画布一样，等着被染上颜料。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "|shake|虽然我们是不会想做什么啦。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+			"dialog"			: "我们不应该说这么多的。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "帮我们把这些中的一个给她，好吗？",
+		},
+	],
+	"comment_pickup_B_blot"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "给予艺术之礼物！",
+	},
+	"comment_pickup_B_blot_I_blot_of_paint"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|我们可以分享出自己的一小片。",
+	},
+	"confirm_pickup_B_blot"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "你想要这一片吗？",
+	},
+	"pickup_next_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "那个小可爱值得更多！",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "我们再给她一个吧。",
+		},
+	],
+	"step1_bye_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "代我们向小可爱问好，好吗小可爱？",
+		},
+	],
+	"step1_bye_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "只是想到那个小可爱-",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "我们只是想确保她开开心心的。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+			"dialog"			: "别在意我们。我们要去画一些完全无关的忧虑艺术了。D",
+		},
+	],
+	"step1_bye_B_blot_twins" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "代我向那些小可爱问好，好吗小可爱？",
+		},
+	],
+	"step1_bye_unknown_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "我们是[VAL1]！",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "并且你应该知道我们之后可能会为你彩绘。",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "希望这样没关系，小可爱！",
+		},
+	],
+	
+
 	"step1_response_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
@@ -307,6 +415,62 @@
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
 			"dialog"			: "假装我们说给她们每人一个，好吗？",
+		},
+	],
+
+	
+	"step1_response_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "你有没有注意到她的情绪在各个方向都趋近于无穷？",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "你没什么需要担心的。",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "但是，我们两个的问题有一个共同的解决方案。",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "我们想要研究这些礼物对爱之力量有什么样的元素效果。",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "并且你需要一个去道歉的借口，是吧？",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "那么我们就让你把这些礼物中的一个带给她。",
+		},
+	],
+	"comment_pickup_B_joule"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+		"dialog"	: "我们在想这个会有什么效果。",
+	},
+	"comment_pickup_B_joule_2"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+		"dialog"	: "这些是从哪里来的？",
+	},
+	"confirm_pickup_B_joule"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+		"dialog"	: "你要带走这个吗？",
+	},
+	"pickup_next_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "并且我们一直在各种地方发现这些奇怪的东西。",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "我们也给她一个吧。",
+		},
+	],
+	"step1_bye_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+			"dialog"			: "哦，并且记得要记录数据！",
 		},
 	],
 	
@@ -696,7 +860,60 @@
 			"dialog"			: "本单元被给予了[VAL1]的称呼。|L|你可以以此称呼她。",
 		},
 	],
+
 	
+	"step1_response_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "我刚刚完全就在那边漂浮着，悲惨地管我自己的事情。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "然后那个扎拉登完全突袭了我，让我感到了爱与垃圾之类的。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "现在我必须像这样活下去了。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "我很开心，但有点，就是，愧疚大概吧。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "你应该把我的一些垃圾带给她，就是，来自我们两个的歉意，之类的。",
+		},
+	],
+	"comment_pickup_B_null_unit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "我只有碎掉的东西和垃圾。",
+	},
+	"confirm_pickup_B_null_unit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "你是在，带走那个垃圾？",
+	},
+	"step1_bye_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "如果你之后需要我，你知道在哪就是，完全找到我。|L||!|在垃圾堆里。",
+		},
+	],
+	"step1_bye_unknown_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "我现在，就是，完全反对着标签和垃圾之类的概念。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "所以是说，我的名字是空无，之类的。",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "[VAL1]。|L||!|这真是完美的标签。",
+		},
+	],
+	
+
 	"step1_response_B_prisma" : [
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],

@@ -507,6 +507,7 @@
 		"run_score"			: "当前分数",
 		"run_time"			: "战斗时间",
 		"best_score"		: "最佳分数",
+		"best_final_score"	: "最佳胜利分数",
 		"best_time"			: "最佳时间",
 		"run_karma"			: "获得的因果",
 		"run_level"			: "最高等级",

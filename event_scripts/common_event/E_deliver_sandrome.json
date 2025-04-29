@@ -671,6 +671,7 @@
 		},
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_crush" 	: [
@@ -838,12 +839,44 @@
 			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
 		},
 	],
+	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
+	"step2_leave_crush_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "你在她的眼中看到了心心？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "有许多心爆发出来！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
+			"dialog"			: "哦，[VAL1]...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "这在导致伤心？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|完全没有。|norm||L|爱真是一种奇妙的感觉，不是吗？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "我爱你，[VAL2].",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "你的氛围正看起来在交锋。",
+		},
+	],
 	"step2_leave_crush_twins" 	: [
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
 			"dialog"			: "[VAL1]眼中有心心爆炸出来，你是说？",
 		},
 		{

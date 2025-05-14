@@ -5,7 +5,7 @@
 			"play_music"	: "tutorbot_scene_music",
 			"bg_image"		: "spr_tutorial_common",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "本单元有着关于|C3|点亮的快速礼物|C0|的更多信息。",
+			"dialog"		: "本单元有着关于|C3|点亮的快速礼物|C0|的额外信息。",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
@@ -13,20 +13,20 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "本单元现将解释|C3|点亮的快速礼物。",
+			"dialog"		: "本单元现将解释点亮快速礼物的|C3|特点|C0|。",
 		},
 		{
 			"show_tutorial"	: "known_quick",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "如其他礼物类型一般，关于的信息不再会显示为|C3|???|C0|",
+			"dialog"		: "和其他礼物类型一样，|C3|点亮快速礼物|C0|的信息会被永久揭露",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "但是，|C3|点亮的快速礼物|C0|还具有一个特殊的性质。",
+			"dialog"		: "并且，任何你持有的|C3|点亮快速礼物|C0|在一天结束后不会消失。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|点亮的快速礼物|C0|能够连续许多天留在你身边，直至你选择激活它们。",
+			"dialog"		: "它们能够连续许多天留在你身边，直至你选择激活。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

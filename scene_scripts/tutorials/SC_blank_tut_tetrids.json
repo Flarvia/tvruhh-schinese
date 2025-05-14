@@ -13,10 +13,6 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "...",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"		: "本单元为你获取了新的信息。",
 		},
 		{
@@ -91,46 +87,87 @@
 		{
 			"show_tutorial"	: "none",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "本单元现将解释如何|C3|点亮礼物与怪物。",
-		},
-		{
-			"show_tutorial"	: "unknown_cards",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "当你爱一个新的怪物或收下新的礼物时，其会被加入到|C3|收藏菜单|C0|中。",
+			"dialog"		: "本单元现将解释如何|C3|点亮怪物。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "在这个时点，你每次醒来时仍会忘记那个礼物或者怪物。",
+			"dialog"		: "当你爱一个新怪物时，她的卡片会被加入到你的|C3|收藏界面。",
 		},
 		{
-			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
-			"dialog"		: "我...     好像...     记不清... 各种事情。",
+			"show_tutorial"	: "unknown_monster",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "这张卡片属于某个你已经见过的怪物，没错吧",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"		: "大   概    吧？",
+		},
+		{
+			"show_tutorial"	: "known_monster",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "如果你有着足够多对应的|C3|棱晶，|C0|你就可以|C3|在收藏界面点亮这张卡片。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "如果你有着足够的对应|C3|棱晶|C0|，那么你就可以在|C3|收藏菜单中点亮一张卡片。",
+			"dialog"		: "点亮怪物卡会揭露许多关于那个怪物的额外信息。",
 		},
 		{
-			"show_tutorial"	: "known_cards",
+			"show_tutorial"	: "monster_details",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "在点亮后，礼物与怪物的信息将不再表现为|C3|？？？|C0|。",
+			"dialog"		: "请记得检视每张点亮怪物卡上的|C3|全部细节|C0|。",
 		},
 		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "点亮时的闪光会将该物件的记忆永久烙印在你的大脑里。",
-		},
-		{
-			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
-			"dialog"		: "闪亮。     烧灼。     懂了。",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"		: "我能够学到爱每一位怪物的最好方法。",
 		},
 		{
 			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "棱晶还有另一个用途。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "本单元现在将解释|C3|点亮礼物|C0|的重要性。",
+		},
+		{
+			"show_tutorial"	: "unknown_power_gift",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "目前，你每次醒来时都会|C3|忘记遇到的所有礼物。|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "在你再次收到礼物之前，它们总是会显示为|C3|???|C0|。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
+			"dialog"		: "我似乎...     记东西...     有点问题。",
+		},
+		{
+			"show_tutorial"	: "known_power_gift",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "一旦点亮之后，那一刻的闪光会将礼物的记忆永久印在你的大脑里。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
+			"dialog"		: "闪亮。			灼烧。     懂了。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "在收到礼物之前，你总能够认出被点亮的礼物。",
+		},
+		{
+			"show_tutorial"	: "gift_details",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你同样能够|C3|检视更加详细的信息|C0|，如果有任何礼物效果你没有完全理解。",
+		},
+		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
 			"dialog"		: "...",
 		},
 		{
+			"show_tutorial"	: "none",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "点亮时的闪光同样能够完全唤醒年幼的扎拉登。",
+			"dialog"		: "点亮的闪光应该同样能够使年幼的扎拉登完全清醒。",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],

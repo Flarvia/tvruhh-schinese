@@ -14,8 +14,8 @@
 	"common_hints" : {
 		"[hint_common]"			: "这个事件可以在任意章节后发生",
 		"[hint_stage_common]"	: "这个事件可以在任何普通关卡中发生",
-		"[hint_stage_element]"	: "在单局故事模式中，如果你爱了更少的有着[VAL2]攻击的怪物，这个事件会更有可能发生",
-		"[hint_stage_family]"	: "在单局故事模式中，如果你爱了更少的[VAL2]种类的怪物，这个事件会更有可能发生",
+		"[hint_stage_element]"	: "在单局故事模式中，如果你爱了更少的有着[[VAL2]_ELEMENT]攻击的怪物，这个事件会更有可能发生",
+		"[hint_stage_family]"	: "在单局故事模式中，如果你爱了更少的[[VAL2]_FAMILY_SINGULAR]种类的怪物，这个事件会更有可能发生",
 		"[hint_monster]"		: "在单局故事模式中\n向[VAL1]展示爱",
 		"[hint_monster_multi]"	: "在单局故事模式中\n向[VAL1]的任意形态展示爱",
 		"[hint_chance]"			: "在单局故事模式中\n向[VAL1]展示爱后，\n这个事件有概率发生",
@@ -62,11 +62,11 @@
 		"[rule_not_chapter1]"	: "|C4|这个事件不会在第一章出现",
 		"[rule_bounty_limit]"	: "|C4|如果你在本局中已经通过馈赠礼物获得了过多的魔尘，这个事件将不会出现。",
 		"[rule_element1]"		: "每局游戏|C3|仅会出现一个元素主题的|C0|关卡事件。",
-		"[rule_element2]"		: "每当有着[VAL2]攻击的怪物被爱时，遭遇这个事件的几率就会下降。",
-		"[rule_element3]"		: "|C4|如果至少六只有着[VAL2]攻击的怪物被爱了，这个事件将不会出现。",
+		"[rule_element2]"		: "每当有着[[VAL2]_ELEMENT]攻击的怪物被爱时，遭遇这个事件的几率就会下降。",
+		"[rule_element3]"		: "|C4|如果至少六只有着[[VAL2]_ELEMENT]攻击的怪物被爱了，这个事件将不会出现。",
 		"[rule_family1]"		: "每局游戏|C3|仅会出现一个怪物家族主题的|C0|关卡事件。",
-		"[rule_family2]"		: "每当[VAL2]家族的怪物被爱时，遭遇这个事件的几率就会下降。",
-		"[rule_family3]"		: "|C4|如果至少四只[VAL2]家族的怪物被爱了，这个事件将不会出现。",
+		"[rule_family2]"		: "每当[[VAL2]_FAMILY_SINGULAR]家族的怪物被爱时，遭遇这个事件的几率就会下降。",
+		"[rule_family3]"		: "|C4|如果至少四只[[VAL2]_FAMILY_SINGULAR]家族的怪物被爱了，这个事件将不会出现。",
 	},
 
 	"event_groups" : {

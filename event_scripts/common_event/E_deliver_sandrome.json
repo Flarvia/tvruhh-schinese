@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" : [
 		{
@@ -246,7 +247,9 @@
 	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_dot"					: "step1_leave_unknown",
 	"step1_leave_B_glacia"				: "step1_leave_unknown",
 	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
 	"step1_leave_B_burning_veyeral"		: "step1_leave_unknown",
@@ -492,7 +495,54 @@
 			"dialog"			: "|shake|快停下，|norm|   我已经足够慌了。",
 		},
 	],
-	
+
+	"step1_ask_B_hadesoh" : [
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "嘿，让我问你个问题。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+			"dialog"			: "你能看到这些礼物吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我已经视见了这些祝福许多次。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "所以你也一直都能看到它们？",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "我们一起建一个关于它的|shake||nu||ze||nah||norm|俱乐部吧！",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "总之，我注意到今天有更多怪物对祝福有了反应。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "我觉得应该和那个扎拉登有关系，她到处走来走去震撼大家的|shake||nu||ze||nah||norm|心灵！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "扎拉登和我分享了爱！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "而我回报对她尝试了许多扎扎。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "看起来你需要一个借口去找她道歉。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "我想让你把这些祝福中的一个带给她。",
+		},
+	],
+
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -525,6 +575,37 @@
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"			: "本单元收集了许多礼物，可以从中选择。",
+		},
+	],
+	
+	"step1_ask_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "这么多|C3|[纯粹负能量]|C0|对你来说可不好。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我恐怕我可能会有许多惩罚。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+			"dialog"			: "扎拉登在她的心中只有|C3|[纯粹爱恋]|C0|。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "所有的公式都计算出了相同的结果。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|比惩罚还要更糟糕？",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_blush"],
+			"dialog"			: "|shake|错误！",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "给扎拉登礼物，负能量就会抵消。",
 		},
 	],
 	
@@ -670,9 +751,11 @@
 			"dialog"			: "而你会有原谅给任何有许多扎扎的人，是吧？",
 		},
 	],
-	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
+	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
+	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
+	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
@@ -842,6 +925,8 @@
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
+	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{

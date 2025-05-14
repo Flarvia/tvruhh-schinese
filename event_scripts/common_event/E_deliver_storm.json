@@ -223,6 +223,7 @@
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_null_unit"			: "step1_leave_unknown",
 	"step1_leave_B_prisma"				: "step1_leave_unknown",
@@ -492,6 +493,56 @@
 		},
 	],
 
+	"step1_ask_B_hadesoh" : [
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "嘿，让我问你个问题。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+			"dialog"			: "你能看到这些礼物吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "是呀，但是，它们看起来怪怪的。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "这些是|shake||nu||ze||nah||norm|祝福！",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "并且它们来自于我们所有人！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我为什么之前从来没有见到过这些？",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "之前我们只有少数人能看到它们，但是今天我注意到有更多的怪物对祝福有了反应。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "我猜某个扎拉登一定搞乱了你的|shake||nu||ze||nah||norm|想法，没错吧？ ",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "是因为这样我才能看到它们的吗？",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+			"dialog"			: "我也不确定，并且对很多怪物也没有效果。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "我想让你把这些祝福中的一个带给扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "你在找借口再去见她一面，我能从你的眼中看出来。",
+		},
+	],
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -639,6 +690,132 @@
 		},
 	],
 	
+	"step1_ask_B_syncron" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "这些单元为你的问题想出了一个解决方案。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "是什么？",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "你会给那个被你错误对待的扎拉登一份礼物。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "但我什么都没剩下了。",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "你可以用这些单元生成的额外恐慌作为礼物。",
+		},
+	],
+	"step1_leave_B_syncron" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "谢谢你今天没有试着杀死我！",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_sad"],
+			"dialog"			: "这些单元已经学习到了，虚空眷族现在是朋友了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "别太伤心。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_angry"],
+			"dialog"			: "我们之前都很糟糕。",
+		},
+	],
+	"step1_leave_B_syncron_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "谢谢你今天没有试着杀死我！",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_sad"],
+			"dialog"			: "这些单元从名为小蓝的虚空眷族那里学到了很多。",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "我们之间没有必要再有暴力。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我其实想到再见到小蓝有点紧张。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "她真的非常    圆，你懂吗？",
+		},
+	],
+	
+	"step1_ask_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "这么多|C3|[纯粹负能量]|C0|对你可不好。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "那么我应该做什么呢？",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+			"dialog"			: "|C3|[纯粹负能量]|C0|与|C3|[纯粹正能量]|C0|加起来就是-",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|你的问题的解决方法。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "这是什么意思？",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "给扎拉登一个礼物，负能量就会被抵消。",
+		},
+	],
+	"step1_leave_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我从来没想过扎拉机械会帮助我。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "在这个虚空眷族中检测到|C3|[纯粹正能量]|C0|。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "这些单元不再需要|C3|[纯粹负能量]|C0|了。",
+		},
+	],
+	"step1_leave_B_flip_flap_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我从来没想过扎拉机械会帮助我。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "我们从|C3|[纯粹虚空]|C0|的存在与完美那里学到了许多。",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_blush"],
+			"dialog"			: "在|shake|杀死|norm|虚空眷族中，没有正能量。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "她说服了一个扎拉机械善待我们？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "蓝色维目尔什么都能做到。",
+		},
+	],
+
 	"step1_ask_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
@@ -704,6 +881,146 @@
 			"dialog"			: "|C3|问题4:|C0|在所有阶级1的礼物中，扎拉登最喜欢哪一个？",
 		},
 	],
+	
+	
+	"step1_ask_B_dot" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "你真觉得她对你生气了？|L|即使在拥抱她之后？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我应该这么做吗？",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "你甚至都没有试着拥抱她？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我没有。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|我现在应该做什么？",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "冷静下来。你还是能够弥补这一切！",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "只要再找到她，把这个送给她就好。",
+		},
+	],
+	
+	
+	"step1_ask_B_vitrea" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "好吧，又发生了这样的事情，大概。",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
+			"dialog"			: "我抑制不住自己！|L||shake|你太可爱了！",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "你是由电力组成的吗？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "你究竟是什么原理？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "呃，我不知道。",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_upset"],
+			"dialog"			: "好吧，先别管了。",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
+			"dialog"			: "我知道怎么让扎拉登原谅你。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我能做什么？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "你知道吗，只要给她们礼物就能够轻易击败扎拉登？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
+			"dialog"			: "只要把这个给她，她就会成为你的朋友    |shake|直到永远。",
+		},
+	],
+	"step1_ask_B_vitrea_twins" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "好吧，又发生了这样的事情，大概。",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
+			"dialog"			: "我抑制不住自己！|L||shake|你太可爱了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "就像那两个扎拉登试图对我说的那样。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "但是我对她们很不好。",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
+			"dialog"			: "你还是可以弥补这一切的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我能做什么？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "你知道吗，只要给她们礼物就能够轻易击败扎拉登？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
+			"dialog"			: "只要把这个给她，她们就会成为你的朋友    |shake|直到永远。",
+		},
+	],
+	"step1_leave_B_vitrea_defect" : [
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "哦，还有一件事。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "是什么？",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
+			"dialog"			: "代我捏一捏那个蓝色维目尔！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|什么？！",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "我之前忘记测试了，我必须知道会发生什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我甚至都不知道我要怎么才能做到。",
+		},
+	],
+	
+	
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -918,6 +1235,8 @@
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
+	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
+	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1107,9 +1426,11 @@
 		},
 	],
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
-	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
-	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
-	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
+	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
+	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
+	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
+	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -1244,4 +1565,47 @@
 			"dialog"			: "|shake|对不起我之前攻击了你！",
 		},
 	],
+	
+	
+	"step2_leave_B_vitrea_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "哦，还有一件事...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "呃...",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "好吧，我可没预料到这个！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "[VAL1]说过我应该捏一捏你，看看会发生什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "发生什么了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "嗯，我不可能变得更完美了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "可能是你身上发生了什么？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "确实在你身边感觉非常舒服。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "那一定是因为完美沾到了你身上。",
+		},
+	],
+
 }

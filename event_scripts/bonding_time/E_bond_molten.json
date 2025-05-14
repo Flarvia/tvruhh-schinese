@@ -974,6 +974,13 @@
 			"dialog"			: "让我试着加热一下。",
 		},
 	],
+	"back_to_normal_form_in_cave" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "希望这样就够了。",
+		},
+	],
 	"back_to_normal_form" : [
 		{
 			"love_hearts"		: 1,

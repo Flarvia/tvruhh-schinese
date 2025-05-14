@@ -9,6 +9,14 @@
 	"special"		: "特殊",
 	"unknown"		: "未知",
 	
+	"shamble_plural"	: "晃晃",
+	"guardian_plural"	: "守护者",
+	"glyph_plural"		: "眼睛符文",
+	"zaramech_plural"	: "扎拉机械",
+	"glass_plural"		: "玻璃植物",
+	"veyeral_plural"	: "维目尔",
+	"special_plural"	: "特殊怪物",
+	
 	"shiny_battle"	: "闪亮战斗",
 	"???_before"	: "面对未知",
 	

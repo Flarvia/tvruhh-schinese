@@ -158,58 +158,28 @@
 		}
 	],
 	
-	"upgrade_to_2" 		: [
+	"upgrade_to_next" 		: [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|2个力量之星|C0|的礼物！",
+			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|[VAL1]个力量之星|C0|的礼物！",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "我们需要任意颜色的|C3|6个闪亮三角形|C0|。",
+			"dialog"			: "我们需要任意颜色的|C3|[VAL2]个闪亮三角形|C0|。",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
 			"dialog"			: "你可以给我们任意颜色，   但是呃，    则些|C3|红色的能给我们更多力量。|C0|",
 		}
 	],
-	"upgrade_to_3" 		: [
+	"upgrade_to_final" 		: [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|3个力量之星|C0|的礼物！",
+			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|[VAL1]个力量之星|C0|的礼物！",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "我们需要任意颜色的|C3|12个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_4" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|4个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "我们需要任意颜色的|C3|24个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_5" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|5个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "我们需要任意颜色的|C3|40个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_6" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|6个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "我们同样还会需要|C3|7个光耀棱晶|C0|而非其他颜色。",
+			"dialog"			: "我们同样还会需要|C3|[VAL2]个光耀棱晶|C0|而非其他颜色。",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
@@ -223,7 +193,7 @@
 	},
 	"red_comment"		: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-		"dialog"	: "你应该多给我则些，因为它们... 呃， |C3|能给我更多力量，|C0|是吖？",
+		"dialog"	: "你应该多给我们则些，因为它们... 呃， |C3|能给我们更多力量，|C0|是吖？",
 	},
 	"yellow_comment"	: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],

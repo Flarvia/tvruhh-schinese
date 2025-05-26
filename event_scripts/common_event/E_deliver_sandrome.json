@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_astrayo"				: "step1_ask_unknown",
 	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" : [
@@ -542,7 +543,100 @@
 			"dialog"			: "我想让你把这些祝福中的一个带给她。",
 		},
 	],
-
+	
+	"step1_ask_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "你有任务做给我？",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|对。对。对。对。对。对。|L|对。对。对。对。对。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "所以有那两个双子扎拉登，是吧？",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "然后那个有斑点和头发的。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "|shake|她好美。|L|她太美丽了。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "然后她的妹妹一直看着我就是，你知道？你知道？你知道？你知道？",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|你懂我在说什么吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我有点问题关于理解。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "啊！把我的礼物给她就好！",
+		},
+	],
+	"step1_leave_B_astrayo" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "我有点问题关于理解，但是-",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "见到你导致了我的幸运日！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我是守护者被知道为[VAL2]。|L|你的命名是什么？",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "|shake|[VAL3]！|L|我能叫你[VAL3]吗？|L||wave|[VAL3]！[VAL3]！[VAL3]！[VAL3]！",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "耶，[VAL3]！|L|我的名字是[VAL1]。",
+		},
+	],
+	"step1_leave_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "这是给有阳光头发的爱的扎拉登，是吗？",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|是的。是的。是的。是的。是的。|L|对。对。对。对。对。对。|L||wave|耶------！",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			
+			"dialog"			: "我看到许多心心爆炸从你的眼睛出来！",
+		},
+		{
+			"fast_text"			: 1,
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "哎呀。哎呀。哎呀。哎呀。哎呀。|L|不。不。不。不。不。不。不。不。|L|不。不。不。不。不。不。",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你生病了吗？",
+		},
+	],
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -674,6 +768,29 @@
 		},
 	],
 	
+	"step1_leave_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到许多心心爆炸从你双眼中出来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你生病了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "什么？我只有一个眼睛。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我不-     我不知道这是什么意思。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "可能没什么吧。",
+		},
+	],
+	
 	
 	
 	"step2_intro_generic" : [
@@ -756,7 +873,9 @@
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
+	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
+	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -922,12 +1041,15 @@
 			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
 		},
 	],
+	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
+	"step2_leave_B_astrayo_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
+	"step2_leave_B_frozen_veyeral_devil": "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -959,6 +1081,28 @@
 			"dialog"			: "你的氛围正看起来在交锋。",
 		},
 	],
+	"step2_leave_crush_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "我之后要去谢谢[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "但是她为什么不自己带来呢？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我对于这个秘密有些知道。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "比我所恐惧的还要更糟糕。|!||L|她完全爱上了我完美的形态。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我要慢慢的让她放下。",
+		},
+	],
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
@@ -981,6 +1125,41 @@
 			"dialog"			: "|wave|可能没什么，阳光。",
 		},
 	],
+	"step2_leave_crush_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "你确定发生了那种心心爆炸的事情？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "有许多心心爆炸！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|太多了！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "另一位屈服于我恶魔的魅力。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "人数已经多到能够坐满体育馆了。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "可是，恶魔仅能够选择一个。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "但是，我现在还在搞乐队呢，还没办法决定这一切。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|我为什么这么有魅力？",
+		},
+	],
+	
 	
 	
 	
@@ -1002,28 +1181,6 @@
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
 			"dialog"			: "是的，就是那些晃晃！",
-		},
-	],
-	"step2_leave_B_scrambla_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "我之后要去谢谢[VAL1]。",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "但是她为什么不自己带来呢？",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|我对于这个秘密有些知道。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "比我所恐惧的还要更糟糕。|!||L|她完全爱上了我完美的形态。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "我要慢慢的让她放下。",
 		},
 	],
 	

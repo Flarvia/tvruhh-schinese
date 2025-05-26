@@ -146,54 +146,24 @@
 		}
 	],
 	
-	"upgrade_to_2" 		: [
+	"upgrade_to_next" 		: [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|2个力量之星|C0|的礼物！",
+			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|[VAL1]个力量之星|C0|的礼物！",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "我们需要任意颜色的|C3|6个闪亮三角形|C0|。",
+			"dialog"			: "我们需要任意颜色的|C3|[VAL2]个闪亮三角形|C0|。",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
 			"dialog"			: "你可以给我们任意颜色，但则些|C3|绿色的三角形格外美味！|C0|",
 		}
 	],
-	"upgrade_to_3" 		: [
+	"upgrade_to_final" 		: [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|3个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "我们需要任意颜色的|C3|12个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_4" 		: [
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|4个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "我们需要任意颜色的|C3|24个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_5" 		: [
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|5个力量之星|C0|的礼物！",
-		},
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "我们需要任意颜色的|C3|40个闪亮三角形|C0|。",
-		}
-	],
-	"upgrade_to_6" 		: [
-		{
-			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|6个力量之星|C0|的礼物！",
+			"dialog"			: "我们可以扩充我们的|C3|连接突触|C0|来存放最多|C3|[VAL1]个力量之星|C0|的礼物！",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
@@ -201,13 +171,13 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-			"dialog"			: "我们同样还会需要|C3|7个稀有的彩虹三角形！|C0|",
+			"dialog"			: "我们同样还会需要|C3|[VAL2]个稀有的彩虹三角形！|C0|",
 		}
 	],
 	
 	"green_comment"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "绿色的格外美味！|L||C3|则些能给我更多力量！",
+		"dialog"	: "绿色的格外美味！|L||C3|则些能给我们更多力量！",
 	},
 	"red_comment"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],

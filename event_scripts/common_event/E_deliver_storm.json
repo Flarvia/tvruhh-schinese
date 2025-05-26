@@ -253,6 +253,10 @@
 	"step1_leave_B_molten_veyeral"		: "step1_leave_eyeball",
 	"step1_leave_eyeball" 	: [
 		{
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "太感谢你了！",
+		},
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "|wave|我的眼睛向你再见！",
 		},
@@ -543,6 +547,101 @@
 			"dialog"			: "你在找借口再去见她一面，我能从你的眼中看出来。",
 		},
 	],
+	
+	"step1_ask_B_astrayo_twins" : [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "哎呀。哎呀。哎呀。哎呀。哎呀。|L|不。不。不。不。不。不。不。不。|L|不。不。不。不。不。不。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"dialog"			: "你见到那些扎拉登双子了，是吗？",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "还有那个有斑点和头发的。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "|shake|她好美。|L|她太美丽了。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "然后她的妹妹一直看着我就是，你知道？你知道？你知道？你知道？",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|你懂我在说什么吗！？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|[VAL1]！|norm|即使是对你来说，你也说太快了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "发生什么了？",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "啊！把我的礼物给她就好！",
+		},
+	],
+	"step1_leave_B_astrayo_blank" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_normal"],
+			"dialog"			: "现在把礼物带给她。|L|冲！冲！冲！",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "谢谢-",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "拜拜[VAL3]！",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|我爱你！",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "这是她教会我的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "听上去确实和她一样。",
+		},
+	],
+	"step1_leave_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|我觉得我知道是怎么回事了。",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "|shake|快停下。快停下。快停下。快停下。快停下。快停下。快停下。快停下。快停下。快停下。",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "对不起。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "把这些给她就好，拜托了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我出发了！",
+		},
+	],
+
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -1152,8 +1251,55 @@
 		},
 	],
 	
-	
-
+	"step1_ask_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "所以，你也见到了那个扎拉登？|L||!|自称为恶魔的那个？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她有着那么多的温暖！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我对她而言非常冷，但她还是紧紧的握着我。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我希望她永远不会放手。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|你真的很喜欢她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "嘿，如果你要再去见她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你介意把这些礼物带给她吗？",
+		},
+	],
+	"step1_leave_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我会告诉她这是来自你的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "应该没问题...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我为什么现在感觉非常温暖？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|我到底怎么了？",
+		},
+	],
 	
 	
 	
@@ -1237,6 +1383,8 @@
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
+	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
+	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1425,12 +1573,15 @@
 			"dialog"			: "新的情感让我亲爱的缺陷坏掉了。",
 		},
 	],
+	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
+	"step2_leave_B_astrayo_twins"			: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
+	"step2_leave_B_frozen_veyeral_devil"	: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -1462,51 +1613,7 @@
 			"dialog"			: "我觉得我能代表我们向你这样说，  我们也爱你。",
 		},
 	],
-	"step2_leave_crush_twins" 	: [
-		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "[VAL1]|wave|真的真的|norm|想要阳光收下这个吗？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|真的真的真的。",
-		},
-		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "哦，|wave|真的？",
-		},
-		{
-			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "那是什么意思？",
-		},
-		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|可能没什么，阳光。",
-		},
-	],
-	
-	
-
-	
-	"step2_intro_B_scrambla_defect" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "扎拉登小姐？你知道名为[VAL1]的晃晃吗？",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "我确实认识她，怎么了？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "她|wave|真的|norm|    想要把这些给你。",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "给我的，真的吗？",
-		},
-	],
-	"step2_leave_B_scrambla_defect" 	: [
+	"step2_leave_crush_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
 			"dialog"			: "我之后要去感谢[VAL1]。",
@@ -1529,6 +1636,82 @@
 		},
 	],
 	
+	"step2_leave_crush_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "[VAL1]|wave|真的真的|norm|想要阳光收下这个吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|真的真的真的。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "哦，|wave|真的？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "那是什么意思？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|可能没什么，阳光。",
+		},
+	],
+	"step2_leave_crush_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "所以，有另一位屈服于我恶魔的魅力。是这样吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我确实这样认为。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "发生太多次了。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "可是，恶魔仅能够选择一个。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "但是，我现在还在搞乐队呢，还没办法决定这一切。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|我为什么这么有魅力？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "这对你而言一定很艰难。",
+		},
+	],
+	
+
+	
+
+	
+	"step2_intro_B_scrambla_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "扎拉登小姐？你知道名为[VAL1]的晃晃吗？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "我确实认识她，怎么了？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她|wave|真的|norm|    想要把这些给你。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "给我的，真的吗？",
+		},
+	],
+
 	"step2_intro_B_boiler" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],

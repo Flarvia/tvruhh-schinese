@@ -253,7 +253,7 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "哦，让我顺便去给你拿个-",
+			"dialog"			: "哦，让我们顺便去给你拿个-",
 		},
 		{
 			"love_hearts"		: 1,

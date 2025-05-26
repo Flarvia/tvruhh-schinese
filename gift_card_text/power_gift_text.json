@@ -343,7 +343,7 @@
 	},
 	"I_body_glyph" : {
 		"name"    : "身体符文",
-		"memory"  : "这个符文有着许多用途。将它与其他符文相连能够得到感觉，情感，或者动词。|L||C3||soh||ze| (Sohze) |C0|愤怒|L||C3||ze||soh| (Zeesoh) |C0|去燃烧|L||C3||xai||ze| (Xaize) |C0|喜悦|L||C3||ze||xai| (Zexai) |C0|去照亮|L||C3||ze||lu| (Zeelu) |C0|相爱|L||C3||ze||ris| (Zeris) |C0|去飞翔",
+		"memory"  : "这个符文有着许多用途。将它与其他符文相连能够得到感觉，情感，或者动词。|L||C3||soh||ze| (Sohze) |C0|愤怒|L||C3||ze||soh| (Zeesoh) |C0|去燃烧|L||C3||xai||ze| (Xaize) |C0|喜悦|L||C3||ze||xai| (Zexai) |C0|去照亮|L||C3||ze||lu| (Zeelu) |C0|去相爱|L||C3||ze||ris| (Zeris) |C0|去飞翔",
 		"card"    : "可残存1生命|L|承受[VAL1]次致命伤害|L|最大生命+[VAL3]",
 	},
 	"I_transfusion" : {
@@ -491,7 +491,7 @@
 	},
 	"I_sweet_fruit" : {
 		"name"    : "甜味果实",
-		"memory"  : "这个水果非常甜美多汁。这是我最喜欢的水果，但它仅在高高的树上生长。我只能得到那些掉在地上的水果...除非眼蝠们先把它抢走。",
+		"memory"  : "这个水果非常甜美多汁。这是我最喜欢的水果，但它仅在高高的树上生长。我只能得到那些掉在地上的水果...除非眼蝠们先把它们抢走。",
 		"card"    : "光耀蓄力|L|蓄力伤害+[VAL2]%|L|最大生命+[VAL3]",
 	},
 	"I_dry_fruit" : {

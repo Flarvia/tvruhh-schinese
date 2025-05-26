@@ -958,7 +958,7 @@
 	},
 	"comment_pickup_B_hadesoh_BLS_hadesoh"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_upset"],
-		"dialog"	: "我的祝福原来能|shake||nu||ze||nah||norm|吗？",
+		"dialog"	: "我的祝福原来真的能|shake||nu||ze||nah||norm|吗？",
 	},
 	"comment_pickup_B_hadesoh_BLS_chionotoh"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_content"],
@@ -972,6 +972,93 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
 			"dialog"			: "我是|shake||nu||ze||nah||norm|之火的符文！|L||!|叫我[VAL1]就好。",
+		},
+	],
+	
+	"step1_response_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "|shake|我的朋友，[VAL3]！",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|对。对。对。对。对。对。|L|对。对。对。对。对。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "我知道你说的是谁，我也正在找她。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "但是我还没找到她，然后我就找到你了。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "然后你让我帮助你，然后的我就还不知道了，因为还没有发生。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "哦！我知道！我知道！我知道！|L||wave|耶----！",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "你应该去找她，然后给她一个礼物！",
+		},
+	],
+	"step1_response_unknown_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "|shake|不可能！",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "我知道你说的是谁，我也正在找她。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "但是我还没办法找到她，但我也有点累了，也有点饿了。",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "哦！我知道！我知道！我知道！|L||wave|耶----！",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "你应该去找她，然后给她一个礼物！",
+		},
+	],
+	"comment_pickup_B_astrayo"	: {
+		"character"	: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+		"dialog"	: "带走它。带走它。带走它！",
+	},
+	"confirm_pickup_B_astrayo"		: {
+		"character"	: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_normal"],
+		"dialog"	: "对对对，这一个？",
+	},
+	"pickup_next_B_astrayo" : [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "她需要更多！|L||shake|更多！更多！更多！更多！|L|对。对。对。对。对。对。",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "再给她一个，好吗？",
+		},
+	],
+	"step1_bye_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "拜拜[VAL3]！",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "现在把它带给她。|L|冲！冲！冲！",
 		},
 	],
 	
@@ -1807,6 +1894,120 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
 			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+	],
+	
+	
+	"step1_response_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "她也找到我了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但她给了我一种新的感觉。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|是一种非常温暖的感觉。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "她永远不会对你冷眼相待的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "除非她失去了自己的温暖？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "给她这个礼物，让她想起那种温暖。",
+		},
+	],
+	"step1_response_unknown_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "那一定是我今天见的同一个扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "但她永远不会对你冷眼相待，无论你做了什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "除非她失去了自己的温暖？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "不，不可能会这样的...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "或许你应该把这个给她，以防万一。",
+		},
+	],
+	"step1_response_unknown_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "但她有着如此的温暖！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "即使我对她而言很冰冷，她仍然紧紧地握住我。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我希望她永远不会放手。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你真的认为她会对你冷眼相待吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "试着把这些礼物带给她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|你就能够看到她实际上有多温暖。",
+		},
+	],
+	"comment_pickup_B_frozen_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我会送回我仅剩的一点温暖。",
+	},
+	"confirm_pickup_B_frozen_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "这会让她温暖起来吗？",
+	},
+	"pickup_next_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我实际上还有东西要给她。",
+		},
+	],
+	"comment_pickup_B_frozen_veyeral_2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我想让她收下这个。",
+	},
+	"confirm_pickup_B_frozen_veyeral_2"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "你觉得她会喜欢吗？",
+	},
+	"step1_bye_unknown_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我是[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "你知道的，|shake|因为我全冻-冻-冻起来了。",
+		},
+	],
+	"step1_bye_eyeball_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我的眼睛向你再见！",
 		},
 	],
 	

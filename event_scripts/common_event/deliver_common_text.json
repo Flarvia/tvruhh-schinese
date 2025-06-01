@@ -2165,4 +2165,12 @@
 		"dialog"	: "这是你想要的吗？",
 	},
 
+	"comment_pickup_B_anomaly"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|她浑然不觉我的存在，但我已身边留下这些祝福，只为促成一次美好的相遇。",
+	},
+	"confirm_pickup_B_anomaly"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|这会是她的选择吗？",
+	},
 }

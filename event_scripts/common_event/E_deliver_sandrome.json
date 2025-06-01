@@ -620,8 +620,7 @@
 		},
 		{
 			"fast_text"			: 0,
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],			
 			"dialog"			: "我看到许多心心爆炸从你的眼睛出来！",
 		},
 		{

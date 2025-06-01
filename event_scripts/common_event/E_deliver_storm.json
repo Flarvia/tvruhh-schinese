@@ -81,8 +81,8 @@
 			"dialog"			: "我应该向她道歉。",
 		},
 	],
-	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_blot"					: "step1_ask_unknown",
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
@@ -253,10 +253,10 @@
 	"step1_leave_B_molten_veyeral"		: "step1_leave_eyeball",
 	"step1_leave_eyeball" 	: [
 		{
-		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "太感谢你了！",
 		},
+		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "|wave|我的眼睛向你再见！",
 		},
@@ -1709,43 +1709,6 @@
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
 			"dialog"			: "给我的，真的吗？",
-		},
-	],
-
-	"step2_intro_B_boiler" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "呃，   [VAL1]想要我把这个给你。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "她在担心你，你知道吗？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "并且，我还想说-",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|对不起之前攻击过你！",
-		},
-	],
-	"step2_intro_B_boiler" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "唔，   [VAL1]想让我把这个给你。",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "她很担心你，你知道吗？",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "并且，我也想说-",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|对不起我之前攻击了你！",
 		},
 	],
 	

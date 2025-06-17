@@ -636,6 +636,64 @@
 		},
 	],
 	
+	"step1_ask_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_normal"],
+			"dialog"			: "|wave|你好，甜心。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "我有个小任务要给你。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "做任务，给我？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "一位扎拉登今天找上了你，是吧？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "我需要你为我给她点东西。",
+		},
+	],
+	"step1_leave_B_philolu" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "这个任务会被完毕的非常速度。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "但是，我有一个担心。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_confused"],
+			"dialog"			: "是什么呢，甜心？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到许多心心爆炸从你的眼中出来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你生病了吗？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "|shake|你居然能够看到？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "你的观察能力|wave|远—远—|norm|超过了正常水平。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "请你负责任地使用这种力量。",
+		},
+	],
+
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -747,23 +805,15 @@
 	"step1_leave_B_momo" : [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|wave|骑大虫。骑大虫。骑大虫。",
+			"dialog"			: "我们很快就会回来。",
 		},
 		{
-			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "从她身上下来！",
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|出发！全速进前！",
 		},
 		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "但是，我很擅长交通！",
-		},
-		{
-			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "啊，你不介意的话-",
-		},
-		{
-			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "我们等下回来。",
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "要注意安全，好吗？",
 		},
 	],
 	
@@ -873,6 +923,7 @@
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
+	"step2_intro_B_philolu"				: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
@@ -1047,6 +1098,7 @@
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
 	"step2_leave_B_astrayo_twins"		: "step2_leave_crush",
+	"step2_leave_B_philolu"				: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_B_frozen_veyeral_devil": "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
@@ -1183,6 +1235,53 @@
 		},
 	],
 	
+	"step2_intro_B_monovai" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|今天会有许多复仇！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "[VAL1]正给你一个礼物！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|见证你爱的后果！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "你会原谅我的许多扎扎，是吧？",
+		},
+	],
+	
+	"step2_leave_B_philolu_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|所以，   你和[VAL1]的约会怎么样了？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "约会是什么？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "我只记得我的妹妹抛弃我。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|不！|L|那不是-|L|我没有-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|我爱你，阳光！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "...",
+		},
+	],
+
 	"step2_intro_B_snowball_blank" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],

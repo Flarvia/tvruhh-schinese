@@ -19,15 +19,15 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"fast_text"			: 0,
@@ -62,15 +62,15 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|恐慌警报恐慌警报恐慌警报",
+			"dialog"			: "|C2||shake|恐慌警报",
 		},
 		{
 			"fast_text"			: 0,
@@ -141,20 +141,10 @@
 	
 	"no_battle" 	: [
 		{
-			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
 			"dialog"			: "|C3|恐慌序列解除",
 		},
 		{
-			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
-			"dialog"			: "|C3|恐慌序列解除",
-		},
-		{
-			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|恐慌序列解除",
-		},
-		{
-			"fast_text"			: 0,
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
 			"dialog"			: "本单元刚刚也快要启动恐慌模式了。",
 		},
@@ -167,20 +157,10 @@
 	
 	"return_intro" : [
 		{
-			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
 			"dialog"			: "|C3|恐慌序列解除",
 		},
 		{
-			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
-			"dialog"			: "|C3|恐慌序列解除",
-		},
-		{
-			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|恐慌序列解除",
-		},
-		{
-			"fast_text"			: 0,
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
 			"dialog"			: "本单元刚刚也快要启动恐慌模式了。",
 		},

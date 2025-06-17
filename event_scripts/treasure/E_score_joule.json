@@ -38,12 +38,12 @@
 		"dialog"	: "使用你的力量尽可能快的从我们的头发中提取尽可能多的魔尘。",
 	},
 	"comment_leave"		: {
-		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
-		"dialog"	: "你今天没时间吗？",
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+		"dialog"	: "我们的头发中有什么吗？",
 	},
 	"leave_confirm"		: {
-		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
-		"dialog"	: "你确定吗？",
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+		"dialog"	: "|shake|我们的头发中有什么吗？",
 	},
 	
 	"start_battle" 	: [
@@ -86,17 +86,21 @@
 	
 	"no_battle" 	: [
 		{
-			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
-			"dialog"			: "嘿，我们明白的。",
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "看起来另一个焦耳正在向我们输送能量！",
 		},
 		{
-			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
-			"dialog"			: "另一个焦耳正在向我们发送能量，这都要感谢另一个你。",
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "我们需要尽快记录这个数据。",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+			"dialog"			: "看起来我们今天不再需要你的帮助了。",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "这就是身为晃晃家族的好处之一。",
+			"dialog"			: "我们能够看出这些仍是你的情绪，来自遥远的另一个宇宙。",
 		},
 	],
 	

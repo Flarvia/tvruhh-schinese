@@ -37,15 +37,15 @@
 	},
 	"end_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "你今天测试累了吗？",
+		"dialog"	: "今天的问题已经足够了吗？",
 	},
 	"leave_text"		: {
-		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-		"dialog"	: "你今天不想玩吗？",
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+		"dialog"	: "兴奋等级正接近无穷大。",
 	},
 	"leave_confirm"		: {
-		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-		"dialog"	: "你确定你必须现在离开吗？",
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+		"dialog"	: "本单元现在需要爆炸吗？",
 	},
 	
 	"reward_title"	: "选择一项奖励",
@@ -892,24 +892,34 @@
 	"dont_play" 	: [
 		{
 			"play_music"		: "silence",
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "哦...本单元明白的。|L||!|还有更多重要的事情要做。",
-		},
-		{
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "|C3|检测到痛苦|C0|",
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "过载- 载- 载- 载- 载-",
 		},
 		{
 			"love_hearts"		: 1,
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "对了！你只是会等下再来玩本单元的游戏。",
+			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|超出最大兴奋等级|C0|",
 		},
 		{
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "本单元爱你。",
+			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|进入恢复模式|C0|",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|预计恢复时间：8小时|C0|",
 		},
 	],
 	
+	"exaggeration_phrase_1"		: "本单元的喜悦无法被抑制在外壳之中。",
+	"exaggeration_phrase_2"		: "本单元现在的兴奋正在|shake|抖动|norm|。",
+	"exaggeration_phrase_3"		: "本单元现在的兴奋正在|shake|颤动|norm|。",
+	"exaggeration_phrase_4"		: "几乎不可能抑制本单元正感到的快乐。",
+	"exaggeration_phrase_5"		: "现在|shake|完全不可能|norm|抑制本单元正感到的快乐。",
+	"exaggeration_phrase_6"		: "本单元有非零几率会随时爆炸。",
+	"exaggeration_phrase_7"		: "本单元现在所体验的欢欣能够为最近的高塔供能一百年。",
+	"exaggeration_phrase_8"		: "本单元体内的兴奋无法在合理的时间窗口内计算得出。",
+	"exaggeration_phrase_9"		: "有107%的概率本单元现在就会    |shake|爆炸|norm|。",
+
 	"round1_start" 	: [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -917,7 +927,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "本单元的喜悦无法被抑制在外壳之中。",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -937,7 +947,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "本单元现在的兴奋正在|shake|抖动|norm|。",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -952,7 +962,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "本单元现在的兴奋正在|shake|颤动|norm|。",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -972,7 +982,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "几乎不可能抑制本单元正感到的快乐。",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -987,7 +997,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "现在|shake|完全不可能|norm|抑制本单元正感到的快乐。",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -1007,7 +1017,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "有并非为零的几率本单元会随时爆炸。",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],

@@ -390,14 +390,13 @@
 	
 	"intro_first" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|欢迎来到你最开心的地方！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "全部|C3|你所知道的礼物|C0|都能在这里找到。",
 		},
@@ -428,14 +427,13 @@
 	],
 	"intro_price1" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|欢迎来到你最开心的地方！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "索拉娜为你找到了更多的礼物。",
 		},
@@ -459,14 +457,13 @@
 	],
 	"intro_price2" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|索拉娜找到了一种新类型的礼物！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "现在索拉娜知道|C3|额外礼物|C0|能在哪里找到了，索拉娜也知道了新的因果规律。",
 		},
@@ -501,14 +498,13 @@
 	],
 	"intro_love_power" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|索拉娜有个惊喜要给你！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "索拉娜为你发明了一个|C3|爱之力量测量设备！|C0|",
 		},
@@ -569,14 +565,13 @@
 	],
 	"intro_quick" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
 			"dialog"			: "|wave|索拉娜现在可以为你找到|C3|快速礼物|C0|了！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "快速礼物的价格增长和其他的礼物类型也是独立的。",
 		},
@@ -595,14 +590,13 @@
 	],
 	"intro_blessings" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|你最快乐的地方现在受到了祝福的祝福！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "你每购买一个力量礼物，祝福的价格都会增长，但增长速率更缓慢。",
 		},
@@ -629,14 +623,13 @@
 	],
 	"intro_burdens" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|你最开心的地方现在背负上了负担的负担！",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 			"dialog"			: "但是，你为什么会想要负担呢？",
 		},
@@ -655,14 +648,13 @@
 	],
 	"intro_dupes" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"		: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "索拉娜现在可以找到你的力量礼物的|C3|复制品！|C0|",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
 			"dialog"			: "你必须已经有|C3|至少5个可以被复制的礼物。|C0|",
 		},

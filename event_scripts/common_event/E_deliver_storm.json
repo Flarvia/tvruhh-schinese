@@ -555,7 +555,7 @@
 			"dialog"			: "哎呀。哎呀。哎呀。哎呀。哎呀。|L|不。不。不。不。不。不。不。不。|L|不。不。不。不。不。不。",
 		},
 		{
-			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
 			"dialog"			: "你见到那些扎拉登双子了，是吗？",
 		},
 		{
@@ -639,6 +639,87 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "我出发了！",
+		},
+	],
+	
+	"step1_ask_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_normal"],
+			"dialog"			: "|wave|嘿，甜心。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "我需要你帮我个小忙。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "呃，是什么？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|没必要这么害羞，甜心。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "那个扎拉登也找上你了，是吧？",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "我需要你为我给她点东西。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我觉得她应该不会想再见到我了。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_angry"],
+			"dialog"			: "真不敢相信你会这样说。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_confused"],
+			"dialog"			: "你不知道她爱你吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "今天早上的时候我都不知道爱是什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "这对我来说仍然非常新奇。",
+		},
+		{
+			"character"			: ["VOICE_thought", "CHAR_philolu_right", "MOOD_sad"],
+			"dialog"			: "|C3|（我之前很努力在试着自己传达给你们所有人的）",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
+			"dialog"			: "所以，她给了你一种全新的感受！",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "她真的很棒，是吧？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "好吧！我明白了。我会把你的礼物送给她的。",
+		},
+	],
+	"step1_leave_B_philolu" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我仍然在学习爱是怎么回事。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我觉得我理解你在做的事情了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "太感谢你了，恋罗璐。",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "可别把我的秘密全抖出来。",
 		},
 	],
 
@@ -1385,6 +1466,7 @@
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
 	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
+	"step2_intro_B_philolu"				: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1580,6 +1662,7 @@
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
 	"step2_leave_B_astrayo_twins"			: "step2_leave_crush",
+	"step2_leave_B_philolu"					: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
 	"step2_leave_B_frozen_veyeral_devil"	: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
@@ -1689,9 +1772,6 @@
 		},
 	],
 	
-
-	
-
 	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
@@ -1712,6 +1792,57 @@
 		},
 	],
 	
+	"step2_intro_B_monovai" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|原谅我！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我之前不应该攻击你的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "呃，[VAL1]说我应该把这个给你。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我其实完全不知道她一直在说什么。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "但听上去是个好主意。",
+		},
+	],
+	
+	"step2_leave_B_philolu_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|所以，你和[VAL1]的约会怎么样了？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "已经有过约会了？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "我只记得我的妹妹抛弃我。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|不！|L|那不是-|L|我没有-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|我爱你，阳光！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "...",
+		},
+	],
+
 	
 	"step2_leave_B_vitrea_defect" 	: [
 		{

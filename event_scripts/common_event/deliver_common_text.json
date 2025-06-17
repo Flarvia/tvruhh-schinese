@@ -1063,7 +1063,56 @@
 	],
 	
 	
+	"step1_response_B_monovai" : [
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
+			"dialog"			: "|shake|你不应该这样想的。",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
+			"dialog"			: "不要思考其他事情，除了你甜美的复仇。",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
+			"dialog"			: "那位扎拉登为我们展现了爱，我们必须让她知道这些行为会带来后果。",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+			"dialog"			: "这些礼物会为她的过失带来光芒。",
+		},
+	],
+	"comment_pickup_B_monovai"	: {
+		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+		"dialog"	: "选择你报复的形式。",
+	},
+	"confirm_pickup_B_monovai"		: {
+		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
+		"dialog"	: "这样就可以了吗？",
+	},
+	"step1_bye_B_monovai" : [
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+			"dialog"			: "愿你的复仇迅捷无情。",
+		},
+	],
 	
+	
+	"comment_pickup_B_philolu"	: {
+		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+		"dialog"	: "来帮帮我。像她那样的甜心会最想要这些中的哪一个？",
+	},
+	"confirm_pickup_B_philolu"		: {
+		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+		"dialog"	: "你确定吗？",
+	},
+	"pickup_next_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
+			"dialog"			: "你可以为她再带一些额外的东西，对吧甜心？",
+		},
+	],
+
+
 	"comment_pickup_B_unit_lulu"	: {
 		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 		"dialog"	: "选择这些礼物中的一个。",
@@ -1628,6 +1677,28 @@
 		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
 		"dialog"	: "是这个吗？",
 	},
+	"pickup_next_B_momo" : [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "|wave|骑大虫。骑大虫。骑大虫。",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
+			"dialog"			: "快从她身上下来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "但是，我非常擅长交通！",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "如果你没关系的话-",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
+			"dialog"			: "或许你可以再带上一个礼物。",
+		},
+	],
 	"step1_bye_unknown_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
@@ -2112,6 +2183,180 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
 			"dialog"			: "我的眼睛向你再见！",
+		},
+	],
+	
+	
+	"step1_response_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "那位有着美妙梦境的漂亮女士？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她不可能对你失望的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你要不要把我们的一个礼物给她？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她会很高兴能见到你的。",
+		},
+	],
+	"step1_response_B_veyeral_rain_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "带着蓝色维目尔的美丽女士？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她不可能对你失望的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我们把我们的一个礼物给她吧。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "这主意真棒！把这个礼物带给小蓝和她的扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她们会很高兴见到你的。",
+		},
+	],
+	"step1_response_B_veyeral_rain_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "那位有着美妙梦境的漂亮女士？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她不可能对你失望的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她的妹妹人也很好。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我们把我们的一个礼物给她们吧。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "这主意真棒！把这个礼物带给她们。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她们会很高兴见到你的。",
+		},
+	],
+	"comment_pickup_B_veyeral_rain"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "带走任何一个。",
+	},
+	"confirm_pickup_B_veyeral_rain"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "这样就好了吗？",
+	},
+	"step1_bye_unknown_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我们是[VAL1]！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我们祝你每晚好梦！",
+		},
+	],
+	"step1_bye_eyeball_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|我的眼睛向你再见！",
+		},
+	],
+	
+	
+	"step1_response_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我也见到她了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她让我意识到我的汤里缺少了什么原料。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "那就是爱！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "真不敢相信其实这么明显。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我实际上为她做了新的汤。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你介意把这个送给她吗？",
+		},
+	],
+	"step1_response_B_molten_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我也见到她了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "她让我意识到我的汤里缺少了什么原料。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "那就是爱！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我实际上为她做了新的汤，还有她的妹妹。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你介意把这个送给她们吗？",
+		},
+	],
+	"comment_pickup_B_molten_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你觉得这些中的哪一个更好？",
+	},
+	"confirm_pickup_B_molten_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "这样看起来可以了吗？",
+	},
+	"step1_bye_unknown_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我叫做[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我是由石头的汤组成的！",
+		},
+	],
+	"step1_bye_eyeball_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我的眼睛向你再见！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "下次我会做你最喜欢的汤。",
 		},
 	],
 	

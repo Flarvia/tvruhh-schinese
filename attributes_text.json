@@ -81,7 +81,7 @@
 		"panic_polyps"		: "|C6|当[NAME]的恐慌攻击少于[VAL1]时，恐慌之瘤在战斗中每20秒会被转化为一个恐慌直至没有恐慌之瘤剩下。",
 		"glass_hearts"		: "|C6|每个玻璃之心会使得[NAME]受到的伤害减半。",
 		"chrome_hearts"		: "|C6|每个铬之心能够保护[NAME]的爱之连击以及保护提取倍率不下降。",
-		"reserve_hp" 		: "[NAME]在战斗中能够恢复|C3|[VAL1]点失去的生命|C0|。|L||C3|每5秒1点生命",
+		"reserve_hp" 		: "[NAME]在战斗中能够恢复|C3|[VAL1]点失去的生命|C0|。|L||C3|（每5秒1点生命）",
 		"inspired_max_hp"	: "[NAME]的最大生命被|C6|提升了[VAL1]|C0|，来源于部分礼物的灵感效果。|C3|（上限：[VAL2]）",
 		"shame_max_hp"		: "[NAME]的最大生命被|C6|提升了[VAL1]|C0|，来源于部分礼物的羞愧效果。|C3|（上限：[VAL2]）",
 		"inspired_dmg_bonus": "[NAME]的伤害被|C6|提升了[VAL1]%|C0|，来源于部分礼物的灵感效果。|C3|（上限：[VAL2]%）",

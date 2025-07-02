@@ -246,7 +246,7 @@
 	"you_win" 	: [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
-			"random"			: 2,
+			"random"			: 3,
 			"dialog_rand1"		: "刚刚很不错，但我觉得我能做的更好。",
 			"dialog_rand2"		: "我还能够提高这个技巧。",
 			"dialog_rand3"		: "我知道我能够做的更好。",

@@ -231,7 +231,49 @@
 			"dialog_rand3"		: "你直接就能那么做？",
 		},
 	],
+
 	
+	"comfort_ask_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "如果你感觉不太好，或许我们可以聊一聊？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "任何事你都能告诉我。",
+		},
+	],
+	"comfort_ask_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "你应该说一说自己现在的感受。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "如果你不说出口，或许就会开始自己得到错误的结论。",
+		},
+	],
+	"comfort_ask_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad2"],
+			"dialog"			: "呃，我不太擅长这个，但是-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "你愿意告诉我发生什么了吗？",
+		},
+	],
+	"comfort_ask_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "我能看出我未来的乐队成员有些沮丧。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "你一定要与恶魔分享自己的感受。",
+		},
+	],
+
 	"times_up_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],

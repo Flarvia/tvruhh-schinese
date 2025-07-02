@@ -1,0 +1,779 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "哦！又是你。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我今天想要去外面。|!||L|即使仍在下雨。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "我很久都没有去外面了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "你要不要和我一起去散步？",
+		},
+	],
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "哦！是你们两个。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我今天想要去外面。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "你们要不要来和我一起散步？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "实际上我突然感觉特别累。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "要不你和她一起去吧，阳光？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_serious2"],
+			"dialog"			: "我就在这小睡一会。",
+		},
+	],
+	
+	"monster_mood"		: "雪奥诺托的心情",
+	"monster_stuff"		: "雪奥诺托的[VAL1]",
+	"walk_tiles"		: "格数:[VAL1]",
+	"walk_total"		: "总数:[VAL1]",
+	"walk_end"			: "你走了[VAL1]格！",
+	"rating_title"		: "拥抱指数[VAL1]%",
+	
+	"op_walk1"		: "走一小段路",
+	"op_walk2"		: "走一大段路",
+	"op_hug"		: "让她温暖起来",
+	"op_burden"		: "收下一个负担",
+	"op_talk"		: "和她对话",
+	"op_comfort"	: "出什么事了吗？",
+	"op_sleep"		: "小睡一下",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "来和我一起散步。",
+	},
+	"comment_normal"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "我们要继续走吗？",
+	},
+	"comment_cold"			: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "我感觉有点冷了。",
+	},
+	"comment_burdened"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	
+	
+	
+	"to_walk_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "雪奥诺托，我当然会和你一起散步了！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|我爱大雪。",
+		},
+	],
+	"to_walk_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "如果你真的想让我在身边的话，当然了。",
+		},
+	],
+	"to_walk_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "当然。    我会和你一起散步的。",
+		},
+	],
+	"to_walk_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|这次正义的散步会在传说中被铭记！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "当然，我有空的。",
+		},
+	],
+	"to_walk_first_reply" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "有你同行，这次散步对我而言意义非凡。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "只是，要小心地面上的那些冰。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "我似乎无法让其停下。",
+		},
+	],
+	"to_walk" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "我们继续走吧。",
+			"dialog_rand2"		: "那些冰没有妨碍到你吧？",
+			"dialog_rand3"		: "我想要继续与你一同行走。",
+			"dialog_rand4"		: "我正度过一段美妙的时光。",
+		},
+	],
+	
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"comment_course_find"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "我感到更加温暖了。",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+		"dialog"	: "我伤到你了吗？",
+	},
+	"comment_course_end"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "我们先停在这里吧。",
+	},
+	
+	"walk_no_distance" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "没关系的，我们就在这里站一会吧。",
+		},
+	],
+	"walk_end" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "我们已经走了[VAL1]格。",
+		},
+	],
+	"after_walk_continue" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "我们可以继续散步，如果你想的话。",
+			"dialog_rand2"		: "我现在应该可以继续往前走。",
+		},
+	],
+	"after_walk_cold" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "我的温度有些低了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 2,
+			"dialog_rand1"		: "我会让你感到寒冷吗？",
+			"dialog_rand2"		: "我没冻着你吧，是吗？",
+		},
+	],
+	
+	
+	
+	"to_hug_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "你看起来好冷。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|我知道应该怎么做！",
+		},
+	],
+	"to_hug_first_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "亲爱的缺陷，为何不试试在雪奥诺托小姐上试一下你那完美的暖身技巧？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "哦... 我应该确实可以为其他人这么做。",
+		},
+	],
+	"to_hug_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "嘿，我...",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|或许我能够，呃，   让你温暖起来   还是-",
+		},
+	],
+	"to_hug_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "恶魔无法忍受你继续受到此等寒冷的折磨！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "并且我还有这么多温暖能够给予！",
+		},
+	],
+	"to_hug_first_reply" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "你真的会再次与我分享你的温暖？",
+		},
+	],
+	"to_hug" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "你还剩下多少温暖？",
+			"dialog_rand2"		: "你为何还能够为我这样做？",
+			"dialog_rand3"		: "你还有能够给出的温暖？",
+			"dialog_rand4"		: "我无法理解你在哪里储存的下这么多温暖。",
+		},
+	],
+	
+	"comment_hug_crit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "哇哦！",
+	},
+	"comment_hug_good"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "太温暖了。",
+	},
+	"comment_hug_bad"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+		"dialog"	: "这是我的错。",
+	},
+	"comment_hug_perfect"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|完美！",
+	},
+	"comment_hug_win"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "谢谢你！",
+	},
+	"comment_hug_lose"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "我感谢你的努力...",
+	},
+	
+	"hug_perfect" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "要是我能一直这么温暖就好了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "这就是你平时的感觉吗？",
+		},
+	],
+	"hug_win" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "我感觉好多了。",
+			"dialog_rand2"		: "我觉得更温暖了。",
+			"dialog_rand3"		: "我确实很需要它。",
+		},
+	],
+	"hug_lose" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "我所做的只有让你变得更冷。",
+		},
+	],
+	
+	
+	
+	"to_cold_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "我的天！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|等下！   快回来！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|我控制不住冰了！",
+		},
+	],
+	"to_cold_game" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "怎么又发生了！",
+			"dialog_rand2"		: "我又能感受到那些冰了。",
+			"dialog_rand3"		: "我又要失去控制了！",
+			"dialog_rand4"		: "不！现在不要。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|我不想伤害到你！",
+			"dialog_rand2"		: "|shake|我太危险了！",
+			"dialog_rand3"		: "|shake|这次你别过来！",
+		},
+	],
+	
+	"comment_cold_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+		"dialog"	: "|shake|请帮帮我！我不想这个样子！",
+	},
+	"comment_cold_clear"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "结束了吗？",
+	},
+	"comment_cold_hit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+		"dialog"	: "|shake|不！",
+	},
+	
+	"cold_win_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "你留在了我身边？",
+		},
+	],
+	"cold_win_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "当你需要我的时候，我永远不会抛弃你。",
+		},
+	],
+	"cold_win_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "我不会让你独自经历这一切。",
+		},
+	],
+	"cold_win_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|我不知道，结束了吗？|L|我不知道我在做什么！",
+		},
+	],
+	"cold_win_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "永远不要抛弃乐队成员！",
+		},
+	],
+	"cold_win" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "谢谢你再次留在我身边。",
+		},
+	],
+	"cold_lose_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "我伤到你了！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "我只有这一件事知道怎么做。",
+		},
+	],
+	"cold_lose_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "别这样说！|L||!|你知道那是意外的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "我知道。对不起。",
+		},
+	],
+	"cold_lose_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "我不会让你为此责备自己的！",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "我不会让你独自经历这一切的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "我很抱歉。我之后会试着不这么说了。",
+		},
+	],
+	"cold_lose_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|我不在乎！|L|在你感觉好点之前我不会离开的！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "...我真的很幸运有你在。",
+		},
+	],
+	"cold_lose_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|你把这也称作受伤？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "连擦伤都算不上。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "你真的没关系吗？",
+		},
+	],
+	"cold_lose" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "你还好吧，没事吧？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "谢谢你仍然留在我身边。",
+		},
+	],
+	"the_cold_continues" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|不！    我还在失控！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|要小心！",
+		},
+	],
+	"the_cold_ends" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "我觉得应该已经结束了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "我还是想继续和你一起散步，如果你还愿意的话。",
+		},
+	],
+	"from_cold_to_times_up" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "我觉得我会没事的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "我只是有点累了。",
+		},
+	],
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "哦！对不起。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "我刚刚在想事情。",
+		},
+	],
+	"comment_burden_choice"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"burden_confirm"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "那是个负担吗？",
+	},
+	"burden_taken" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "她一直在说的就是这个吗？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "而你可以直接将它从我的身体里带走？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "你真是个奇妙的存在。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我现在感觉好多了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "真的。",
+		},
+	],
+
+
+	
+	"comfort_ask_blank"		: "bonding_time/bonding_common_text",
+	"comfort_ask_defect"	: "bonding_time/bonding_common_text",
+	"comfort_ask_twins"		: "bonding_time/bonding_common_text",
+	"comfort_ask_devil"		: "bonding_time/bonding_common_text",
+	"talk_hadesoh" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "没必要在遮遮掩掩的了，是吧？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "是关于我的女朋友-",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "也不是...|L||!|炼狱之梭。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "我觉得她和我分手了！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "至少，我以为她这么做了。|!||L|她从来没有说出来过。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "好吧... 我们确实经常吵架。|!||L|然后我就会躲在自己的洞穴里。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "但是，她迟早都会过来找我。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "只是      这次没有...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|啊！|norm| 但我总是会假定她在想的事情！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "现在我觉得这样好蠢哦。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
+			"dialog"			: "你对我做了什么？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "我应该才是那个时常去找她的人。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "或许她这次就是在等这个？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|啊！|norm|我不在乎这是不是她想要的！这是我现在想做的！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "我想念她的脸。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "我应该明天就会去找她。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我现在感觉好多了！|L||!|这次是说真的。|L||!|谢谢你听我说。",
+		},
+	],
+	
+	
+
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|这次散步感觉真棒。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我应该现在要回家了。",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "哦！我差点忘了把这个给你。",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "你可以收下任意一个",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "我为什么记不起这是什么？",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "你想要这个吗？",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+		"dialog"	: "你真的什么都不想要？",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "仅仅一个礼物不足以感谢你。",
+		},
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "你已经为我做了这么多。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "请再带走一个！",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "那让我感觉好温暖！",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "哦天！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "快来这里。你可以在我身边休息。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "我比过去要更加温暖。",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "再来一次，以备不时之需。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "哦天！你还有更多给我？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "谢谢你。",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "你想要知道我的温度，是吧？|L|我能看出来。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "我承认我确实在好奇。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "你来试一试。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "这    怎么可能呢？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "最完美的温度，不是吗？",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
+			"dialog"			: "刚刚真有趣。|!||L|我，呃，   真的很喜欢和你一起散步。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "哦，那边的人是你的妹妹吗？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "哦是她？好吧，我最好在她过来向你说怪话之前离开。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "你紧张的时候真的很可爱，你知道吗？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|怎么你也这样！|L||!|你们都一样！",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "传说中正义的漫步现已结束，雪奥诺托别无选择-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "她必须加入我们的乐队！",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "我一定要学一门乐器吗？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我们之后再讨论那些无关紧要的细节。",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "谢谢你和我一起散步。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "我度过了一段美妙的时光。",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

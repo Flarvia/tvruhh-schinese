@@ -941,6 +941,8 @@
 		"extra_battles"		: "增加的额外战斗",
 		"best_score"		: "最佳分数",
 		"total_motes"		: "总魔尘数",
+		"total_tiles"		: "行走的总格数",
+		"best_tiles"		: "行走的最佳格数",
 		"minigame_win"		: "小游戏获胜",
 		"minigame_lose"		: "小游戏失败",
 		"perfect_hugs"		: "完美拥抱",

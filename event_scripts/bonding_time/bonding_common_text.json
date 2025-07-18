@@ -8,6 +8,8 @@
 	"victory"	: "胜利！",
 	"ouch"		: "哎呦！",
 
+	"hug_rating"	: "拥抱评分[VAL1]%",
+
 	"course_walk"	: "走一格",
 	"course_jump"	: "跳两格",
 	"eye_color1"	: "|C3|红色眼睛|C0|",
@@ -16,6 +18,17 @@
 	"pupil_shape1"	: "|C3|十字瞳孔|C0|",
 	"pupil_shape2"	: "|C3|圆圈瞳孔|C0|",
 	"pupil_shape3"	: "|C3|方块瞳孔|C0|",
+	
+	"mite_shell1"	: "|C3|绿色外壳|C0|",
+	"mite_shell2"	: "|C3|粉色外壳|C0|",
+	"mite_shell3"	: "|C3|黄色外壳|C0|",
+	"mite_eye1"		: "|C3|三只眼睛|C0|",
+	"mite_eye2"		: "|C3|一只眼睛|C0|",
+	"mite_eye3"		: "|C3|无眼特征|C0|",
+	"mite_antennae"	: "|C3|长触角|C0|",
+	"mite_no_ant"	: "|C3|无触角特征|C0|",
+
+	
 	
 	"pet_name_structure"	: "[PREFIX][MOD][PET][SUFFIX]",
 
@@ -259,7 +272,7 @@
 			"dialog"			: "呃，我不太擅长这个，但是-",
 		},
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad"],
 			"dialog"			: "你愿意告诉我发生什么了吗？",
 		},
 	],
@@ -271,6 +284,39 @@
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
 			"dialog"			: "你一定要与恶魔分享自己的感受。",
+		},
+	],
+
+	"hurt_scold_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "别那样说！|L||!|你知道那是个意外。",
+		},
+	],
+	"hurt_scold_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "我不会让你因此自责的！",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "我不会让你独自经历这种事情。",
+		},
+	],
+	"hurt_scold_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|我不在乎！|L|我不会走的，直到你感觉好点！",
+		},
+	],
+	"hurt_scold_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|你管这叫受伤？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "连擦伤都算不上。",
 		},
 	],
 

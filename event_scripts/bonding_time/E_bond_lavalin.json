@@ -1,0 +1,797 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "嘿！快过来！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "我刚刚在和一些跳虫一起玩。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|你应该来加入我们！",
+		},
+	],
+	
+	"monster_mood"		: "熔岩之林的心情",
+	"monster_stuff"		: "熔岩之林的[VAL1]",
+	
+	"op_mite_first"	: "和跳虫玩耍",
+	"op_card_first"	: "玩卡牌游戏",
+	"op_mite_game"	: "再一局跳虫游戏",
+	"op_card_game"	: "再一局卡牌游戏",
+	"op_devil"		: "恶魔交易",
+	"op_quake"		: "帮助她！",
+	"op_comfort"	: "刚刚发生了什么？",
+	"op_sleep"		: "小睡一下",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "你知道你想要和我们玩的。",
+	},
+	"comment_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "我们接下来应该做什么？",
+	},
+	"comment_quake"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+		"dialog"	: "|shake|请握住我的手！",
+	},
+	"comment_scared"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "我保证，我没事的。|L|我们继续玩吧。",
+	},
+	
+	
+	
+	"to_mite_game_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "我知道你会加入我们的！",
+		},
+	],
+	"to_mite_game_first_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|阳光，我们一定要和跳虫一起玩！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "冷静一点。|L|我们当然可以和跳虫一起玩了。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|好耶——!",
+		},
+	],
+	"to_mite_game" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"random"			: 3,
+			"dialog_rand1"		: "下一个是什么游戏？",
+			"dialog_rand2"		: "我们看看接下来是什么。",
+			"dialog_rand3"		: "它们接下来会做什么？",
+		},
+	],
+	"start_mite_swap" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这一轮是|C3|跳虫交换！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "这些跳虫会躲在蘑菇下面互相交换位置。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "试着记住在交换后哪只跳虫有着[VAL1]。",
+		},
+	],
+	"start_mite_burrow" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这一轮会是|C3|跳虫掘地！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "数一数有多少带有[VAL1]的跳虫从地里钻出来。",
+		},
+	],
+	"start_mite_burrow2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这是一轮特殊的|C3|跳虫掘地！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "试着记住所有颜色各有几只跳虫。|L||!|我可能会问任何一个。",
+		},
+	],
+	"start_mite_peek" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这一轮会是|C3|跳虫窥视！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "数一数这个蘑菇中会出来多少有着[VAL1]的跳虫。",
+		},
+	],
+	"start_mite_peek2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这是一轮特殊的|C3|跳虫窥视！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "试着记住所有颜色各有几只跳虫。|L||!|我可能会问任何一个。",
+		},
+	],
+	"start_mite_swarm" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "这一轮会是|C3|跳虫集群！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "数一数经过的所有带有[VAL1]的跳虫。",
+		},
+	],
+	"comment_swap_choose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "有着[VAL1]的跳虫藏在了哪里？",
+	},
+	"comment_mite_count"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "你看到了多少有着[VAL1]的跳虫？",
+	},
+	"comment_mite_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "|wave|你答对了！",
+	},
+	"comment_mite_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "|shake|对不起！",
+	},
+	"mite_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "那还挺有趣的！",
+		},
+	],
+	"mite_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "你不可能每次都获胜的。",
+		},
+	],
+	"mite_wins_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你已经胜利了三次跳虫游戏！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "希望你玩的很开心。",
+		},
+	],
+	"mite_streak_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "你连续胜利了三次跳虫游戏！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "你太擅长这个了。",
+		},
+	],
+	"mite_wins_5" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你已经胜利了五次跳虫游戏！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "真是太棒了！",
+		},
+	],
+	"mite_streak_5" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "你连续胜利了五次跳虫游戏！",
+		},
+	],
+	"mite_continue_after_5_streak" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你能做到连续六次吗？",
+		},
+	],
+	"mite_streak_6" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "真不敢相信你连续六次获胜了！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "你太擅长这个了！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "我觉得它们今天应该要放弃了。",
+		},
+	],
+	"mites_continue_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "跳虫们还想继续玩，但是-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我同样也有个有趣的卡牌游戏，如果你想要尝试的话！",
+		},
+	],
+	"mites_continue" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "看起来它们还想继续玩。",
+			"dialog_rand2"		: "跳虫们想要再来一轮。",
+			"dialog_rand3"		: "我觉得它们仍然想要玩！",
+		},
+	],
+	"mites_done" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "但是看起来它们终于开始累了。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "我觉得它们今天应该不会再想玩游戏了。",
+		},
+	],
+	
+	
+	
+	
+	"to_card_game_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "这场游戏叫做|C3|危险符文！|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "你要做的只是翻看两张牌，看看上面的图案是否匹配。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "但假如其中一张牌上有个|ral|符文，那么|C3|你会得到一次黄牌警告。|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "如果两张牌上都是|ral|符文，那么仍旧算作一次配对，你就没事了！",
+		},
+	],
+	"to_card_game" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "再来一轮|C3|危险符文！|C0|",
+		},
+	],
+	"to_card_game_after_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "我们再试一次这轮。",
+		},
+	],
+	"start_card_game" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "我会使用[VAL1]张牌，其中有[VAL2]张上面会有|ral|符文。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "[VAL3]次黄牌你就出局了！",
+		},
+	],
+	"start_card_game_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive"],
+			"dialog"			: "别担心，阳光。|L|我会帮你记住里面的一些牌！",
+		},
+	],
+	"comment_cards_start"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "翻一张牌！",
+	},
+	"comment_cards_match"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "|wave|好耶！",
+	},
+	"comment_cards_mood_up"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+		"dialog"	: "你干的不错！",
+	},
+	"comment_cards_cleared"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|你活下来了！",
+	},
+	"comment_cards_miss"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "再试一次。",
+	},
+	"comment_cards_danger"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+		"dialog"	: "|shake|小心！",
+	},
+	"comment_cards_strike"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
+		"dialog"	: "|shake|一次黄牌！",
+	},
+	"comment_cards_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "太糟糕了。",
+	},
+	"cards_perfect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|并且没收到一次黄牌！",
+		},
+	],
+	"cards_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你太幸运了。",
+		},
+	],
+	"cards_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "运气不佳。",
+		},
+	],
+	"cards_lose_close" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "并且你差点就完成了！",
+		},
+	],
+	"cards_after_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "下次你会成功的。",
+		},
+	],
+	"cards_next_stage_2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "下次我会让它更难的。",
+		},
+	],
+	"cards_next_stage_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "下一次会非常的难！",
+		},
+	],
+	"cards_wins_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "你赢得了我所有的卡牌游戏！",
+		},
+	],
+	"cards_streak_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "|shake|你连续三次都获胜了！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "我认为我没办法击败你的运气。",
+		},
+	],
+	
+	
+	
+	"rain_power_increases" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "哦！雨下起来了。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "雨变大的时候会有一点吓人，是吧？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "你不觉得雨还会变得更大吧，对吧？",
+		},
+	],
+	"to_earthquake" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "|shake|不！",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "|shake|现在不要！|!||L|雨下的太大了！",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|我会导致地震的！",
+		},
+	],
+	"start_earthquake_blank" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|我不会放手的！",
+		},
+	],
+	"start_earthquake_defect" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|我就在这！",
+		},
+	],
+	"start_earthquake_twins" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|我要怎么做？",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|快抓住她，阳光！",
+		},
+	],
+	"start_earthquake_devil" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|恶魔不会辜负那些她爱的人！|L|我不会放手的！",
+		},
+	],
+	"comment_quake_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+		"dialog"	: "|shake|救我！",
+	},
+	"comment_quake_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+		"dialog"	: "发生什么了？",
+	},
+	"comment_quake_hit"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+		"dialog"	: "|shake|快停下！",
+	},
+	"comment_quake_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"quake_perfect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "|wave|太完美了！|L||!|你究竟是怎么做到的？",
+		},
+	],
+	"quake_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "你真的很擅长这个。",
+		},
+	],
+	"after_quake_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "很高兴你还在这里陪着我。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "尽管刚刚还挺尴尬的，我希望你没见到我这样。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我现在已经觉得好多了。",
+		},
+	],
+	"quake_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "真对不起。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "我知道你在试着帮我，但我只在帮倒忙。",
+		},
+	],
+	"after_quake_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "我仍然很高兴你能陪在我身边。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我已经感觉好多了。",
+		},
+	],
+	"quake_hurt" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "我知道你在试着帮我，但我所做的只有伤害你。",
+		},
+	],
+	"hurt_scold_blank"	: "bonding_time/bonding_common_text",
+	"hurt_scold_defect"	: "bonding_time/bonding_common_text",
+	"hurt_scold_twins"	: "bonding_time/bonding_common_text",
+	"hurt_scold_devil"	: "bonding_time/bonding_common_text",
+	"after_quake_hurt" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "我知道...",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "我还是会觉得有点糟糕。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "但或许会比我之前的感觉好一些。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "总之我还是很感谢你能待在我身边。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我现在感觉好多了。",
+		},
+	],
+	
+	
+	
+	"comfort_ask_blank"		: "bonding_time/bonding_common_text",
+	"comfort_ask_defect"	: "bonding_time/bonding_common_text",
+	"comfort_ask_twins"		: "bonding_time/bonding_common_text",
+	"comfort_ask_devil"		: "bonding_time/bonding_common_text",
+	"talk_fear" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "是什么让你看出来的？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "不会是我刚刚的恐慌吧，是吧？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "总之...我很害怕雨。|L||!|当雨下的非常大的时候-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "要是有洪水怎么办？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "我是|C3|混沌之符文。|C0||!||L|我会让自然灾害意外发生。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "我通常会试着保持完全静止，这样就绝对不会有事情发生。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "我必须   |shake|完全|norm|   不动，在糟糕的日子。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "但也有好的日子。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "比如今天，因为我见到了你！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "我可以稍微移动一下。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|并且我可以和跳虫一起玩。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "但如果我被吓到，就会发生糟糕的事情。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "而发生糟糕的事情又会吓到我！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "而然后糟糕的事情就会发生！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|这一直以来太累人了！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "哦。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "我不应该喊得这么大声的，不然糟糕的事情可能-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "什么都没发生？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你看到了吗？|!||L|我刚刚那么兴奋然后什么都没有发生！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|今天真是个好日子。",
+		},
+	],
+	
+	
+	
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "你今天已经在我这待了足够久了。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我想要你去帮助更多我们这样的人。",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "使用我的一些礼物来为她们展现爱！",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "你喜欢哪一个？",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
+		"dialog"	: "今天我好像有点记不起来什么是什么了。",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "你喜欢这个吗？",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "你什么都不想要吗？",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "我觉得是跳虫们把那个带给你的。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "接下来你必须收下我的礼物。",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "至少再拿一个。",
+		},
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "这样你一定会爱的更好！",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "好吧，至少快过来在我身边舒服躺着。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "别在意那些爬到你身上的跳虫。",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "我会一直支持你的。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我知道的。|L|谢谢你和我一起玩。",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我也知道有着无法控制的力量是什么样的。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "你也知道？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我没有缺陷，我完全无法控制这一点。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "我觉得这应该不太一样。",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "并且，你现在可以放手了。我保证我会没事的。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|哦！|norm||L||!|我忘了我还握着你的手。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "我是说，    你没必要    现在松手的。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "是呀，你没必要    现在松手的。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "呃，现在变成你抓着不放了。",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "谢谢你和我一起玩。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "并且   在那场    地震  的事件中帮助我。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "你真的以为一点小雨和一点小地震足以击倒恶魔？",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "谢谢你和我一起玩！",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

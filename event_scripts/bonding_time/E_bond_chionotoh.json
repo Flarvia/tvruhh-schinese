@@ -48,14 +48,13 @@
 	"monster_stuff"		: "雪奥诺托的[VAL1]",
 	"walk_tiles"		: "格数:[VAL1]",
 	"walk_total"		: "总数:[VAL1]",
-	"walk_end"			: "你走了[VAL1]格！",
-	"rating_title"		: "拥抱指数[VAL1]%",
+
 	
 	"op_walk1"		: "走一小段路",
 	"op_walk2"		: "走一大段路",
 	"op_hug"		: "让她温暖起来",
 	"op_burden"		: "收下一个负担",
-	"op_talk"		: "和她对话",
+
 	"op_comfort"	: "出什么事了吗？",
 	"op_sleep"		: "小睡一下",
 	

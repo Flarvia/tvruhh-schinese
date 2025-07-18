@@ -523,7 +523,14 @@
 		"rule3"		: "[rule_trade2]",
 	},
 	
-	
+	"E_bond_lavalin" : {
+		"name"		: "熔岩之林的缺陷",
+		"hint"		: "[hint_chance]",
+		"details"	: "我今天又回去找熔岩之林了。她总是在同一个地方，和那些跳虫一起玩游戏。问题是，我每次见到她时，雨总会开始下起来。然后就会下的更大。然后|C3|总会有地震！|C0||L||L|我知道她会担心不小心伤到什么人。我拜访她的时候或许也会给她带来更多压力。不！我可不能这样想！",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_chionotoh" : {
 		"name"		: "雪中漫步",
 		"hint"		: "[hint_chance]",

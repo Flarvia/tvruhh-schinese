@@ -11,7 +11,7 @@
 	],
 	
 	"monster_mood"		: "维目尔的心情",
-	"monster_stuff"		: "维目尔的[VAL1]",
+	"monster_gifts"		: "维目尔的礼物",
 	
 	"op_game"		: "玩一局游戏",
 	"op_next_game"	: "玩另一局游戏",

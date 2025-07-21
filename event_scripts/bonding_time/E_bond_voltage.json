@@ -41,7 +41,8 @@
 	],
 	
 	"monster_mood"		: "高压的心情",
-	"monster_stuff"		: "高压的[VAL1]",
+	"monster_gifts"		: "高压的礼物",
+	"monster_burdens"	: "高压的负担",
 	"scrapyard_gifts"	: "废料堆礼物",
 	"veyerals_gifts"	: "维目尔的奖励",
 	

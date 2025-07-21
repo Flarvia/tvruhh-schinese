@@ -1,7 +1,5 @@
 {
 
-	"gifts_tag"		: "礼物",
-	"burdens_tag"	: "负担",
 	"player_gifts"	: "[NAME]的礼物列表",
 	
 	"times_up"	: "时间到！",

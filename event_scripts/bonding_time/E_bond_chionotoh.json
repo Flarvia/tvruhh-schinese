@@ -45,7 +45,8 @@
 	],
 	
 	"monster_mood"		: "雪奥诺托的心情",
-	"monster_stuff"		: "雪奥诺托的[VAL1]",
+	"monster_gifts"		: "雪奥诺托的礼物",
+	"monster_burdens"	: "雪奥诺托的负担",
 	"walk_tiles"		: "格数:[VAL1]",
 	"walk_total"		: "总数:[VAL1]",
 

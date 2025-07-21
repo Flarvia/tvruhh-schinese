@@ -29,7 +29,7 @@
 	],
 	
 	"monster_mood"		: "几维的心情",
-	"monster_stuff"		: "几维的[VAL1]",
+	"monster_gifts"		: "几维的礼物",
 	
 	"op_dungeon"	: "进入地下城",
 	"op_sleep"		: "小睡一下",

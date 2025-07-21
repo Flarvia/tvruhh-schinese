@@ -15,13 +15,14 @@
 	],
 	
 	"monster_mood"		: "熔岩之林的心情",
-	"monster_stuff"		: "熔岩之林的[VAL1]",
+	"monster_gifts"		: "熔岩之林的礼物",
 	
 	"op_mite_first"	: "和跳虫玩耍",
 	"op_card_first"	: "玩卡牌游戏",
 	"op_mite_game"	: "再一局跳虫游戏",
 	"op_card_game"	: "再一局卡牌游戏",
-	"op_devil"		: "恶魔交易",
+	"op_devil"		: "恶魔赌注",
+	"op_jumping"	: "破坏一些石头",
 	"op_quake"		: "帮助她！",
 	"op_comfort"	: "刚刚发生了什么？",
 	"op_sleep"		: "小睡一下",
@@ -42,7 +43,10 @@
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
 		"dialog"	: "我保证，我没事的。|L|我们继续玩吧。",
 	},
-	
+	"comment_hungry"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "你说过你愿意为我做任何我想做的事，对吧？",
+	},
 	
 	
 	"to_mite_game_first" 	: [
@@ -391,7 +395,210 @@
 			"dialog"			: "我认为我没办法击败你的运气。",
 		},
 	],
+	"cards_done" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "那还挺有趣的，是吧？",
+		},
+	],
 	
+	
+	
+	"to_devil_deal" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "我们来一次小小的恶魔赌注如何？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "那是什么？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "我会再进行一轮|C3|危险符文|C0|而你会在里面塞上一大堆|ral|符文！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "如果这一轮我获胜了，那么你就要给我你的灵魂。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "但假如我输掉了，我愿意为你做任何事。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "任何事？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "|wave|任何事。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "好吧。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "你必须要非常幸运才能在这一轮里获胜！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "我的胜利早已在预言之中！",
+		},
+	],
+	"devil_deal_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你太幸运了。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "哦，对哦。    |L|我现在要做什么？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "我现在拥有了你的灵魂，这意味着-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "你现在是我的乐队成员了！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "那又是什么意思？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "不要在意这些小细节。|L|只要知道-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "你将永远被铭记于   |shake|恶魔的传说！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "我真的值得那样吗？",
+		},
+	],
+	"devil_deal_lose" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "恶魔，被这样的卡牌游戏击败？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
+			"dialog"			: "还有什么样残忍而恐怖的命运等待着我？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "好吧，我确实有想要的东西。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "我有点饿了，那里的石头里面有一些美味的水果。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你可以为我带来一些吗？",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "你想要我砸开里面有奇怪水果的石头？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "这与残忍而恐怖的命运恰好相反！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|恶魔再一次胜利了。",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "你准备好时就起跳。",
+	},
+	"comment_jumping_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "试着再破坏一个！",
+	},
+	"comment_jumping_get"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "那个看起来特别好吃！",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "|shake|什么都没有？",
+	},
+	"comment_jumping_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+		"dialog"	: "|wave|我好饿！",
+	},
+	"comment_jumping_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "全都是空的？",
+	},
+	"jumping_win_high" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "我为你带来了充裕的岩石水果！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "你找到了好多！|L||!|它们看起来好好吃。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|嗯嗯嗯嗯嗯。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "它们能让我在几周内都不再饥饿。",
+		},
+	],
+	"jumping_win" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "我好几周都没吃东西了。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|嗯嗯嗯嗯嗯。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "真好吃！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "太感谢你了。",
+		},
+	],
+	"jumping_lose" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "我什么都没找到！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "|shake|我辜负了你！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "没关系的。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "你只要有尝试就好。",
+		},
+	],
 	
 	
 	"rain_power_increases" 	: [
@@ -553,6 +760,51 @@
 	
 	
 	
+	"to_hug_reward" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "刚刚还蛮尴尬的，但你就像早就知道该怎么做一样！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "你的帮助如此完美，我想要给你点什么作为报答。",
+		},
+	],
+	"to_hug_reward_defect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "刚刚还蛮尴尬的，但你完美地帮助了我！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "啊，因为，   这种事像会追着我发生一样。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "没什么的，真的。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "我要给你点什么来感谢你。",
+		},
+	],
+	"comment_hug_reward_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "我真的想让你收下其中一个。",
+	},
+	"hug_reward_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "你想要这个吗？",
+	},
+	"hug_reward_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "现在是你的了！",
+		},
+	],
+	
+	
+	
 	"comfort_ask_blank"		: "bonding_time/bonding_common_text",
 	"comfort_ask_defect"	: "bonding_time/bonding_common_text",
 	"comfort_ask_twins"		: "bonding_time/bonding_common_text",
@@ -645,7 +897,7 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "你今天已经在我这待了足够久了。",
+			"dialog"			: "我觉得你今天已经在我这待了足够久了。",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],

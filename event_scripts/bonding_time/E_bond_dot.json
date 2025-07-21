@@ -51,7 +51,8 @@
 	],
 	
 	"monster_mood"		: "点点的心情",
-	"monster_stuff"		: "点点的[VAL1]",
+	"monster_gifts"		: "点点的礼物",
+	"monster_burdens"	: "点点的负担",
 	"healing_gifts"		: "治愈礼物",
 
 	

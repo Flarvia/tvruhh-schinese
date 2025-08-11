@@ -1,0 +1,796 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "我有些东西要为你展示。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "我修改了|C3|死亡与毁灭地下城|C0|并且制作了我自己的游戏版本！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|请一定要来和我一起玩！",
+		},
+	],
+	
+	"monster_mood"		: "树途之亥的心情",
+	"monster_gifts"		: "树途之亥的礼物",
+	
+	"op_play"		: "玩她的游戏",
+	"op_sleep"		: "小睡一下",
+	"op_start_game"	: "开始游戏",
+	"op_talk"		: "解释规则",
+	
+	"op_course"		: "寻找宝藏",
+	"op_scavenge"	: "搜刮宝藏",
+	"op_battle"		: "为宝藏而战斗",
+	"op_boss"		: "与恶魔领主作战",
+	
+	"comment_before_game"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "你一定要来玩！",
+	},
+	"comment_in_game"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "效率最高的路径是哪个？",
+	},
+	"comment_boss_time"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "一定是时候与恶魔领主作战了！",
+	},
+	
+	"to_her_home" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "我将它放在了这边。",
+		},
+	],
+	"talk_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "我要怎么玩？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "最有效的解释方式就是，告诉你所扮演的角色。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你将扮演|C3|爱灵师|C0|职业！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "爱灵师在|C3|会心一击时会获得治疗！|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "你的目标是击败那些占领森林的|C3|恶魔领主。|C0|",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "听上去很困难。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "所以你会想要先偷取它们的财宝。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "恶魔宝藏能够让你变得足够强大，从而与领主们作战。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "你需要选择进攻的最佳时机！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "好吧！我应该准备好了。",
+		},
+	],
+	"talk_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "所以，这个游戏是怎么玩的？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "目标是击败占据森林的|C3|恶魔领主。|C0|",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
+			"dialog"			: "你是在说我需要与什么作战吗？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "|shake|当然了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "我就知道让你成为|C3|虚空潜者|C0|是最佳决定！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "虚空潜者初始带有更强的攻击，并且|C3|每次击败敌人都能够回复生命！|C0|",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|告诉我要杀掉什么！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "别一头闯进与恶魔领主的作战中。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "哦！我还以为那是个好主意。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "最有效的策略是优先收集财宝增强力量。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "我应该已经理解了。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|我要先杀掉更小的东西！",
+		},
+	],
+	"talk_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_normal"],
+			"dialog"			: "我们要怎么玩？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "我认为最佳的解释方法就是先告诉你们两位的角色分别是什么。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "你会成为|C3|法师|C0|职业。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "我认为太阳法师会很适合你。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "法师能够在会心一击时|C3|治愈一个异常状态！|C0|",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "异常状态是什么？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "异常状态会在你的|C3|行动条|C0|里填满空行动与走火，从而让命中敌人变得更加困难。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "行动条？走火？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "或许这种解释游戏的方式不是很有效率。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|我们玩的时候你会弄明白的。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "希望如此。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "你的妹妹会是|C3|天使|C0|职业。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "天使的治疗能力比其他的辅助英雄都要强！",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "你听到了吗，阳光？|L||!|我是个天使。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious2"],
+			"dialog"			: "我没听说过有这么懒的天使。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "我有时候也会帮你的！",
+		},
+	],
+	"talk_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "所以我要做什么？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "目标是击败占据森林的|C3|恶魔领主。|C0|",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "恶魔领主认为它们能战胜恶魔？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "好吧，你将成为|C3|野兽|C0|职业。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "那些是金属拳套吗？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "是呀！那些是野兽拿来揍人的武器！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "野兽每击败一个敌人都会|C3|增加自己的攻击力！|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "但这个效果在每场战斗结束后会消失。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "野兽对于撞舞区的规则可不陌生。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "恶魔领主将感受到野兽的怒火！",
+		},
+	],
+	
+	
+	"to_first_round" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "我们开始吧！",
+		},
+		{
+			"play_music"		: "kiwi_music",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "故事的一开始发生在一片远古森林中。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "那儿自古以来就是个祥和的地方，有着许多非常大的蘑菇！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+			"dialog"			: "然后有一天，|C3|恶魔领主们|C0|到来了，占据了这片森林。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "于是|C3|[VAL1]|C0|与|C3|[VAL2]|C0|出发前往击败|C3|恶魔领主|C0|并拯救森林。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "但首先，她们需要偷走恶魔财宝来增强自己的力量。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你进入了森林，寻找这样的恶魔财富。",
+		},
+	],
+	"to_next_round" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 9,
+			"dialog_rand1"		: "你接下来要做什么？",
+			"dialog_rand2"		: "|C3|[VAL1]|C0|接下来要计划做什么？",
+			"dialog_rand3"		: "最有效的下一步是什么？",
+			"dialog_rand4"		: "你现在必须决定接下来应该做什么。",
+			"dialog_rand5"		: "现在我们的英雄必须决定接下来要做什么。",
+			"dialog_rand6"		: "我们的英雄简单休息了一下，她们在决定接下来要做什么。",
+			"dialog_rand7"		: "我们的英雄接下来会做什么？",
+			"dialog_rand8"		: "|C3|[VAL1]|C0|花了点时间计划最佳路径。",
+			"dialog_rand9"		: "我们的英雄思考了前方最有效的路径。",
+		},
+	],
+	
+	"battle_mix1"		: "你被各种各样的恶魔随从攻击了！",
+	"battle_mix2"		: "一群五花八门的恶魔随从袭击了你！",
+	"battle_mites"		: "一巢被恶魔附身的跳虫突袭了你！",
+	"battle_aviocs"		: "一队被恶魔附身的眼魔向你俯冲而来！",
+	"battle_stones"		: "一组心型石激活了攻击模式！",
+	"battle_dancers"	: "一群恶魔附身的舞者圈住了你！",
+	"battle_scrambles"	: "一帮恶魔晃晃围住了你！",
+	"battle_voidlings"	: "一汤虚空眷族如雨水般落向了你！",
+	"start_battle" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 9,
+			"dialog_rand1"		: "你发现空地上有个宝箱就直接放在那里，但当你掀开盖子的时候-",
+			"dialog_rand2"		: "你在一棵树的内部发现了闪闪发光的东西，但当你伸手去拿的时候-",
+			"dialog_rand3"		: "当你在森林中穿行的时候，|C3|[VAL2]|C0|突然叫你快转过身-",
+			"dialog_rand4"		: "你一不小心摔倒掉进了洞里。你在里面找到了一件宝藏，但当你抬头看时-",
+			"dialog_rand5"		: "那一晚，当你在火堆旁酣睡时，某个声音突然让你醒来。",
+			"dialog_rand6"		: "你找到了一座已倒塌之塔的遗迹，但当你进入它时-",
+			"dialog_rand7"		: "你决定在某个黑暗的洞穴中寻找宝藏，但当你进入时-",
+			"dialog_rand8"		: "你找到了个废料堆，决定在里面搜寻财宝。",
+			"dialog_rand9"		: "你找到个森林地牢并决定在里面寻找宝藏。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "[VAL3]",
+		},
+	],
+	"start_demonlord_first" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "英雄们遭遇了第一位恶魔领主！",
+		},
+	],
+	"start_demonlord" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "英雄们遭遇了另一位恶魔领主！",
+		},
+	],
+	"start_battle_teeth" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "是|C3|尖牙恶魔|C0|和她的|C3|晃晃手下！|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "她喜欢欺骗受害者给她一个尖牙拥抱。",
+		},
+	],
+	"start_battle_fury" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "是|C3|愤怒恶魔|C0|和她的|C3|锅炉手下！|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "|C3|锅炉|C0|很弱小，但会让下个敌人多一回合！",
+		},
+	],
+	"start_battle_maiden" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "快跑向山丘！|L||C3|铁处女|C0|从你身下的大地中冒了出来！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "她可以将大地变成岩浆，从而在里面游动。",
+		},
+	],
+	"start_battle_engine" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "|C3|混沌引擎|C0|从她的高塔中出现。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "她的身后跟着一群|C3|混沌构物，|C0|以她自己的形象构建而成。",
+		},
+	],
+	"start_battle_avenger" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "机械恶魔领主，|C3|复仇者7X，|C0|在你面前出现！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "她|C3|同步单元|C0|的军队会专注与治愈她并增加她的防御。",
+		},
+	],
+	"start_battle_voidmass" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+			"dialog"			: "纯粹虚空的雨滴开始落在你身上。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "雨水聚集在一起，在你面前形成了|C3|虚空集群！|C0|",
+		},
+	],
+	
+	"comment_turn_main"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1]|C0|能够攻击敌人。",
+	},
+	"comment_turn_support"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL2]|C0|能够治愈|C3|[VAL1]|C0|或强化她的力量。",
+	},
+	"comment_turn_target"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+		"dialog"	: "选择你的目标！",
+	},
+	"comment_turn_action"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "结果会是什么样呢？",
+	},
+	"comment_action_hit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|你的行动成功了！",
+	},
+	"comment_action_crit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+		"dialog"	: "|shake|是会心一击！",
+	},
+	"comment_action_miss"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+		"dialog"	: "|shake|没有命中！",
+	},
+	"comment_nothing"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
+	"comment_win"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|你赢得了战斗！",
+	},
+	"comment_lose"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|你在千钧一发之际逃走了！",
+	},
+	
+	"to_battle_small_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "这些随从只是在守护一个小小的宝箱。",
+		},
+	],
+	"to_battle_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "这些随从在守护一个恶魔财宝箱！",
+		},
+	],
+	"to_battle_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "这些随从在守护一个|wave|巨大恶魔宝箱！",
+		},
+	],
+	"to_boss_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "并且你获得了这位恶魔领主的宝箱！",
+		},
+	],
+	"to_boss_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "并且你获得了这位恶魔领主的|wave|巨大恶魔宝箱！",
+		},
+	],
+	"battle_lose" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "你设法及时逃脱了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+			"dialog"			: "|C3|[VAL1]|C0|和|C3|[VAL2]|C0|那一晚从森林中撤退了。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "她们在休息了一晚上之后完全恢复了。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "然后她们在第二天早上回到了森林！",
+		},
+	],
+	
+	
+	
+	"start_course" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "你决定在森林中寻找宝藏。",
+			"dialog_rand2"		: "你在前方看到了未被保护的恶魔财宝。",
+			"dialog_rand3"		: "当你在森林中穿行的时候，你看到前方的洞穴里有宝藏。",
+			"dialog_rand4"		: "你看到空地上放着一个宝箱。你只需要走到那里就好。",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|C3|[VAL1]|C0|正在寻找宝藏。",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|糟糕的骰子！",
+	},
+	
+	"start_scavenge" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "你决定在某个黑暗的洞窟里寻找宝藏。幸运的是，里面没有随从。",
+			"dialog_rand2"		: "你找到一座倒塌之塔的废墟，并且你决定在里面搜寻财宝。",
+			"dialog_rand3"		: "你找到了个废料堆，里面没有恶魔随从。你决定在里面搜寻宝藏。",
+			"dialog_rand4"		: "你找到了个森林地牢，然后决定在里面寻找宝藏。幸运的是，里面没有敌人。",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1]|C0|正在寻找宝藏。",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|再试一次！",
+	},
+	
+	"comment_searching_win"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|你找到了宝藏！",
+	},
+	"comment_searching_lose"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+		"dialog"	: "你什么也没找到。",
+	},
+	
+	"to_find_small_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "你找到了一个小型宝箱！",
+		},
+	],
+	"to_find_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你找到了一个恶魔财宝箱！",
+		},
+	],
+	"to_find_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "你找到了一个|wave|巨大恶魔宝箱！",
+		},
+	],
+	"comment_choose_rewards"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "你可以从这个宝箱中|C3|拿走[VAL1]张卡片。|C0|",
+	},
+	
+	
+	
+	"timed_out" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "|C3|[VAL2]|C0|注意到一大群恶魔随从正在接近！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "我们的英雄决定最优策略是今天暂时撤退。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "并且现在也挺晚了。",
+		},
+	],
+	"you_win_but_times_up" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你找到了一些财宝，但是-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "现在已经挺晚了，你不觉得吗？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "我们总是可以明天继续！",
+		},
+	],
+	"you_win_and_max_mood" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "你找到了一些财宝，但是-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "你已经通关了我所准备的一切！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "|wave|你的效率太高了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "我要让其他的恶魔领主更糟糕才行！",
+		},
+	],
+	
+	
+	
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "今天的游戏已经足够了。",
+		},
+	],
+	"times_up_defect" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "今天的游戏已经足够了。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
+			"dialog"			: "|shake|等一下！",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|我还没有杀完！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "这只是假装的，我的缺陷。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "对不起，我有点上头了。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "我没想到你会这么喜欢我的游戏！",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "我为你准备了一些奖品！",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "选择你的礼物。",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+		"dialog"	: "我把它放这了吗？这是什么？",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "这就是你的选择吗？",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+		"dialog"	: "你想要我留下它们吗？",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "这显然是最佳的选择！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你的奖励会是另一个礼物！",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "你是最理想的礼物接收者！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "我猜我要再给你一个了。",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "礼物真的是一种非常有效的表达爱的方式！",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "并且我研究这个游戏已经有四天没睡觉了。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "你不介意我在你旁边一起睡吧？",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "那些小小角色都是你画的吗？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "不，不是我。是我的朋友，几维！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱几维！|!||L|并且我也爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "谢谢你和我一起玩！",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "你看到我的爪子了，是吧？|L|它们有时就是会这样。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "它们好长！",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "我太兴奋的时候就会这样。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "我就知道我为你选择了正确的角色。",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "或许下一次，你可以加入一位想要与|C3|法师|C0|发展关系的角色。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised_blush"],
+			"dialog"			: "你读了我的心！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "|C3|树妖|C0|是我的另一个角色，她会很感兴趣的。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "但我真的很不擅长演绎这种剧情。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "|wave|大家都不擅长的！",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "她们会歌颂我们正义的远征！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "I'll have to write an epic about our heroes and their battles with the Demonlords.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "It shall be called,    The Beast and the Dryad!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "I can't wait to hear it!",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Thank you for playing with me!",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

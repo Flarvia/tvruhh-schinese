@@ -523,6 +523,14 @@
 		"rule3"		: "[rule_trade2]",
 	},
 	
+	"E_bond_dendrohai" : {
+		"name"		: "荆棘的游戏",
+		"hint"		: "[hint_chance]",
+		"details"	: "树途之亥做了个有趣的冒险小游戏和我一起玩！游戏本身有点暴力，但实际上让我想起自己每天和怪物战斗的过程。仔细想想，她所谓的那些恶魔领主，我看着全都非常熟悉。我在想，在这无尽的大雨开始之前，她究竟还认识多少其他的怪物。",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_lavalin" : {
 		"name"		: "熔岩之林的缺陷",
 		"hint"		: "[hint_chance]",

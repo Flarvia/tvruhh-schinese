@@ -951,6 +951,7 @@
 		"turns_taken"		: "经过的回合",
 		"crit_hits"			: "暴击次数",
 		"total_kills"		: "击败的敌人",
+		"total_bosses"		: "击败的头目",
 		"battles_won"		: "获胜的战斗",
 		"battles_lost"		: "失败的战斗",
 		"complete_pw"		: "完成的密码",

@@ -254,7 +254,7 @@
 			"dialog"			: "我们开始吧！",
 		},
 		{
-			"play_music"		: "kiwi_music",
+			"play_music"		: "dendrohai_music",
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
 			"dialog"			: "故事的一开始发生在一片远古森林中。",
 		},
@@ -774,21 +774,21 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "I'll have to write an epic about our heroes and their battles with the Demonlords.",
+			"dialog"			: "我会撰写一部史诗，赞颂我们的英雄以及她们与恶魔领主的战斗。",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "It shall be called,    The Beast and the Dryad!",
+			"dialog"			: "它将被称作，   野兽与树妖！",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "I can't wait to hear it!",
+			"dialog"			: "我等不及听听看了！",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Thank you for playing with me!",
+			"dialog"			: "谢谢你和我一起玩！",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",

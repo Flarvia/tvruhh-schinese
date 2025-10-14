@@ -1,0 +1,143 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "既然你的快速挑战阶级已经上升，本单元为你准备了更多信息。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "随着阶级的上升，你将能够同时装备更多礼物。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "然而，为了保持挑战性，本单元为你的|C3|爱之力量|C0|设定了推荐的限制。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "为达到这一目的，本单元已安装特别的|C3|爱之力量测量装置|C0|。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar1",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "这个槽会反映你当前的|C3|爱之力量。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar1",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "请注意，即使没有装备任何礼物，你的心也会有一定的基础力量。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar2",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你装备的每个礼物都会提升一定的|C3|爱之力量|C0|。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar3",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "如果你的爱之力量超过了推荐限制，那么|C3|你所提取的魔尘将会减少。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar4",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "分数削减的程度会成比增加，根据你超过限制的爱之力量。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "如果达到一定的削减程度，将有可能无法获得最高等级的徽章。",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "没关系的。要是太简单的话，这些徽章也没什么意思。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar_levels",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "推荐的力量限制只和怪物的等级有关。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar_levels",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "面对更高等级的怪物时，你能够在分数减少前装备更多强大的礼物。",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "每个礼物会增加多少力量？",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "各个礼物的增长量均有不同，礼物之间的协同效果也会有影响。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "如果一个礼物能因为其他礼物的效果发挥更多功效，那么它也会增长更多的力量。",
+		},
+		{
+			"show_tutorial"	: "quickplay_gift_example",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "例如，使用这些礼物，你的心能够更快的发射子弹，而每个子弹会造成更多伤害。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "这些结果会以乘算方式增长，因此两个礼物组合起来时会增加更多力量。",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "总而言之，你的爱之力量会根据所有可能的攻击方式中|C3|每秒的爱|C0|来进行计算。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"		: "我觉得我自己做不来这么多爱的计算。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|很幸运有你在这里帮助我。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你可能也注意到了开始快速挑战时不会有|C3|恐慌攻击。",
+		},
+		{
+			"show_tutorial"	: "quickplay_panic_example",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你可以装备能让你获得|C3|恐慌攻击|C0|的礼物来使用它。",
+		},
+		{
+			"show_tutorial"	: "quickplay_panic_bars",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "然而，每个装备的|C3|恐慌攻击|C0|都会大幅增加你的爱之力量。",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar5",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|建议：|C0|在不超过力量上限的情况下尽可能装备更多礼物。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "我只需要让这个条尽可能接近这条线，不要超过，对吧？",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "如果你不确定想装备什么，推荐使用这种方法。",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"		: "谢谢你，小机器人。",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|我爱你。",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "爱之力量超过推荐值512%。",
+		}
+	]
+}

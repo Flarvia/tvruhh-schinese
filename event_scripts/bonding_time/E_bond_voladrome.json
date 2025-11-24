@@ -1,0 +1,1026 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "扎拉登！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我发现了宝藏！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "这座高塔的宝库中有着许多礼物。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "但是需要|C3|宝库钥匙|C0|才能打开它们！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我们必须去寻找钥匙，是吧？",
+		},
+	],
+	
+	"key_title"			: "宝库钥匙",
+	"vault_gifts"		: "宝库礼物",
+	"mite_gifts"		: "跳虫礼物",
+	
+	"op_move"		: "去其他地方",
+	"op_sleep"		: "小睡一下",
+	
+	"op_rest"			: "休息一下",
+	"op_jumping"		: "砸开一些石头",
+	"op_course"			: "在原野搜寻",
+	"op_dungeon"		: "在地城搜寻",
+	"op_falling"		: "在废料场搜寻",
+	"op_scavenge_yard"	: "在坠落废墟搜寻",
+	"op_scavenge_cave"	: "在黑暗中搜寻",
+	"op_hacking_first"	: "询问高塔",
+	"op_hacking"		: "打开储物柜",
+	"op_ask_veyerals"	: "询问维目尔们",
+	"op_blink"			: "玩维目尔闪烁",
+	"op_peek"			: "玩维目尔窥视",
+	"op_swap"			: "看一看跳虫们",
+	
+	"go_cave"		: "小小洞穴",
+	"go_outside"	: "雨落原野",
+	"go_scrapyard"	: "废料场",
+	"go_umbrella"	: "雨伞之下",
+	"go_deep_cave"	: "幽深洞窟",
+	"go_paint_cave"	: "彩绘洞穴",
+	"go_dungeon"	: "地下城",
+	"go_tower"		: "高塔之中",
+	"go_leaves"		: "跳虫巢穴之中",
+	
+	"main_comment_first"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "我们必须搜寻钥匙。",
+	},
+	"main_comment_key"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "我就知道有钥匙在这里！",
+	},
+	"main_comment_clear"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "这里没有更多钥匙了。",
+	},
+	"main_comment_umbrella_key"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "这里没有钥匙吗？",
+	},
+	"main_comment_umbrella_clear"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "现在，这里一定没有钥匙了。",
+	},
+	"main_comment_veyeral_ask"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "我们可以问一问那边的眼球生物知不知道钥匙的事情。",
+	},
+	"main_comment_veyeral_play"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "我们只能一起玩了。",
+	},
+	"move_comment"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "我们要去哪里？",
+	},
+	
+	
+	
+	"to_first_move" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我能感觉到|C3|宝库钥匙|C0|藏在了哪里。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "就潜伏在我们身边！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|这次搜寻我来负责运送！",
+		},
+	],
+	"to_first_move_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "你想要我们上去吗？",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|这次搜寻我来负责运送！",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "阳光，求你了！我之后不会再要其他东西了！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "小骗子！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "但好吧。",
+		},
+	],
+	"to_new_zone" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "|shake|我感觉到附近有钥匙！",
+			"dialog_rand2"		: "|shake|钥匙在我们眼前可藏不起来！",
+			"dialog_rand3"		: "|shake|前进！为了宝藏！",
+			"dialog_rand4"		: "|shake|我会找到所有的钥匙！",
+		},
+	],
+	"to_new_zone_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|Weeeeeeeeeeeee!",
+			"dialog_rand2"		: "|wave|大虫虫要来了！",
+			"dialog_rand3"		: "|wave|虫虫过山车——！",
+		},
+	],
+	
+	
+	
+	"umbrella_rest_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "我们在这里休息一下如何？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "我们一直在跑来跑去，让我累坏了。",
+		},
+	],
+	"umbrella_rest_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "亲爱的缺陷，我觉得你可能需要休息一下。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "我应该确实有点累了。",
+		},
+	],
+	"umbrella_rest_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "我们在这里休息一下吧。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "但我还想继续骑虫虫。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
+			"dialog"			: "你也应该让她休息一下！",
+		},
+	],
+	"umbrella_rest_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "到底是谁把这么大的雨伞到处放的？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "总之，恶魔可以在这里休息一下，清点她的财宝。",
+		},
+	],
+	"umbrella_key_find" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我们花时间休息一下吧。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|我的宝藏感知失效了？",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "这就有一个没被感知到的钥匙！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|这次休息对我来说太需要了。",
+		},
+	],
+	
+	
+	
+	"comment_general_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "|wave|找到了闪亮亮！",
+	},
+	"comment_general_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "你什么都没找到？",
+	},
+	"game_win_no_key" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"random"			: 4,
+			"dialog_rand1"		: "这不是钥匙。|L|只是这里闪闪发光的垃圾。",
+			"dialog_rand2"		: "这不过是一块没用的纯金。",
+			"dialog_rand3"		: "它闪亮亮的，但不是宝藏。",
+			"dialog_rand4"		: "你只找到了闪亮的垃圾。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "我们会再试一次，是吧？",
+			"dialog_rand2"		: "钥匙一定离我们很近了。",
+			"dialog_rand3"		: "但我知道有钥匙在这里。",
+		},
+	],
+	"game_win_key" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "你找到了一把钥匙！",
+			"dialog_rand2"		: "我们又多了一件宝藏！",
+			"dialog_rand3"		: "很快另一个宝库将被打开。",
+			"dialog_rand4"		: "我很期待开启宝藏的那一刻！",
+		},
+	],
+	"game_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "钥匙可藏不了多久！",
+			"dialog_rand2"		: "我们下次会找到它的！",
+			"dialog_rand3"		: "钥匙们藏得太好了！",
+			"dialog_rand4"		: "我们必须再次尝试！",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "其中一块石头里藏着|C3|宝库钥匙|C0|。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你可以跳到石头上面打碎它！",
+		},
+	],
+	"to_mg_jumping_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "我要砸开那边的石头！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你早就知道里面藏了钥匙？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "啊... 我当然知道。",
+		},
+	],
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|来破坏石头吧！",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "你的膝盖越弯曲，跳得就越远。",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "再试一试！",
+	},
+	
+	
+	
+	"to_mg_course_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我在草丛里发现了闪亮亮。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你只需要在路上避开荆棘和刺。",
+		},
+	],
+	"to_mg_course" 			: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我在草丛里发现了另一个闪亮亮。",
+		},
+	],
+	"to_mg_dungeon" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我在这座地下城的最深处感应到了闪亮亮。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|一定就是钥匙！",
+		},
+	],
+	"to_mg_dungeon_devil" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "你有没有想过这地方为什么建在这？",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|为了把钥匙藏起来！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "你一定是对的。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "我必须勇闯这座地下城，找到钥匙！",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "寻宝时间到了！",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "|shake|哎呦！",
+	},
+	"comment_course_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "有一个闪亮亮！",
+	},
+	"comment_course_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "闪亮亮是骗局吗？",
+	},
+	
+	
+	
+	"to_mg_falling" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我们会搜寻废料堆，是吧？",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "等下！",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "废料在往下掉！",
+		},
+	],
+	"comment_falling_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "|shake|小心！",
+	},
+	"comment_falling_hit"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "都怪我。",
+	},
+	"comment_failing_win"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "|wave|你没事！",
+	},
+	"falling_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你简直是躲避大师！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "你甚至抓住了掉下来的钥匙！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我们能够打开更多宝藏了。",
+		},
+	],
+	"falling_win_no_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "太好了，你没事！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我看到钥匙掉下来了。|L|就在那里。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "我找到它了！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我们会有更多宝藏，是吧？",
+		},
+	],
+	"falling_lose_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|哎呦！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "不用担心我。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|我经历过更糟糕的事情。",
+		},
+	],
+	"falling_lose_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|啊啊啊！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|你受伤了吗？",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "实际上，没有，但我原本以为会很痛的。",
+		},
+	],
+	"falling_lose_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|我要死了！",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "我才是那个被打中的人。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "但是，我能感觉到你的痛苦。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "那你应该知道其实一点也不痛。",
+		},
+	],
+	"falling_lose_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "恶魔不会被掉落的残骸伤到！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "实际上，其实一点也不痛。",
+		},
+	],
+	"falling_lose_response" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "我应该多帮你挡一点的。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|并且我们没拿到钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "我们应该去找它吗？",
+		},
+	],
+	"to_mg_scavenge_yard" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我看到它掉在那里了。",
+		},
+	],
+	
+	
+	
+	"to_mg_scavenge_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "这里非常黑，但一定有钥匙！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我们就在暗中摸索直到找到钥匙。",
+		},
+	],
+	"to_mg_scavenge_first_defect" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "这里非常黑，我看不见。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "没关系，因为我能够在黑暗中看清。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "不过这地方乱成一团。|L|需要翻找许多垃圾。",
+		},
+	],
+	"to_mg_scavenge" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我不需要视觉也能搜寻钥匙。",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "使用你的感知受体寻找。",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "不是那个！",
+	},
+	
+	
+	
+	"ask_veyerals" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "眼球生物，你有没有见过藏在这里的|C3|宝库钥匙？|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "当然。|L||wave|我们知道它在哪。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但是你要先和我们玩。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|如果必须要这样的话！",
+		},
+	],
+	"start_vg_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "洞壁上描绘的色彩让我们备受启发。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我们也会改变自己眼睛的颜色。",
+		},
+	],
+	"start_vg_first_defect" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "来加入我们，小蓝。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我永远无法拒绝维目尔游戏。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_angry"],
+			"dialog"			: "我不会对你手下留情的，我的缺陷。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
+			"dialog"			: "这我可不在乎。",
+		},
+	],
+	"to_vg_normal" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "数一数你看到了多少带有[VAL1]的我们。",
+		},
+	],
+	"to_vg_special" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "试着记忆所有眼睛的颜色。|L|我们可能会问任何一个颜色。",
+		},
+	],
+	"comment_vg_type_count"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你看到了多少带有[VAL1]的维目尔？",
+	},
+	"comment_vg_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|耶！",
+	},
+	"comment_vg_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+		"dialog"	: "差一点。",
+	},
+	"vg_win_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你答对了！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但是你至少需要再赢下一局游戏才能拿到钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|再一次被眼球愚弄了！",
+		},
+	],
+	"vg_win_key" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "好吧！你已经和我们玩了足够久了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "这就是你想要的那钥匙玩意。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我们终于赢得了这把钥匙。",
+		},
+	],
+	"vg_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "抱歉，你答错了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "继续尝试，我们会给你钥匙的。",
+		},
+	],
+	
+	
+	
+	"start_mite_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|这只跳虫有闪亮亮！",
+		},
+	],
+	"start_mite_game" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|发现了另一个闪亮亮！",
+		},
+	],
+	"to_mite_game" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "在那个有[VAL1]的跳虫身上！",
+		},
+	],
+	"comment_mite_swap_choose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "那个[VAL1]的跳虫藏在哪里了？",
+	},
+	"comment_mite_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "就是这只跳虫！",
+	},
+	"comment_mite_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "不是这个。",
+	},
+	"mite_win_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "这不是钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "但她为你准备了一个礼物。",
+		},
+	],
+	"comment_mite_reward_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "她想让你收下一个。",
+	},
+	"mite_reward_confirm"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "你想要这个，是吧？",
+	},
+	"mite_reward_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "钥匙一定在另一只跳虫身上。",
+		},
+	],
+	"mite_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "小跳虫，我们在找钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "我们可以拿走它，是吧？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我们获得了钥匙！",
+		},
+	],
+	"mite_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "这只跳虫没有钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "我知道它们其中有一只会有的！",
+		},
+	],
+	
+	
+	
+	"hacking_score_title"		: "分数[VAL1]",
+	"hacking_goal_title"		: "目标[VAL1]",
+	"hacking_fail_title"		: "拒绝访问",
+	
+	"to_hacking_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "这座高塔可以交流。|L|我问她许多问题。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "高塔，这里的|C3|宝库钥匙|C0|在哪里？",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "最新的一把|C3|高塔钥匙|C0|被放入了|C3|储物柜|lu|-[VAL2]。|C0|",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "如先前指示，至少需要|C3|[VAL1]|C0|分数以打开这个储物柜。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "我一直都不知道这个要怎么做。",
+		},
+	],
+	"to_hacking" 	: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|储物柜|lu|-[VAL2]|C0|现在需要|C3|[VAL1]|C0|分数才能打开。",
+		},
+	],
+	"comment_hacking_correct"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "试着按按钮。",
+	},
+	"comment_hacking_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "发生了糟糕的事情吗？",
+	},
+	"hacking_response_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "这到底是谁设计出的？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "恶魔尊重这个地方的折磨设计。",
+		},
+	],
+	"hacking_win_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|是空的！？",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "高塔对我说谎了？",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "对不起。似乎|C3|宝库钥匙|C0|在未经告知的情况下被转运至了|C3|储物柜|lu|-[VAL2]|C0|。",
+		},
+	],
+	"hacking_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|钥匙在这里！",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "希望您认为这个结果令人满意。",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "我们期待您的下一次拜访。",
+		},
+	],
+	"hacking_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|让我访问！",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "很抱歉给您带来不便，但您可以再试一次。",
+		},
+	],
+	
+	
+	
+	"times_up_no_keys" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "我们没有钥匙。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "但我还是喜欢运送的过程。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|下一次我们会更努力地搜寻！=",
+		},
+	],
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "等一下！没时间继续搜寻了。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我们必须回宝库了，快点！",
+		},
+	],
+	"to_first_vault" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "宝藏时间到了！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|打开吧！",
+		},
+	],
+	"comment_vault_gift_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "你想要哪一个？",
+	},
+	"vault_gift_confirm"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "你想要这个，是吧？",
+	},
+	"to_another_vault" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "对你非常好的选择。",
+			"dialog_rand2"		: "非常闪亮亮，对吧？",
+			"dialog_rand3"		: "我喜欢这个礼物。",
+			"dialog_rand4"		: "你收下这个礼物。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "现在去下一个宝库！",
+			"dialog_rand2"		: "我们现在要打开另一个宝库！",
+			"dialog_rand3"		: "更多宝藏的时间到了！",
+			"dialog_rand4"		: "打开下一个宝库！",
+		},
+	],
+	"to_final_vault" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "只剩下一把钥匙了。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|最后的宝库！",
+		},
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|搜寻宝藏大成功！",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我会守护你的。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我非常擅长守护。",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "宝藏最棒的部分就是，我能够和新朋友分享它。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "你也是宝藏。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你分享的太多了！|L|为自己留一点！",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
+			"dialog"			: "这还不到我力量的1%。",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "眼球想要宝藏吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我已经拥有了最完美的宝藏。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|我的缺陷。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "小蓝，    |shake|别这样！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "并且当然，还有我自己。",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "再来一次。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "你说的   \"一次\"   永远不止一次！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "再来一次，对吧？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "你看，又来了。",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "恶魔认为你足以担当乐队的巡演载具之一！",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "高速移动。|L|免疫极端高温。|L|转弯半径小。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "你足以搬运那些昂贵又脆弱的乐器吗？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我非常擅长运送。",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我非常喜欢今天的宝藏搜寻。",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

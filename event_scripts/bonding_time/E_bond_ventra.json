@@ -1,0 +1,968 @@
+{
+	"intro" : [
+		{
+			"play_music"		: "silence",
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|需要您的协助。",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|请重新调整未对准的能量组件，以恢复本单元语音模块的电力。",
+		},
+	],
+	
+	"first_charge_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "我会尽力的，但我不知道我在做什么。",
+		},
+	],
+	"first_charge_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "我不知道我能不能做到。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我的完美形态没有手指，因此只能你来了，我的缺陷。",
+		},
+	],
+	"first_charge_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "她想要你把你的手放在那里。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|你为什么一直这个样子？",
+		},
+	],
+	"first_charge_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "恶魔非常擅长科技，并且众人皆知她完全不会碰一下机器就让它坏掉。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "我希望我们都能撑过去。",
+		},
+	],
+	"comment_no_power"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"power_restored" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|电力已恢复|L|脸部移动激活|L|语音模块激活",
+		},
+		{
+			"play_music"		: "tutorbot_scene_music",
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "你好？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我的脸在动！|L|我又能说话了！|L||wave|太感谢你了！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "你能再帮我一下子吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我需要很多|C3|组件，|C0|但你也能看到-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "我现在的状况不太能自己去找。",
+		},
+	],
+	
+	"item_title"		: "组件",
+	
+	"op_first"		: "恢复她的供能",
+	"op_recharge"	: "为她重新充能",
+	"op_ask_where"	: "我要去哪里找？",
+	"op_scan_wide"	: "广域扫描",
+	"op_scan_rare"	: "精确扫描",
+	"op_move"		: "去其它地方",
+	"op_scavenge"	: "盲目搜索",
+	"op_course"		: "收集组件",
+	"op_jumping"	: "破坏岩石",
+	"op_picking"	: "掉落的组件",
+	"op_swap"		: "跟随一只跳虫",
+	"op_sleep"		: "小睡一下",
+	
+	"item_t0"		: "|I3||C16|简单组件|C0|",
+	"item_t1"		: "|I4||C17|美好组件|C0|",
+	"item_t2"		: "|I5||C18|奇妙组件|C0|",
+	
+	"main_comment_ask"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "你会帮助我吗？",
+	},
+	"main_comment_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "搜寻继续。",
+	},
+	"main_comment_wide_scan"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "此类扫描能够找到|C3|许多低质量的组件。",
+	},
+	"main_comment_rare_scan"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "此类扫描能够找到|C3|更少，但是质量更高的组件。",
+	},
+	"main_comment_recharge"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "我总是用得上更多能量。",
+	},
+	
+	"ask_where" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "我可以扫描这片区域寻找组件，但会用掉一些我的能量。",
+		},
+	],
+	"scan_done" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "我找到了一些组件！",
+			"dialog_rand2"		: "扫面完成！",
+		},
+	],
+	"scan_done_many" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "我在搜寻的方向发现了许多组件。",
+			"dialog_rand2"		: "这附近有一大堆小组件。",
+		},
+	],
+	"scan_done_rare" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "我发现了一个稀有组件！",
+			"dialog_rand2"		: "这附近有一个稀有组件。",
+		},
+	],
+	"scan_free_item" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "哦，等等-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "你身后还有一个[VAL1]！",
+		},
+	],
+	
+	
+	
+	"to_recharge_2nd" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "这些电池附近有许多裸露的电线。",
+		},
+	],
+	"to_recharge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"random"			: 3,
+			"dialog_rand1"		: "请一定要小心。",
+			"dialog_rand2"		: "请轻一点。",
+			"dialog_rand3"		: "我相信你。",
+		},
+	],
+	"comment_charge_start"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "",
+	},
+	"comment_charge_crit"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "太棒了！",
+	},
+	"comment_charge_good"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "好！",
+	},
+	"comment_charge_bad"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "错过了！",
+	},
+	"comment_charge_perfect"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "|wave|全连击！",
+	},
+	"comment_charge_win"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "分数好高！",
+	},
+	"comment_charge_lose"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "足够好了...",
+	},
+	"comment_charge_hurt"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|哎呦！",
+	},
+	"recharge_perfect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "你达成了完美分数！",
+		},
+	],
+	"recharge_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "我的能量再次流动感觉太好了。",
+			"dialog_rand2"		: "我的能量很久没有这么充盈了。",
+			"dialog_rand3"		: "你不会明白这对扎拉机械来说感觉多好。",
+		},
+	],
+	"recharge_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"random"			: 2,
+			"dialog_rand1"		: "感觉仍然很棒。",
+			"dialog_rand2"		: "练习之后你会更好的。",
+		},
+	],
+	"ventra_damaged_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_despair"],
+			"dialog"			: "我很抱歉！",
+		},
+	],
+	"ventra_damaged_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "我不想-",
+		},
+	],
+	"ventra_damaged_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_despair"],
+			"dialog"			: "我搞砸了！",
+		},
+	],
+	"ventra_damaged_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_despair"],
+			"dialog"			: "我是不是彻底把你搞坏了？",
+		},
+	],
+	"ventra_damaged" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"random"			: 4,
+			"dialog_rand1"		: "没事的。你看看我就知道了。",
+			"dialog_rand2"		: "别担心。我能撑过一切。",
+			"dialog_rand3"		: "和我经历的最糟糕的情况相比这根本不算什么。",
+			"dialog_rand4"		: "那不是你的错。我已经在分崩离析了。",
+		},
+	],
+	
+	
+	
+	"to_scrapyard" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "我敢说废料堆里一定有一大堆组件。",
+		},
+	],
+	"to_tower" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "我们可以去高塔里面寻找组件。",
+		},
+	],
+	"to_new_zone" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "但有个小问题...",
+		},
+	],
+	"to_dodge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "你可以带我到那里吗？",
+		},
+	],
+	"to_dodge_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "当然了。",
+		},
+	],
+	"to_dodge_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "大概吧。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "另一位乘客登上了我完美的载具。",
+		},
+	],
+	"to_dodge_twins" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "一定要你来。你的手放入过她的电路系统。",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "但一直都是我来。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|你们之间的信任形成了坚不可破的羁绊。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "你们在那边说什么呢？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|什么都没有！|L|我会带你走的。",
+		},
+	],
+	"to_dodge_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "我过去会带着一大堆乐器，并且我几乎从来不会让它们全掉下来。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "你没什么需要担心的。",
+		},
+	],
+	"comment_dodge_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "记得在路上捡起你看到的任何组件。",
+	},
+	"comment_dodge_clear"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "我们做到了。",
+	},
+	"comment_dodge_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|我没事。",
+	},
+	"dodge_perfect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "完美通关！|L|谢谢你把我带上。",
+		},
+	],
+	"dodge_win" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "无伤！|L|谢谢你把我带上。",
+		},
+	],
+	"dodge_win_hit" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "别担心那个小擦伤。应该之前就有的。",
+		},
+	],
+	"dodge_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "我只是失去了一些能量。|!||L|其他地方没有受到损伤。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "最重要的事情是我们到达了。",
+		},
+	],
+	"arrived_at_zone" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "既然我们已经到这了，我应该扫描一下组件。",
+		},
+	],
+	"arrived_cost_reduced" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "它们应该在附近，我需要更少能量就能找到它们。",
+		},
+	],
+	"arrived_low_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "但是我的能量非常低，所以如果你不介意的话...",
+		},
+	],
+	
+	
+	
+	"to_mg_scavenge_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我明白你不想让我用掉所有能量，但我觉得你自己找应该找不到多少。",
+		},
+	],
+	"to_mg_scavenge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "希望你能找到点什么。",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "这里有可能有东西。",
+	},
+	"comment_scavenge_find"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "好棒！",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "连击断了！",
+	},
+	"scavenge_good_find" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "太棒了！你居然找到了点好东西。",
+		},
+	],
+	"scavenge_bad_find" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "运气不好，嗯？",
+		},
+	],
+	
+	
+
+	"to_mg_course" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "你继续往那边走就能找到它们了。",
+			"dialog_rand2"		: "继续往前走，你就能看到它们。",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "继续往前走就好。",
+	},
+	"comment_course_find"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "得分！",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "连击断了！",
+	},
+	"comment_course_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "这足够远了。",
+	},
+	"course_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "现在看看你的脚下。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "这里还有一个[VAL1]！",
+		},
+	],
+	"course_dnf" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "等你回来，我可以扫描更多组件。",
+		},
+	],
+	"found_none" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "你什么都没找到？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "我的扫描真的这么糟糕吗？",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "扫描显示这些石头里有组件。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "你跳在它们上面是不是可以把它们打碎？",
+		},
+	],
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "这些石头里有更多组件。",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "弯曲你的膝盖可以跳得更远。",
+	},
+	"comment_jumping_item"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "再多一个！",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "未命中！",
+	},
+	"jumping_win_high" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "这些可都是高质量的组件！",
+		},
+	],
+	"jumping_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "扫描说这些应该会是更高质量的组件，但好吧。",
+		},
+	],
+	
+	
+	
+	"to_mg_picking_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "组件在废料堆的顶端。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "不要让废料砸到你。",
+		},
+	],
+	"to_mg_picking" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "小心下落的废料。",
+		},
+	],
+	"comment_picking_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+		"dialog"	: "要小心！",
+	},
+	"comment_picking_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|负一分！",
+	},
+	"picking_perfect" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|全连击！|norm||L|你全都接到了！",
+		},
+	],
+	"picking_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "|wave|很棒的分数！|norm||L|你拿到了好多。",
+		},
+	],
+	"picking_miss" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "错过了几个，但也没关系。",
+		},
+	],
+	"picking_none" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "你错过了所有组件。",
+		},
+	],
+	"picking_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "你没事吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "我希望能帮到你更多。",
+		},
+	],
+	
+	
+	
+	"start_mg_swap_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "那些跳虫有一个稀有组件！",
+		},
+	],
+	"start_mg_swap" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "跟着那些跳虫！",
+		},
+	],
+	"to_mg_swap" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "现在是有[VAL1]的跳虫带着组件！",
+		},
+	],
+	"comment_swap_choose"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "哪一个有组件！",
+	},
+	"comment_swap_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "就是那个！",
+	},
+	"comment_swap_lose"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "连击断了...",
+	},
+	"swap_lose" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "好吧，至少她身上有个[VAL1]。",
+		},
+	],
+	"to_mg_stash" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "等一下！继续跟着她。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "她要为你展示她的收藏。",
+		},
+	],
+	"comment_stash_correct"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "你想让我们收下这些？",
+	},
+	"comment_stash_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "|shake|要小心处理这些。",
+	},
+	"comment_stash_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "谢谢你，小跳虫。",
+	},
+	"stash_done" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "跳虫总会用它们那些傻乎乎的方式来帮忙。",
+		},
+	],
+	
+	
+	
+	"return_home" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我觉得我们已经搜索得足够久了。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "你可以把我送回去吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我有一个惊喜要给你。",
+		},
+	],
+	"already_home" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我觉得我们已经搜索得足够久了，并且我有一个惊喜要给你。",
+		},
+	],
+	"craft_time" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "你可能以为我在尝试修复我自己，是吧？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "那会需要比这    多得多的组件。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "相对的，我会用这台芯片制造机器为你的心做一些升级！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "拿上这根线，把我插入这里的接口。",
+		},
+	],
+	"comment_craft_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "现在把所有的组件放到桌子上，剩下的就交给我吧。",
+	},
+	"comment_craft_done"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "所有的芯片都准备好了。",
+	},
+	"comment_craft_none"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "我们什么都没找到，但我还是可以制作一些默认芯片。",
+	},
+	"to_mg_crafting" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "最后一步就是去激活它们。",
+		},
+	],
+	"to_mg_crafting_low_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "我的能量很低，因此这些芯片不一定能处于最佳品质。",
+		},
+	],
+	"to_mg_crafting_med_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "看起来我的能量刚刚好够制作。",
+		},
+	],
+	"to_mg_crafting_high_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "谢谢你，我的能量完全足够制作！",
+		},
+	],
+	
+	"craft_complete"	: "制作完成！",
+	"comment_crafting"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "|C3|制作中...",
+	},
+	"crafting_done" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "完成了！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我们把它们装入你的心吧。",
+		},
+	],
+
+	
+	"empty_chip"			: "空插槽",
+	"basic_chip"			: "默认芯片",
+	"chip_name_structure"	: "[ADJ1][ADJ2][NOUN][CHIP]",
+	
+	"bdn_void_hp"		: "破碎",
+	"bdn_zap_hp"		: "过载",
+	"bdn_bleed_heart"	: "损害",
+	"bdn_stress_heart"	: "缺陷",
+	"bdn_trauma_heart"	: "低效",
+	
+	"adj_radiant_res"	: "闪亮",
+	"adj_void_res"		: "空无",
+	"adj_burn_res"		: "绝缘",
+	"adj_zap_res"		: "弹力",
+	"adj_toxic_res"		: "抵抗",
+	"adj_hp"			: "补充",
+	"adj_max_hp"		: "额外",
+	"adj_max_en"		: "能量",
+	"adj_karma"			: "因果",
+	"adj_reserve_hp"	: "辅助",
+	"adj_glass_heart"	: "玻璃",
+	"adj_chrome_heart"	: "铬",
+	"adj_damage"		: "动能",
+	"adj_crit_rate"		: "暴击",
+	"adj_panic"			: "超级",
+	"adj_manic_panic"	: "终极",
+	"adj_panic_polyp"	: "模糊",
+	"adj_revive"		: "全新",
+	"adj_denial"		: "守御",
+	"adj_mite"			: "故障",
+	"adj_magnet"		: "磁力",
+	
+	"noun_default"		: "后备",
+	"noun_damage"		: "力量",
+	"noun_crit_rate"	: "动力",
+	"noun_panic"		: "恐惧",
+	"noun_manic_panic"	: "高涨",
+	"noun_panic_polyp"	: "恐瘤",
+	"noun_revive"		: "保险",
+	"noun_denial"		: "屏障",
+	"noun_mite"			: "生物",
+	"noun_magnet"		: "磁铁",
+	
+	"chip_1"			: "电路",
+	"chip_2"			: "芯片",
+	"chip_3"			: "半导体",
+	
+	"leave_now"		: "现在离开",
+	"comment_chip_choosing"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "你想要哪一个？",
+	},
+	"bad_chip_blank" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "你没事吗？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|我没事！",
+		},
+	],
+	"bad_chip_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|会疼是正常的吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "呃...",
+		},
+	],
+	"bad_chip_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|好吧，那有点痛。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "爱就是很痛，阳光。",
+		},
+	],
+	"bad_chip_devil" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "很痛吗？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|这只会让我更强大！",
+		},
+	],
+	"bad_chip" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "对不起...",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "你可能需要|C3|检视你的心|C0|以确保你理解额外效果。",
+		},
+	],
+	"three_chips_taken" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "实际上，你一天之内不应该安装超过三个这种东西。",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "你没事吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "来躺在我身边。",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "我能看出来你在担心我，但我保证我很快就会开始我的修复。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "好吧。你最好这样。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "我爱你。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我的心之硬盘已经装满了。",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我试着为你们虚空眷族制作了一点，但我的所有计算都表明添加任何东西都会是降级。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "你可没法把那东西加到完美的身上。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "有许多\"除以无穷大\"的错误。",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "我的姐姐是不是非常擅长排列能量电池？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "|wave|当然！|norm||!||L|她非常轻柔。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "你没事吗？|L|为什么你的脸热起来了？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "|shake|我不知道。",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "你能用它升级我的吉他吗？并且你能不能为我造一把吉他？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "看情况。|L|吉他是什么？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "你不知道吉他是什么？|L||!|我要从哪里开始讲起？",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "传说始于一个远在金属出现之前的时代-",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "希望这些升级能帮到你。",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

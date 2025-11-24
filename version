@@ -1,6 +1,6 @@
 [version]
 name="简体中文"
-version="Early Access v8.26a"
+version="Early Access v8.28"
 message="这是简体中文的测试版"
 [font_data]
 main_font="XiaolaiSC-Regular.ttf"

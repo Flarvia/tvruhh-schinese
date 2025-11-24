@@ -523,6 +523,18 @@
 		"rule3"		: "[rule_trade2]",
 	},
 	
+	
+	
+	
+	
+	"E_bond_voladrome" : {
+		"name"		: "熔岩症候群的宝库探索",
+		"hint"		: "[hint_chance]",
+		"details"	: "我发现很多守护者似乎都很喜欢寻宝。今天熔岩症候群想让我和她一起去寻宝。她在一座塔的底部发现了一些奇怪的宝库，但我们需要钥匙才能打开它们。钥匙散落在整个森林里，但不知为何，她却完全知道它们藏在哪里。",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_dendrohai" : {
 		"name"		: "荆棘的游戏",
 		"hint"		: "[hint_chance]",
@@ -543,6 +555,14 @@
 		"name"		: "雪中漫步",
 		"hint"		: "[hint_chance]",
 		"details"	: "当我看到雪奥诺托在外面散步的时候，她总会邀请我加入她。 |C3|我们走的越远，她看起来就越开心。|C0||L||L|她总是会担心路上她创造出来的那些冰块。如果她的|C3|温度变得太低，她有可能会恐慌|C0|并失去对自己力量的控制！到那时我能做的，只有用一个拥抱来温暖她。",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
+	"E_bond_ventra" : {
+		"name"		: "我能修好她",
+		"hint"		: "[hint_chance]",
+		"details"	: "雯特拉并不是每天都会有反应，但有时她会让我帮她重新启动身体。之后，我会把她背在背上，一起寻找她所需的部件，用来为我的心脏打造升级！每个升级芯片她都需要|C3|5个部件|C0|。|L||L|我原以为她会用这些东西来修复自己，但她需要更多时间。以现在的情况来看，她根本无法取得任何进展...",
 		"rule1"		: "[rule_bonding1]",
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",

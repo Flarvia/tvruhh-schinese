@@ -118,6 +118,10 @@
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
 		"dialog"	: "|shake|我可以收下它吗，拜托了？！",
 	},
+	"comment_give_TAG_glacia_part"	: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
+		"dialog"	: "她不可能会想要这个的。",
+	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
 		"dialog"	: "在我能够把这礼物给她之前，它大概早就消失了，真让人伤心。",
@@ -133,10 +137,6 @@
 	"comment_give_taken"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
 		"dialog"	: "我觉得我不再需要它了。",
-	},
-	"comment_give_petal"	: {
-		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
-		"dialog"	: "她不可能会想要这个的。",
 	},
 	"comment_give_starter"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],

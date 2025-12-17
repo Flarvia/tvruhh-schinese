@@ -1,0 +1,401 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "欢迎来到我的城堡！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "现在有一点乱，我还在收拾。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我想按一个主题来装饰这个地方。|!| 或许你能够帮助我？",
+		},
+	],
+	"request_single_theme" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你有任何想要交易的|C3|[VAL1]礼物|C0|吗？",
+		},
+	],
+	"request_double_theme" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我会和你交换任何你不需要的|C3|[VAL1]礼物|C0|。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我觉得|C3|[VAL2]礼物|C0|也和我的风格挺搭的。",
+		},
+	],
+	"reject_none" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我还会收下其他你想要交易的礼物。",
+		},
+	],
+	"reject_one" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我还会收下其他礼物，但我觉得|C4|[VAL3]礼物|C0|和我的设想不一致，因此我不想要那些礼物。",
+		},
+	],
+	
+	"theme_RADIANT"	: "光耀",
+	"theme_VOID"	: "虚空",
+	"theme_BURN"	: "燃烧",
+	"theme_ZAP"		: "电击",
+	"theme_TOXIC"	: "毒素",
+	"theme_food"	: "食物",
+	"theme_art"		: "艺术",
+	"theme_space"	: "宇宙",
+	"theme_broken"	: "破损",
+	"theme_danger"	: "危害",
+	"theme_scent"	: "芳香",
+	"theme_mech"	: "机械",
+	
+	"mood_title"	: "暴雪的心情",
+	"monster_gifts"	: "暴雪的礼物",
+	"burden_title"	: "暴雪的负担",
+	"player_gifts"	: "[NAME]的现有礼物",
+	"player_quicks"	: "[NAME]的快速礼物",
+
+	"op_trade"			: "暴雪的礼物",
+	"op_give_active"	: "给予现有礼物",
+	"op_burden"			: "收下一个负担",
+	"op_leave"			: "离开",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "你可以收下任何一个。",
+	},
+	"comment_want1"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我想要|C3|[VAL1]礼物，|C0|但我也会接受其他礼物。",
+	},
+	"comment_want2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我会接受所有礼物，但我真的很想要|C3|[VAL1]礼物|C0|或者|C3|[VAL2]礼物。|C0|",
+	},
+	"comment_reject1"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我想要|C3|[VAL1]礼物，|C0|但我也会接受其他不是|C4|[VAL3]礼物|C0|的东西。",
+	},
+	"comment_reject2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我想要|C3|[VAL1]礼物|C0|或者|C3|[VAL2]礼物，但我也会接受其他不是|C4|[VAL3]礼物|C0|的东西。",
+	},
+	"comment_burden"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "你在看什么？",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你想要离开时和我说一声。",
+	},
+	
+	"comment_closed"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "我已经把所有我能给的都给了你。",
+	},
+	"comment_give_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "你今天已经给了我够多了。|L|我现在要研究如何摆放它们。",
+	},
+	"comment_burden_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "我真高兴你能在这里。",
+	},
+	"comment_blue_special"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+		"dialog"	: "我亲爱的缺陷，在我们离开之前，我必须坚持一定要以某种方式帮助她。",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "你要走了吗？",
+	},
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我觉得你会喜欢这个的。",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "上面覆盖了霜，我看不出这是什么。真是抱歉。",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "实际上，我暂时还想留着它。",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "你没空间存放它了。",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你真的想要这个吗？",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "为你的心准备的美妙装饰。",
+			"dialog_rand2"		: "你应该把它放进你的城堡里。",
+			"dialog_rand3"		: "你的品味不错。",
+			"dialog_rand4"		: "我知道你会为它找到完美的存放地点。",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你不想要的话我可以收下它。",
+	},
+	"comment_give_special"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "这绝对搭配得上我城堡的主题。",
+	},
+	"comment_give_dislike"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "这和我想象中的主题不搭。",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+		"dialog"	: "在我找地方放它之前，它就会消失了。",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "这让我来了灵感。",
+	},
+	"comment_give_TAG_blizzard_part"	: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
+		"dialog"	: "|shake|我能带走它吗，求你了？！",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "...对不起我刚刚在想事情。",
+	},
+	"comment_give_taken"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+		"dialog"	: "我刚把那个给你。",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "它定义了你的风格，我无法收下它。",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "我能收下吗？",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "我应该能找地方放它。",
+			"dialog_rand2"		: "我能让它搭配我的主题。",
+			"dialog_rand3"		: "这总会让我想起你。",
+			"dialog_rand4"		: "我会找到地方放它的。",
+		}
+	],
+	"special_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "这能完美搭配我的主题！",
+			"dialog_rand2"		: "这正好是我想要的！",
+			"dialog_rand3"		: "我正在找这样的东西！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "我知道放它的最佳地点。",
+			"dialog_rand2"		: "我知道它应该放在哪里。",
+			"dialog_rand3"		: "这能够让我的装饰化为一体。",
+			"dialog_rand4"		: "我想象中的场景正在实现。",
+		}
+	],
+	"blessing_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我不知道发生了什么，但我突然觉得灵感迸发。",
+		}
+	],
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "你为什么那样看着我？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我的眼睛里有东西吗？",
+		},
+	],
+	"comment_burden_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"take_burden_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "..?",
+	},
+	"burden_taken" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你刚刚对我做了什么？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我突然感觉好多了！",
+		},
+	],
+	"veyeral_taken" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我刚刚意识到我突然开始担心起姐妹们了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我没有很在乎她们，我觉得她们也没很在乎我。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我们只关心自己和自己的孤独。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "但现在我只想大家开心在一起。",
+		},
+	],
+	"BDN_blizz_veyeral_taken" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我的姐妹们和我总是觉得很孤独。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "好吧，我过去是觉得很孤独。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我希望过这能成为我们共同的家。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "或者至少那些想在这里的人。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "无论发生什么，这里总会欢迎她们。",
+		},
+	],
+	"BDN_the_void_taken" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我在想母亲对我们有什么感觉？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你也能帮助她，是吧？",
+		},
+	],
+
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "无论你决定如何装饰这个地方，它都会很美丽。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "我知道，因为我在你的梦境里看到过。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我的城堡永远欢迎你！",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "这个城堡在绝对完美的路上。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但它永远不会像你的城堡那样完美。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "你有一座城堡？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|你就是我的城堡，我的缺陷。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "小蓝，那究竟是什么意思？",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad2"],
+			"dialog"			: "你真的就打算这么离开，不给她一个拥抱？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "哦，我大概-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "她好冷。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "我懂了，小绿！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你好温暖。",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "并且这一边挂上一些铁链看起来也很正义。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "哦！你还可以在那里放一个吉他架！",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "我觉得那些在你的城堡里会更好。",
+		},
+	],
+	"leave_default" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我的城堡永远欢迎你！",
+		},
+	],
+}

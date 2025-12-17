@@ -28,6 +28,7 @@
 	"mite_no_ant"	: "|C3|无触角特征|C0|",
 
 	
+	"password_title"	: "密码[VAL1]",
 	
 	"pet_name_structure"	: "[PREFIX][MOD][PET][SUFFIX]",
 

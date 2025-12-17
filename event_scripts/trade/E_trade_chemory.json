@@ -243,6 +243,16 @@
 			"dialog_rand3"		: "|wave|化学物间的小小浪漫。",
 		}
 	],
+	"burden_given" 		: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+			"dialog"			: "我们是怎么落到这种境地的？",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"dialog"			: "|wave|我会把这种糟糕的感觉变成更好的东西。",
+		}
+	],
 	"TAG_scent_given" 		: [
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],

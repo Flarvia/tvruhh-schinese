@@ -83,6 +83,7 @@
 	
 	"op_first"		: "恢复她的供能",
 	"op_recharge"	: "为她重新充能",
+	"op_free_charge": "快速充能",
 	"op_ask_where"	: "我要去哪里找？",
 	"op_scan_wide"	: "广域扫描",
 	"op_scan_rare"	: "精确扫描",
@@ -91,6 +92,8 @@
 	"op_course"		: "收集组件",
 	"op_jumping"	: "破坏岩石",
 	"op_picking"	: "掉落的组件",
+	"op_matching"	: "骇入储藏柜",
+	"op_passwords"	: "破解密码",
 	"op_swap"		: "跟随一只跳虫",
 	"op_sleep"		: "小睡一下",
 	
@@ -113,6 +116,14 @@
 	"main_comment_rare_scan"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
 		"dialog"	: "此类扫描能够找到|C3|更少，但是质量更高的组件。",
+	},
+	"main_comment_matching"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "这些储物柜里有|C3|许多低质量的组件。",
+	},
+	"main_comment_passwords"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "这些储物柜里有|C3|更少，但是质量更高的组件。",
 	},
 	"main_comment_recharge"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
@@ -272,6 +283,31 @@
 	
 	
 	
+	"free_charge_a_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "让我试一下这个。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+	],
+	"free_charge_b_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "这怎么会有用的？",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "我不知道我在做什么。",
+		},
+	],
+
+
+
 	"to_scrapyard" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
@@ -384,7 +420,7 @@
 			"dialog"			: "最重要的事情是我们到达了。",
 		},
 	],
-	"arrived_at_zone" 	: [
+	"arrived_at_scrapyard" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"dialog"			: "既然我们已经到这了，我应该扫描一下组件。",
@@ -394,6 +430,16 @@
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
 			"dialog"			: "它们应该在附近，我需要更少能量就能找到它们。",
+		},
+	],
+	"arrived_at_tower" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "我在这些储物柜里侦测到了许多组件，但我们需要骇入打开它们。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我需要使用我的一些能量。",
 		},
 	],
 	"arrived_low_energy" 	: [
@@ -667,6 +713,142 @@
 	],
 	
 	
+	
+	"to_mg_matching_first" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "骇入完成，但你只有一点时间！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "快去按控制台上的按钮！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "如果上面的灯匹配，那么一个储藏柜就会开启。",
+		},
+	],
+	"to_mg_matching_first_twins" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "我骇入了这些储藏柜，但你需要快速打开它们！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "按下控制台上的按键，找到匹配的灯。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_normal"],
+			"dialog"			: "我会帮你记住尽可能多的按钮。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "也就是3个！|L|我只能记住3样东西！",
+		},
+	],
+	"to_mg_matching" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "骇入完成！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "尽可能打开得越多越好！",
+		},
+	],
+	"comment_matching_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "按下一个按钮。",
+	},
+	"comment_matching_match"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "配对了！",
+	},
+	"comment_matching_dud"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "|shake|这一个是空的！",
+	},
+	"comment_matching_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "错过了！",
+	},
+	"matching_win_high" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "你甚至找到了个稀有组件！",
+		},
+	],
+	"matching_win" 			: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "你找到了许多组件！",
+		},
+	],
+	"matching_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "要是我能给你更多时间就好了。",
+		},
+	],
+	
+	
+	
+	"to_mg_passwords_first" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "我破解了这些储藏柜的密码，但它们几秒后就会重置。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "我会把它们念出来，然后你尽可能打开！",
+		},
+	],
+	"to_mg_passwords" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "我破解了更多密码。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "快打开这些储藏柜！",
+		},
+	],
+	"comment_passwords_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "密码是这个。",
+	},
+	"comment_passwords_empty"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "空的！下一个！",
+	},
+	"comment_passwords_item"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "完美！",
+	},
+	"comment_passwords_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|连击断了！",
+	},
+	"passwords_win" 			: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "这些质量很高！",
+		},
+	],
+	"passwords_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "为什么有这么多都是空的？",
+		},
+	],
+	
+	
+
 	
 	"return_home" 	: [
 		{

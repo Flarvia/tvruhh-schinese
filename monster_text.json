@@ -113,6 +113,7 @@
 	
 	"B_burning_veyeral" : {
 		"name"    : "燃烧维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ze||soh||nah| (Veyeral Zeesona)",
 		"before"  : "这里没有温暖",
 		"after"   : "我感觉好温暖",
@@ -122,6 +123,7 @@
 	
 	"B_roundsaw" : {
 		"name"	  : "圆锯",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah| (Lahaika)",
 		"before"  : "锯掉它们！马上锯掉它们！",
 		"after"   : "我试过伤害你。对不起。",
@@ -131,6 +133,7 @@
 	
 	"B_syncron" : {
 		"name"    : "同步甲虫",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah| (Sikana)",
 		"before"  : "每个比特都在对应的位置",
 		"after"   : "已安装爱的软件",
@@ -140,6 +143,7 @@
 	
 	"B_glacia" : {
 		"name"    : "星川",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah| (Kihaina)",
 		"before"  : "我害怕打碎它",
 		"after"   : "我的美丽是因为映射了你",
@@ -149,6 +153,7 @@
 	
 	"B_split_veyeral" : {
 		"name"    : "分裂维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ai||dis| (Veyeral Aidis)",
 		"before"  : "这里没有其他人",
 		"after"   : "我们感到如此被爱",
@@ -158,6 +163,7 @@
 	
 	"B_blot" : {
 		"name"    : "墨点",
+		"card"    : "",
 		"eyeric"  : "|zhe||den| (Zheden)",
 		"before"  : "一切都必须有颜色！",
 		"after"   : "我们喜欢我们新的色彩！",
@@ -167,6 +173,7 @@
 	
 	"B_voltage_veyeral" : {
 		"name"    : "高压维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||mo||yo| (Veyeral Moyo)",
 		"before"  : "这里没有光",
 		"after"   : "我又能再次看见",
@@ -176,6 +183,7 @@
 	
 	"B_the_void" : {
 		"name"    : "虚空",
+		"card"    : "",
 		"eyeric"  : "|nah||-||vai||dra| (Nah Vaidra)",
 		"title"   : "绝对之零",
 		"before"  : "无...",
@@ -187,6 +195,7 @@
 	
 	"B_hadesoh" : {
 		"name"    : "炼狱之梭",
+		"card"    : "",
 		"eyeric"  : "|foh||dis||soh| (Fodisoh)",
 		"before"  : "欢迎来到子弹地狱",
 		"after"   : "这温暖超越火焰！",
@@ -196,6 +205,7 @@
 	
 	"B_scrambla" : {
 		"name"    : "蛋花",
+		"card"    : "",
 		"eyeric"  : "|lin||shi||la| (Linshila)",
 		"before"  : "别看我们！",
 		"after"   : "我们喜欢则个拥抱！",
@@ -205,6 +215,7 @@
 	
 	"B_boiler" : {
 		"name"    : "锅炉",
+		"card"    : "",
 		"eyeric"  : "|foh||shi||fa| (Foshifa)",
 		"before"  : "我们会烧掉你！",
 		"after"   : "即使这样你也会爱我们？",
@@ -214,6 +225,7 @@
 	
 	"B_sentinel_4x" : {
 		"name"    : "哨卫4X",
+		"card"    : "",
 		"eyeric"  : "|sen||kah||ze||-||n4||dis| (Senkahze Seedis)",
 		"before"  : "你不能通过",
 		"after"   : "密码已接受：我爱你",
@@ -223,6 +235,7 @@
 	
 	"B_sandrome" : {
 		"name"    : "沙之症候群",
+		"card"    : "",
 		"eyeric"  : "|teh||dra||mo| (Tehdramo)",
 		"before"  : "扎！扎！",
 		"after"   : "现在只有友好的戳戳了",
@@ -232,6 +245,7 @@
 	
 	"B_vitrea" : {
 		"name"    : "琉璃",
+		"card"    : "",
 		"eyeric"  : "|ki||ze||ah| (Kizea)",
 		"before"  : "别跟我说让我冷静下来！",
 		"after"   : "你能够让我冷静下来",
@@ -241,6 +255,7 @@
 	
 	"B_ombroah" : {
 		"name"    : "雨布罗阿",
+		"card"    : "",
 		"eyeric"  : "|oh||dis||ah| (Odisah)",
 		"before"  : "大雨无穷无尽",
 		"after"   : "我们一起避雨时很舒服",
@@ -250,6 +265,7 @@
 	
 	"B_monovai" : {
 		"name"    : "寞诺唯",
+		"card"    : "",
 		"eyeric"  : "|mai||dis||vai| (Maidisvai)",
 		"before"  : "你独自一人",
 		"after"   : "我不再孤独",
@@ -259,6 +275,7 @@
 	
 	"B_prisma" : {
 		"name"    : "棱镜",
+		"card"    : "",
 		"eyeric"  : "|sen||n4| (Sensi)",
 		"before"  : "启动防御模式",
 		"after"   : "恐惧被爱之软件覆盖",
@@ -268,6 +285,7 @@
 	
 	"B_amalga" : {
 		"name"    : "阿玛加",
+		"card"    : "",
 		"eyeric"  : "|shi||mis||fra| (Shimisfra)",
 		"before"  : "你无法躲避我们！",
 		"after"   : "我们会保护彼此",
@@ -277,6 +295,7 @@
 	
 	"B_molten_veyeral" : {
 		"name"    : "熔融维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ah||lin||lin| (Veyeral Alinlin)",
 		"before"  : "我会带走你的温暖",
 		"after"   : "我不是故意想烧伤你的",
@@ -286,6 +305,7 @@
 	
 	"B_nix_polyps" : {
 		"name"    : "倪克斯之瘤",
+		"card"    : "",
 		"title"   : "恐惧具现",
 		"eyeric"  : "|teh||ehv||tar||-||n0||dah| (Tevtar Tohda)",
 		"before"  : "为空气而挣扎",
@@ -297,6 +317,7 @@
 	
 	"B_null_roundsaw" : {
 		"name"    : "空无圆锯",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah||-||n0||nah| (Lahaika Tohna)",
 		"before"  : "将它们锯成空无！",
 		"after"   : "我真的很对不起",
@@ -306,6 +327,7 @@
 	
 	"B_null_glacia" : {
 		"name"    : "空无星川",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah||-||n0||nah| (Kihaina Tohna)",
 		"before"  : "这个映像非常丑陋",
 		"after"   : "你认为我的映像很美丽？",
@@ -315,6 +337,7 @@
 	
 	"B_anomaly" : {
 		"name"    : "异常",
+		"card"    : "",
 		"eyeric"  : "|za||fu||sha| (Zafusha)",
 		"title"   : "秘密仰慕者",
 		"before"  : "你在杀戮吗？",
@@ -326,6 +349,7 @@
 	
 	"B_shy_scrambla" : {
 		"name"    : "羞涩蛋花",
+		"card"    : "",
 		"eyeric"  : "|lin||shi||la||-||ze||ai||li| (Linshila Zeali)",
 		"before"  : "别来找我们！",
 		"after"   : "我们爱你的拥抱！",
@@ -335,6 +359,7 @@
 	
 	"B_hematoren" : {
 		"name"    : "血玛托壬",
+		"card"    : "",
 		"eyeric"  : "|zhen||dis||ren| (Zhendisren)",
 		"before"  : "为我流血吧！",
 		"after"   : "我爱血液赋予的生命",
@@ -344,6 +369,7 @@
 	
 	"B_rage_prisma" : {
 		"name"    : "燃怒棱镜",
+		"card"    : "",
 		"eyeric"  : "|sen||n4||-||soh||ze| (Sensi Sohze)",
 		"before"  : "警告：系统过热",
 		"after"   : "冷却风扇重新启动",
@@ -353,6 +379,7 @@
 	
 	"B_totaria" : {
 		"name"    : "托塔莉娅",
+		"card"    : "",
 		"title"   : "少于无物",
 		"eyeric"  : "|n0||tar||dra| (Totardra)",
 		"before"  : "少于无物！",
@@ -376,6 +403,7 @@
 	
 	"B_lila" : {
 		"name"    : "莱拉",
+		"card"    : "",
 		"eyeric"  : "|li||la| (Lila)",
 		"before"  : "我的眼睛看到了你！",
 		"after"   : "我的眼睛爱你！",
@@ -385,6 +413,7 @@
 	
 	"B_tox_polyps" : {
 		"name"    : "托克斯之瘤",
+		"card"    : "",
 		"title"   : "恐慌具现",
 		"eyeric"  : "|teh||ehv||tar||-||ry||dah| (Tevtar Raida)",
 		"before"  : "你不值得拥有空气！",
@@ -396,6 +425,7 @@
 	
 	"B_momo" : {
 		"name"    : "茉茉",
+		"card"    : "",
 		"eyeric"  : "|mo||mo| (Momo)",
 		"before"  : "舞蹈之战，直至死亡！",
 		"after"   : "和我一同起舞",
@@ -405,6 +435,7 @@
 	
 	"B_dual_prisma" : {
 		"name"    : "双生棱镜",
+		"card"    : "",
 		"eyeric"  : "|sen||n4||-||n2||shi| (Sensi Sheshi)",
 		"before"  : "防御模式200%",
 		"after"   : "正在上传2个万兆拥抱",
@@ -414,6 +445,7 @@
 	
 	"B_veyeral_rain" : {
 		"name"    : "维目尔之雨",
+		"card"    : "",
 		"eyeric"  : "|ah||tra||-||nah||-||vai||ral| (Ahtra nah Veyeral)",
 		"before"  : "这里没有庇护",
 		"after"   : "我们现在感到安全了",
@@ -423,6 +455,7 @@
 	
 	"B_unit_lulu" : {
 		"name"    : "单元露露",
+		"card"    : "",
 		"eyeric"  : "|n1||kah||-||lu||lu| (Ikah Lulu)",
 		"before"  : "启动练习模式",
 		"after"   : "检测到温度骤升",
@@ -432,6 +465,7 @@
 	
 	"B_sentinel_0x" : {
 		"name"    : "哨卫0X",
+		"card"    : "",
 		"eyeric"  : "|sen||kah||ze||-||n0||dis| (Senkahze Todis)",
 		"before"  : "标记删除",
 		"after"   : "添加进文件：所爱之人",
@@ -441,6 +475,7 @@
 	
 	"B_rage_boiler" : {
 		"name"    : "燃怒锅炉",
+		"card"    : "",
 		"eyeric"  : "|foh||shi||fa||-||soh||ze| (Foshifa Sohze)",
 		"before"  : "我们太辣了！",
 		"after"   : "辣度回到正常水平。",
@@ -450,6 +485,7 @@
 	
 	"B_shamra" : {
 		"name"    : "跚牡拉",
+		"card"    : "",
 		"eyeric"  : "|sha||mo||ry| (Shamory)",
 		"before"  : "我们是什么？",
 		"after"   : "我们感到被爱",
@@ -459,6 +495,7 @@
 	
 	"B_oudenai" : {
 		"name"    : "虚无之艾",
+		"card"    : "",
 		"eyeric"  : "|n0||dis||ai| (Todisai)",
 		"before"  : "我是谁？",
 		"after"   : "我感到被爱",
@@ -468,6 +505,7 @@
 	
 	"B_blue_veyeral" : {
 		"name"    : "蓝色维目尔",
+		"card"    : "",
 		"title"	  : "完美存在",
 		"eyeric"  : "|vai||ral||-||ah||den| (Veyeral Ahden)",
 		"before"  : "你什么都不是！",
@@ -479,6 +517,7 @@
 	
 	"B_rendy" : {
 		"name"    : "兰迪",
+		"card"    : "",
 		"eyeric"  : "|ren||dy| (Rendy) |ren||n5| (Rendi)",
 		"before"  : "充满厌恶！",
 		"after"   : "享受跳虫拥抱！",
@@ -488,6 +527,7 @@
 	
 	"B_chroma" : {
 		"name"    : "铬洛玛",
+		"card"    : "",
 		"eyeric"  : "|fai||den||la| (Faidenla)",
 		"before"  : "见证我的光耀！",
 		"after"   : "我爱你的色彩！",
@@ -497,6 +537,7 @@
 	
 	"B_echo" : {
 		"name"    : "回声",
+		"card"    : "",
 		"eyeric"  : "|sin||shin| (Sinshin)",
 		"before"  : "你是什么？",
 		"after"   : "你感到被爱",
@@ -506,6 +547,7 @@
 	
 	"B_snowball" : {
 		"name"    : "雪球",
+		"card"    : "",
 		"eyeric"  : "|toh||ah||la| (Toala)",
 		"before"  : "因恐惧而麻木！",
 		"after"   : "融化我冰封的心",
@@ -515,6 +557,7 @@
 	
 	"B_rage_duet" : {
 		"name"    : "燃怒二重奏",
+		"card"    : "",
 		"eyeric"  : "|n2||shi||-||soh||ze| (Sheshi Sohze)",
 		"before"  : "来和我们一起燃烧！",
 		"after"   : "我们热爱一起舞蹈",
@@ -524,6 +567,7 @@
 	
 	"B_trinity" : {
 		"name"    : "三体",
+		"card"    : "",
 		"eyeric"  : "|n3||shi| (Teshi)",
 		"before"  : "黑暗，空白，恐惧",
 		"after"   : "明亮，多彩，爱",
@@ -533,6 +577,7 @@
 	
 	"B_venom_veyeral" : {
 		"name"    : "剧毒维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||dy||ah| (Veyeral Diah)",
 		"before"  : "这里没有感觉",
 		"after"   : "我能再次拥有感觉",
@@ -542,6 +587,7 @@
 	
 	"B_photoxai" : {
 		"name"    : "光影之楔",
+		"card"    : "",
 		"eyeric"  : "|fai||dis||xai| (Faidishai)",
 		"before"  : "因强光而盲目",
 		"after"   : "与我一同合影",
@@ -551,6 +597,7 @@
 	
 	"B_kiwi" : {
 		"name"    : "几维",
+		"card"    : "",
 		"eyeric"  : "|n4||ki||shi| (Sikishi)",
 		"before"  : "你无法躲避我们！",
 		"after"   : "来和我们一起玩",
@@ -560,6 +607,7 @@
 	
 	"B_knot_knott" : {
 		"name"    : "节结",
+		"card"    : "",
 		"eyeric"  : "|nu||toh||-||nu||n0| (Nuutoh Nuutoh)",
 		"before"  : "缠绕在我们之间",
 		"after"   : "我们一直在一起",
@@ -569,6 +617,7 @@
 	
 	"B_duality" : {
 		"name"    : "二相性",
+		"card"    : "",
 		"eyeric"  : "|n2||shi| (Sheshi)",
 		"before"  : "在你之上，冰与火",
 		"after"   : "在你之上，我们明亮闪耀",
@@ -578,6 +627,7 @@
 	
 	"B_stella" : {
 		"name"    : "耀星",
+		"card"    : "",
 		"eyeric"  : "|fai||la| (Faila)",
 		"before"  : "在你之上的日晒",
 		"after"   : "在你之上闪亮星光",
@@ -587,6 +637,7 @@
 	
 	"B_celestia" : {
 		"name"    : "邃星",
+		"card"    : "",
 		"eyeric"  : "|la||nu||la| (Lanula)",
 		"before"  : "在你之上的寒冷夜晚",
 		"after"   : "在你之上的月光闪耀",
@@ -596,6 +647,7 @@
 	
 	"B_unity" : {
 		"name"    : "团结",
+		"card"    : "",
 		"eyeric"  : "|n1||shi| (Ishi)",
 		"before"  : "你不属于",
 		"after"   : "和我一起",
@@ -605,6 +657,7 @@
 	
 	"B_shy_lila" : {
 		"name"    : "羞涩莱拉",
+		"card"    : "",
 		"eyeric"  : "|li||la||-||ze||ai||li| (Lila Zeali)",
 		"before"  : "别过来！别过来！",
 		"after"   : "眼睛会留在你身边",
@@ -614,6 +667,7 @@
 	
 	"B_chemory" : {
 		"name"    : "化莫里",
+		"card"    : "",
 		"eyeric"  : "|dy||dis||ry| (Deedisry)",
 		"before"  : "恐惧是一种化学成分",
 		"after"   : "爱是一种化学成分",
@@ -623,6 +677,7 @@
 	
 	"B_astrayo" : {
 		"name"    : "雷斯塔尤",
+		"card"    : "",
 		"eyeric"  : "|mo||dis||yo| (Modisyo)",
 		"before"  : "无尽的雷鸣与电闪",
 		"after"   : "风暴已然过去",
@@ -630,9 +685,10 @@
 		"tips"    : "如果你想要尽可能多的提取魔尘，那么在第一阶段就完全不要攻击她的本体，仅专注于破坏小型符文。",
 	},
 	
-	"B_alter_blot" : {
-		"name"    : "异相墨点",
-		"eyeric"  : "|zhe||den||-||ai||za| (Zheden Aiza)",
+	"B_avoid_blot" : {
+		"name"    : "回避墨点",
+		"card"    : "",
+		"eyeric"  : "|zhe||den||-||vai||ze||nah| (Zheden Vaizena)",
 		"before"  : "一切必须灰暗！",
 		"after"   : "只有美丽的颜色！",
 		"notes"   : "有时在她醒来的时候，她会无缘无故地对自己感到厌恶。她并非总是会喜欢自己的颜色，但我试着提醒她仅有美丽的色彩。",
@@ -641,6 +697,7 @@
 	
 	"B_alter_roundsaw" : {
 		"name"    : "异相圆锯",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah||-||ai||za| (Lahaika Aiza)",
 		"before"  : "锯掉它们！再快点！",
 		"after"   : "对不起。对不起。对不起... 对唔起",
@@ -650,6 +707,7 @@
 	
 	"B_alter_glacia" : {
 		"name"    : "异相星川",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah||-||ai||za| (Kihaina Aiza)",
 		"before"  : "我对你而言过于寒冷",
 		"after"   : "如此温暖的映像",
@@ -659,6 +717,7 @@
 	
 	"B_alter_syncron" : {
 		"name"    : "异相甲虫",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah||-||ai||za| (Sikana Aiza)",
 		"before"  : "这个比特未处于正确位置",
 		"after"   : "正在复制快乐文件夹",
@@ -668,6 +727,7 @@
 	
 	"B_frozen_veyeral" : {
 		"name"    : "冰封维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||toh||nah| (Veyeral Tohna)",
 		"before"  : "这里没有意志",
 		"after"   : "我想要再次移动",
@@ -677,6 +737,7 @@
 	
 	"B_joule" : {
 		"name"    : "焦耳",
+		"card"    : "",
 		"eyeric"  : "|yo||hai| (Yohai)",
 		"before"  : "我们想要你的力量！",
 		"after"   : "我们可以一同出力",
@@ -686,6 +747,7 @@
 	
 	"B_dot" : {
 		"name"    : "点点",
+		"card"    : "",
 		"eyeric"  : "|n1||teh| (Iteh)",
 		"before"  : "你不完美",
 		"after"   : "仅为你的完美拥抱",
@@ -695,6 +757,7 @@
 	
 	"B_pearl" : {
 		"name"    : "珍珠",
+		"card"    : "",
 		"eyeric"  : "|la||ris| (Laris)",
 		"before"  : "毫无表情",
 		"after"   : "你让我再次有了感觉",
@@ -704,6 +767,7 @@
 	
 	"B_calorie" : {
 		"name"    : "卡洛里",
+		"card"    : "",
 		"eyeric"  : "|foh||hai| (Fohai)",
 		"before"  : "为我们燃烧！",
 		"after"   : "你加剧了我们的烈火！",
@@ -713,6 +777,7 @@
 	
 	"B_flip_flap" : {
 		"name"    : "噼里啪啦",
+		"card"    : "",
 		"eyeric"  : "|yih||kah||-||nu||kah| (Yika Nuka)",
 		"before"  : "检测到缠结电线",
 		"after"   : "检测到纯粹喜爱",
@@ -722,6 +787,7 @@
 	
 	"B_null_unit" : {
 		"name"    : "空无单元",
+		"card"    : "",
 		"eyeric"  : "|n1||kah||-||n0||nah| (Ikah Tohna)",
 		"before"  : "删除你的记忆",
 		"after"   : "本单元不会忘记你",
@@ -731,6 +797,7 @@
 	
 	"B_nova" : {
 		"name"    : "超新星",
+		"card"    : "",
 		"title"	  : "恐惧光谱",
 		"eyeric"  : "|no||vai||lu| (Novailu)",
 		"before"  : "宇宙级恐惧",
@@ -742,6 +809,7 @@
 	
 	"B_emerald" : {
 		"name"    : "绿宝石",
+		"card"    : "",
 		"eyeric"  : "|ry||den||dra| (Rydendra)",
 		"before"  : "如此羞愧",
 		"after"   : "你感到骄傲",
@@ -751,6 +819,7 @@
 	
 	"B_ruby" : {
 		"name"    : "红宝石",
+		"card"    : "",
 		"eyeric"  : "|soh||den||dra| (Sohdendra)",
 		"before"  : "如此沮丧",
 		"after"   : "你感到满足",
@@ -760,6 +829,7 @@
 	
 	"B_topaz" : {
 		"name"    : "黄宝石",
+		"card"    : "",
 		"eyeric"  : "|yo||den||dra| (Yodendra)",
 		"before"  : "无法接受",
 		"after"   : "你可以直面一切",
@@ -769,6 +839,7 @@
 	
 	"B_sapphire" : {
 		"name"    : "蓝宝石",
+		"card"    : "",
 		"eyeric"  : "|ah||den||dra| (Adendra)",
 		"before"  : "如此焦虑",
 		"after"   : "你感到极为冷静",
@@ -778,6 +849,7 @@
 	
 	"B_citrine" : {
 		"name"    : "橙宝石",
+		"card"    : "",
 		"eyeric"  : "|lin||den||dra| (Lindendra)",
 		"before"  : "如此脆弱",
 		"after"   : "你感到极为强壮",
@@ -787,6 +859,7 @@
 	
 	"B_amethyst" : {
 		"name"    : "紫宝石",
+		"card"    : "",
 		"eyeric"  : "|vai||den||dra| (Vaidendra)",
 		"before"  : "如此孤独",
 		"after"   : "你感到被接受了",
@@ -796,6 +869,7 @@
 	
 	"B_forma" : {
 		"name"    : "形式",
+		"card"    : "",
 		"eyeric"  : "|ai||shi| (Aishi)",
 		"before"  : "为什么是我？",
 		"after"   : "我感到被爱",
@@ -805,6 +879,7 @@
 	
 	"B_default" : {
 		"name"    : "默认",
+		"card"    : "",
 		"eyeric"  : "|ai||zha| (Aizha)",
 		"before"  : "我应该成为什么？",
 		"after"   : "我将会是爱",
@@ -814,6 +889,7 @@
 	
 	"B_lavalin" : {
 		"name"    : "熔岩之林",
+		"card"    : "",
 		"eyeric"  : "|rin||dis||lin| (Rindislin)",
 		"before"  : "末日找上了我们",
 		"after"   : "一同直至尽头",
@@ -823,6 +899,7 @@
 	
 	"B_heliola" : {
 		"name"    : "赫日欧拉",
+		"card"    : "",
 		"eyeric"  : "|fa||dis||la| (Fadisla)",
 		"before"  : "照亮你的缺陷",
 		"after"   : "我将沐浴在你的光辉中",
@@ -832,6 +909,7 @@
 	
 	"B_vibrant_veyeral" : {
 		"name"    : "明艳维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ris||den| (Veyeral Risden)",
 		"before"  : "这里没有色彩",
 		"after"   : "我可以看到色彩",
@@ -839,9 +917,10 @@
 		"tips"    : "她有正好12个颜料炸弹，会以她恐惧条的固定间隔释放。你可以在战斗即将结束时放慢速度以确保你击破所有颜料炸弹。",
 	},
 	
-	"B_alter_vitrea" : {
-		"name"    : "异相琉璃",
-		"eyeric"  : "|ki||ze||ah||-||ai||za| (Kizea Aiza)",
+	"B_avoid_vitrea" : {
+		"name"    : "回避琉璃",
+		"card"    : "",
+		"eyeric"  : "|ki||ze||ah||-||vai||ze||nah| (Kizea Vaizena)",
 		"before"  : "不要告诉我应该成为什么样！",
 		"after"   : "和你一起时我能做我自己",
 		"notes"   : "我无法忍受她这个样子。与其去打扰任何人，她更想独自一人哭泣。但我一直在这里，愿意倾听她的声音。",
@@ -850,6 +929,7 @@
 	
 	"B_null_blot" : {
 		"name"    : "空无墨点",
+		"card"    : "",
 		"eyeric"  : "|zhe||den||-||n0||nah| (Zheden Tohna)",
 		"before"  : "一切都不能有色彩！",
 		"after"   : "我们再次有灵感了！",
@@ -859,6 +939,7 @@
 	
 	"B_voladrome" : {
 		"name"    : "熔岩症候群",
+		"card"    : "",
 		"eyeric"  : "|foh||dra||mo| (Fohdramo)",
 		"before"  : "现在烧掉她们！",
 		"after"   : "现在是友好的暖暖面条",
@@ -868,6 +949,7 @@
 	
 	"B_shy_momo" : {
 		"name"    : "羞涩茉茉",
+		"card"    : "",
 		"eyeric"  : "|mo||mo||-||ze||ai||li| (Momo Zeali)",
 		"before"  : "我不会出来的！",
 		"after"   : "我会一直和你起舞",
@@ -877,6 +959,7 @@
 	
 	"B_dendrohai" : {
 		"name"    : "树途之亥",
+		"card"    : "",
 		"eyeric"  : "|kai||dis||hai| (Kaidisai)",
 		"before"  : "你的恐惧仅会生长",
 		"after"   : "爱在你的心中生长",
@@ -886,6 +969,7 @@
 	
 	"B_veyeral_quartet" : {
 		"name"    : "维目尔四重奏",
+		"card"    : "",
 		"eyeric"  : "|n4||tar||-||vai||ral| (Sitar Veyeral)",
 		"before"  : "无人，无处，无爱，无物",
 		"after"   : "我们可以再次分享爱",
@@ -895,6 +979,7 @@
 	
 	"B_shiny_joule" : {
 		"name"    : "闪亮焦耳",
+		"card"    : "",
 		"eyeric"  : "|yo||hai||-||fai||shen| (Yohai Faishen)",
 		"before"  : "我们开始工作吧！",
 		"after"   : "你的渐进情绪真的可以做功！",
@@ -905,6 +990,7 @@
 	
 	"B_shiny_momo" : {
 		"name"    : "闪亮茉茉",
+		"card"    : "",
 		"eyeric"  : "|mo||mo||-||fai||shen| (Momo Faishen)",
 		"before"  : "我想要和你起舞",
 		"after"   : "我现在充满着绽放的爱！",
@@ -915,6 +1001,7 @@
 	
 	"B_shiny_veyerals" : {
 		"name"    : "闪亮维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||tar||-||fai||shen| (Veyeraltar Faishen)",
 		"before"  : "让我们再次入梦",
 		"after"   : "我们今晚将会做甜蜜的梦",
@@ -925,6 +1012,7 @@
 	
 	"B_storm_veyeral" : {
 		"name"    : "风暴维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||yo||tra| (Veyeral Yotra)",
 		"before"  : "我会夺走你的光芒",
 		"after"   : "我不是故意吓到你的",
@@ -934,6 +1022,7 @@
 	
 	"B_shiny_rendy" : {
 		"name"    : "闪亮兰迪",
+		"card"    : "",
 		"eyeric"  : "|ren||n5||-||fai||shen| (Rendi Faishen)",
 		"before"  : "挖掘财宝！",
 		"after"   : "你才是兰迪的财宝",
@@ -944,6 +1033,7 @@
 	
 	"B_shiny_snowball" : {
 		"name"    : "闪亮雪球",
+		"card"    : "",
 		"eyeric"  : "|toh||ah||la||-||fai||shen| (Toala Faishen)",
 		"before"  : "寻找皇家财宝",
 		"after"   : "爱才是最皇家的财宝",
@@ -954,6 +1044,7 @@
 	
 	"B_shiny_anomaly" : {
 		"name"    : "闪亮异常",
+		"card"    : "",
 		"title"	  : "因果之神",
 		"eyeric"  : "|za||fu||sha||-||fai||shen| (Zafusha Faishen)",
 		"before"  : "你如何展现爱？",
@@ -965,6 +1056,7 @@
 	
 	"B_chionotoh" : {
 		"name"    : "雪奥诺托",
+		"card"    : "",
 		"eyeric"  : "|koh||dis||toh| (Kodistoh)",
 		"before"  : "你会永久冰封！",
 		"after"   : "即使我对你而言这么寒冷？",
@@ -974,6 +1066,7 @@
 	
 	"B_philolu" : {
 		"name"    : "恋罗露",
+		"card"    : "",
 		"eyeric"  : "|fu||dis||lu| (Fuudislu)",
 		"before"  : "和我一起约会吧！",
 		"after"   : "为你的晚安吻！",
@@ -984,6 +1077,7 @@
 	
 	"B_ventra" : {
 		"name"    : "雯特拉",
+		"card"    : "",
 		"eyeric"  : "|lu||kah||tra| (Lukatra)",
 		"before"  : "你的目标无法抵达",
 		"after"   : "你找到了抵达我的方法",
@@ -993,6 +1087,7 @@
 	
 	"B_guardian_soul" : {
 		"name"    : "守护者之魂",
+		"card"    : "",
 		"eyeric"  : "|ai||soh||ren||-||sen||ehv| (Aisoren Senev)",
 		"before"  : "我应该去哪里？",
 		"after"   : "我将去爱",
@@ -1002,6 +1097,7 @@
 	
 	"B_shiny_knots" : {
 		"name"    : "闪亮节结",
+		"card"    : "",
 		"eyeric"  : "|nu||toh||-||nu||n0||-||fai||shen| (Nuutoh Nuutoh Faishen)",
 		"before"  : "帮我们找到她！",
 		"after"   : "我们会一直在一起",
@@ -1012,6 +1108,7 @@
 	
 	"B_shiny_syncron" : {
 		"name"    : "闪亮甲虫",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah||-||fai||shen| (Sikana Faishen)",
 		"before"  : "正在逃出恐慌模式",
 		"after"   : "恐慌循环结束",
@@ -1022,6 +1119,7 @@
 	
 	"B_shanx" : {
 		"name"    : "闪克斯",
+		"card"    : "",
 		"eyeric"  : "|shal||ki| (Shalki)",
 		"before"  : "我正在打磨刺人的手！",
 		"after"   : "你刺透了我的心",
@@ -1031,6 +1129,7 @@
 	
 	"B_alter_shanx" : {
 		"name"    : "异相闪克斯",
+		"card"    : "",
 		"eyeric"  : "|shal||ki||-||ai||za| (Shalki Aiza)",
 		"before"  : "我会像闪电一样袭击你！",
 		"after"   : "你触动了我的心弦",
@@ -1040,6 +1139,7 @@
 	
 	"B_moss" : {
 		"name"    : "苔藓",
+		"card"    : "",
 		"eyeric"  : "|kai||den| (Kaiden)",
 		"before"  : "我们从未有过那意志",
 		"after"   : "我们不再羞愧",
@@ -1050,6 +1150,7 @@
 	
 	"B_scarlet" : {
 		"name"    : "绯红",
+		"card"    : "",
 		"eyeric"  : "|foh||den| (Fohden)",
 		"before"  : "回到我身边，这太无法想象了！",
 		"after"   : "我不再愤怒",
@@ -1060,6 +1161,7 @@
 	
 	"B_dandy" : {
 		"name"    : "丹迪",
+		"card"    : "",
 		"eyeric"  : "|mo||den| (Moden)",
 		"before"  : "我既不能，也不愿",
 		"after"   : "我不再恐惧",
@@ -1070,6 +1172,7 @@
 	
 	"B_indigo" : {
 		"name"    : "靛蓝",
+		"card"    : "",
 		"eyeric"  : "|ah||oh||den| (Aoden)",
 		"before"  : "感到挣扎，失去自我",
 		"after"   : "我不再焦虑",
@@ -1081,6 +1184,7 @@
 	
 	"B_amber" : {
 		"name"    : "琥珀",
+		"card"    : "",
 		"eyeric"  : "|rin||li||den| (Rinleeden)",
 		"before"  : "在我的梦中，在另一天里",
 		"after"   : "我不再不安",
@@ -1091,6 +1195,7 @@
 	
 	"B_violet" : {
 		"name"    : "绛紫",
+		"card"    : "",
 		"eyeric"  : "|mai||den| (Meyeden)",
 		"before"  : "不再入夜，不再痛苦",
 		"after"   : "我不再孤独",
@@ -1101,6 +1206,7 @@
 	
 	"B_blizz_veyeral" : {
 		"name"    : "暴雪维目尔",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||rah||toh||tra| (Veyeral Rahtotra)",
 		"before"  : "我会夺走你的意志",
 		"after"   : "我不是故意这么冷的",
@@ -1110,6 +1216,7 @@
 	
 	"B_limbo" : {
 		"name"    : "黯驳",
+		"card"    : "",
 		"title"	  : "失败实验",
 		"eyeric"  : "|dra|-|nah||hai||za| (Dra Nahaiza)",
 		"before"  : "我被困在了险恶的世界中",
@@ -1119,4 +1226,25 @@
 		"to_find" : "to_find_limbo",
 	},
 
+	"B_wisp" : {
+		"name"    : "幽火",
+		"card"    : "",
+		"eyeric"  : "|ai||soh||-||teh||ehv| (Aiso Tev)",
+		"before"  : "我即将离去",
+		"after"   : "记住这一刻",
+		"notes"   : "这个小家伙随时可能凭空出现。她只会存在短短片刻，随后便再次消失。我不知道她去往何处，但我总会确保在她离开前，让她感受到爱。",
+		"tips"    : "她已同意担任我的实验助手。你可以在自由模式中提升她的等级，她不会发动攻击。你可以借此来测试礼物的威力！",
+	},
+	
+	"B_ember_polyps" : {
+		"name"    : "琥珀之瘤",
+		"card"    : "",
+		"title"   : "恐慌具现",
+		"eyeric"  : "|teh||ehv||tar||-||soh||dah| (Tevtar Soda)",
+		"before"  : "你只能感到灼烧！",
+		"after"   : "感知回到了你的身体里",
+		"notes"   : "这些小东西总是在痛苦中尖叫。它们向我求救，可当它们靠近我时，我的全身皮肤都像被灼烧一般！我仍会尽力集中精神，做我力所能及的事情。",
+		"tips"    : "如果恐瘤正从某个难受的角度发射光束，记住你可以攻击它们伸出的尖刺来将其击破。",
+		"to_find" : "to_find_panic",
+	},
 }

@@ -184,8 +184,10 @@
 		"chaos_burden"  	: "混沌负担",
 		"screen_mirror"  	: "镜像之梦",
 		"screen_flip"  		: "翻转之梦",
-		"danger_bubbles"  	: "危险泡泡",
-		"wrath_battles"  	: "狂怒怪物",
+
+		"wrath_battle"  	: "狂怒怪物",
+		"repel_battle"  	: "驱斥怪物",
+		"gloom_battle"  	: "阴郁怪物",
 	},
 	"ATTR_DESC_effect" : {
 		"karma_bonus"		: "[NAME]每场战斗后会|C6|获得[VAL1]额外因果|C0|。",
@@ -252,8 +254,9 @@
 		"chaos_burden"  	: "|C4|[NAME]每场战斗后会获得[VAL1]个随机的负担效果。",
 		"screen_mirror"  	: "|C4|[NAME]的梦境被水平翻转了。",
 		"screen_flip"  		: "|C4|[NAME]的梦境被垂直反转了。",
-		"danger_bubbles"  	: "|C4|全域攻击仅会在[NAME]位于黄色安全泡泡内时伤害她。",
-		"wrath_battles"  	: "|C4|所有怪物都会使用全域攻击，且创造出黄色安全泡泡。",
+		"wrath_battle"  	: "|C4|所有怪物变为|C3|狂怒变种，|C4|会使用全域攻击，且创造出黄色安全泡泡。",
+		"repel_battle"  	: "|C4|所有怪物变为|C3|驱斥变种，|C4|会使用额外危险泡泡攻击",
+		"gloom_battle"  	: "|C4|所有怪物变为|C3|阴郁变种，|C4|场地内会出现额外的伤害墙。",
 	},
 	
 	"ATTR_NAMES_panic" : {

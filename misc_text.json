@@ -686,6 +686,8 @@
 		"B_violet"				: "葡萄汽水",
 		"B_blizz_veyeral"		: "你会把眼睛戳出来的！",
 		"B_limbo"				: "圣装灵薄狱",
+		"B_wisp"				: "沙袋",
+		"B_ember"				: "圣装雄鸡",
 	},
 	
 	"spooky_names" : {
@@ -772,6 +774,7 @@
 		"B_totaria"				: "躲藏女士",
 		"B_blue_veyeral"		: "魔法师的使魔",
 		
+		"B_wisp"				: "魔术师",
 		"B_anomaly"				: "二重存在",
 		"B_shiny_anomaly"		: "不给糖就捣乱？",
 		"B_stella"				: "太阳",
@@ -781,6 +784,7 @@
 		"B_duality"				: "世界",
 		"B_trinity"				: "战车",
 		"B_nix_polyps"			: "黑暗棉花糖",
+		"B_ember_polyps"		: "烤棉花糖",
 		"B_tox_polyps"			: "酸味棉花糖",
 		
 		"B_shamra"				: "禁忌糖果",

@@ -174,10 +174,6 @@
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
 		"dialog"	: "这让我来了灵感。",
 	},
-	"comment_give_TAG_blizzard_part"	: {
-		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
-		"dialog"	: "|shake|我能带走它吗，求你了？！",
-	},
 	"comment_give_burden"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
 		"dialog"	: "...对不起我刚刚在想事情。",

@@ -113,7 +113,7 @@
 	"BNS_battery" : {
 		"name"    : "电池",
 		"memory"  : "当你把|teh|翻过来，它就变成了|yo|，这样无论你怎么拿着它，读出来都是\"小型电池。\"|L||L|我真擅长遣词造句！",
-		"card"    : "最大能量+[VAL1]",
+		"card"    : "最大能量+[VAL1]|L|立刻将能量回复至[VAL2]%",
 	},
 	
 	
@@ -186,7 +186,31 @@
 	
 	
 	
-	
+	"BNS_shiny_chip" : {
+		"name"    : "闪亮芯片",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "光耀抗性+[VAL1]|L|+[VAL2]因果",
+	},
+	"BNS_null_chip" : {
+		"name"    : "空无芯片",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "虚空抗性+[VAL1]|L|+[VAL2]恐慌",
+	},
+	"BNS_insulated_chip" : {
+		"name"    : "隔热芯片",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "燃烧抗性+[VAL1]|L|最大生命+[VAL2]",
+	},
+	"BNS_elastic_chip" : {
+		"name"    : "弹力芯片",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "电击抗性+[VAL1]|L|+[VAL2]后备生命",
+	},
+	"BNS_resistant_chip" : {
+		"name"    : "抵抗芯片",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "毒素抗性+[VAL1]|L|+[VAL2]玻璃之心",
+	},
 	"BNS_sweet_soup" : {
 		"name"    : "甜美浓汤",
 		"memory"  : "扎拉登喜欢糖果，是吧？那我们就把一大堆糖果倒进汤里，看看会发生什么！",

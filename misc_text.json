@@ -688,6 +688,7 @@
 		"B_limbo"				: "圣装灵薄狱",
 		"B_wisp"				: "沙袋",
 		"B_ember_polyps"		: "圣装雄鸡",
+		"B_volt_polyps"			: "It's Got Electrolytes!",
 	},
 	
 	"spooky_names" : {
@@ -785,7 +786,8 @@
 		"B_trinity"				: "战车",
 		"B_nix_polyps"			: "黑暗棉花糖",
 		"B_ember_polyps"		: "烤棉花糖",
-		"B_tox_polyps"			: "酸味棉花糖",
+		"B_volt_polyps"			: "酸味棉花糖",
+		"B_tox_polyps"			: "脆脆棉花糖",
 		
 		"B_shamra"				: "禁忌糖果",
 		"B_guardian_soul"		: "闹鬼古堡",

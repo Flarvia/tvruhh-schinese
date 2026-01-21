@@ -543,6 +543,14 @@
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
 	},
+	"E_bond_shanx" : {
+		"name"		: "星尘远征",
+		"hint"		: "[hint_chance]",
+		"details"	: "闪克斯今天给我看了一个特别有意思的游戏，叫星之宝石。一开始看起来很简单，但分数很快就会疯狂累加起来！我真不知道闪克斯是怎么能那么快把那些数字全都算清楚的。|L||L|她说她喜欢这个游戏，是因为卡牌上那些漂亮的星星宝石。又一个沉迷闪闪发亮东西的守护者。",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_dendrohai" : {
 		"name"		: "荆棘的游戏",
 		"hint"		: "[hint_chance]",

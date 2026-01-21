@@ -966,6 +966,10 @@
 		"delivery_pickups"	: "取到的礼物",
 		"gifts_delivered"	: "送达的礼物",
 		"unique_delivered"	: "完成的独特快送",
+		"stargem_rounds"	: "星之宝石轮次",
+		"best_sg_round"		: "最高轮次星尘",
+		"best_sg_score"		: "最高单局星尘",
+		"total_stardust"	: "总星尘",
 		
 		"total_tetrids"		: "收集的总棱晶",
 		"total_green"		: "绿色棱晶",

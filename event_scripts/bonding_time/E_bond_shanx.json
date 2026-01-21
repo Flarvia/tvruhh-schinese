@@ -1,0 +1,476 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你来啦，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我看到你还在森林里到处跑来跑去追着怪物们。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "要不你先休息一下，和我一起玩一局|C3|星之宝石？|C0|",
+		},
+	],
+	
+	"monster_mood"		: "闪克斯的心情",
+	"monster_gifts"		: "闪克斯的礼物",
+	
+	"op_game"		: "游玩星之宝石",
+	"op_sleep"		: "小睡一觉",
+	"op_tutorial"	: "解释星之宝石",
+	"op_start_game"	: "开始游戏",
+	
+	"comment_first"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "来和我一起玩，亲爱的！",
+	},
+	"comment_before_game"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "你之前玩过这个吗？",
+	},
+	
+	"to_cave" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我在这个暖和的洞穴里准备好了游戏。",
+		},
+	],
+	"to_cave_twins" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我在这个暖和的洞穴里准备好了游戏。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "看起来空间不足以挤下我们所有人。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "但是没关系。我去散个步，你们两个玩。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "等等。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "看起来只有你和我了，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "呃... 好吧。",
+		},
+	],
+	"explain_game" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "游戏很简单。",
+		},
+		{
+			"show_tutorial"		: "stargem_board",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你有一个12对，24张的牌组，每一轮我会给你其中的一半。",
+		},
+		{
+			"show_tutorial"		: "stargem_board_match1",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你要做的就是把它们翻过来，尝试配对。",
+		},
+		{
+			"show_tutorial"		: "stargem_board_match3",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "每配对三组，我会从你的牌组里再拿出三对牌替换它们。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你一共可以翻30次，要尽可能多的配对，亲爱的！",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "每张配对的卡都会给你一些|C3|星尘点数！|C0|",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "卡牌会给出不同的星尘点数，你可以看看星星有多少个角。",
+		},
+		{
+			"show_tutorial"		: "stargem_4point",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "比如这个星星有四个角，因此配对会给你4个点数。",
+		},
+		{
+			"show_tutorial"		: "stargem_5point",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "这颗星星有5个角，它会给你5个点数。|L|很简单，对吧？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "但接下来就是真正有意思的地方了。",
+		},
+		{
+			"show_tutorial"		: "stargem_bonus_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "有些卡牌上会有点额外的东西。",
+		},
+		{
+			"show_tutorial"		: "stargem_multi_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "这些卡会将自己的分数翻倍或者翻三倍！",
+		},
+		{
+			"show_tutorial"		: "stargem_multi_bonus",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "但这些会为你的下一次配对增加倍率！",
+		},
+		{
+			"show_tutorial"		: "stargem_add_bonus",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "而这些卡会为你的下两次配对增加点数。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "并且点数增加要先于倍率！",
+		},
+		{
+			"show_tutorial"		: "stargem_bonus_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "所以你就要考虑要以什么顺序配对卡牌了。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "你可别一知道位置就去配对了。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "你可要计划出配对链，亲爱的。",
+		},
+		{
+			"show_tutorial"		: "stargem_combo_chain",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "如果你按这样的顺序配对这三张卡牌，你能拿到一大堆星尘！",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "但你还得记得你每轮的配对是有限的。",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "轮次之间会更有趣，但你玩到那就知道了。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "哦，对了-",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "如果你记不起来的话，在任何已揭露的卡上|C3|按下|B7|，|C0|我就会告诉你它的效果。",
+		},
+	],
+	
+	
+	"to_first_round" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "我们直接开始吧，亲爱的！",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "这是你第一轮的卡。",
+		},
+	],
+	"to_next_round" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "第[VAL1]轮，要来了！",
+			"dialog_rand2"		: "要到第[VAL1]轮了！",
+			"dialog_rand3"		: "我们再来一轮吧，亲爱的！",
+		},
+	],
+	
+	"sg_main_basic"		: "这颗星星会给你[VAL1]星尘。",
+	"sg_main_bonus"		: "这颗星星会给你[VAL1]星尘，[BONUS]",
+	"sg_main_star"		: "这颗星星的价值总是等于你本轮已获得星尘的25%！",
+	"sg_main_copy"		: "这张卡会复制你配对的上一张！|L||C4|不过如果你还没有配对的话它只会给你2星尘。|C0|",
+	"sg_main_add"		: "这张卡会为本轮剩余的所有配对|C3|+[VAL1]星尘！|C0|",
+	"sg_main_reveal"	: "这张卡的价值只有1星尘，但它会生效并且|C3|揭露随机卡[VAL1]次！|C0|",
+	"sg_bonus_multi"	: "但这张卡会生效[VAL1]次！",
+	"sg_bonus_add"		: "并且它会为接下来两次配对|C3|+[VAL1]星尘。|C0|",
+	"sg_bonus_x2"		: "并且它会让你的下一次配对获得|C3|双倍星尘！|C0|",
+	"sg_bonus_x3"		: "并且它会让你的下一次配对获得|C3|三倍星尘！|C0|",
+	"sg_bonus_reveal1"	: "并且它还会|C3|揭露一张随机卡片。|C0|",
+	"sg_bonus_reveal2"	: "并且它还会|C3|揭露两张随机卡片。|C0|",
+	"sg_score_preview"	: "|C5|它现在会给你[VAL1]星尘。|C0|",
+	"explain_form"			: "[MAIN]",
+	"explain_form_score"	: "[MAIN]|L|[SCORE]",
+	"comment_explain_card"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "[VAL1]",
+	},
+	
+	"comment_stargems_start"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "我们开始翻吧。",
+	},
+	"comment_stargems_match"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "收集星尘。",
+	},
+	"comment_stargems_miss"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "再试一次，亲爱的。",
+	},
+	"comment_stargems_round_end"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "这轮就这样了，亲爱的。",
+	},
+	"comment_stargems_game_win"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "|shake|你到了最顶端！",
+	},
+	
+	"round_end_no_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
+			"dialog"			: "你这次获得的星尘不足以升级。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "但总还有下一轮的，亲爱的。",
+		},
+	],
+	"round_end_level_up" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你这轮上升了一整个星尘等级！",
+		},
+	],
+	"round_end_multi_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你这轮上升了整整[VAL1]个星尘等级，亲爱的！",
+		},
+	],
+	"round_end_times_up" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
+			"dialog"			: "我们今天的时间就只够这么多轮了，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你一直升到了星尘等级[VAL2]！",
+		},
+	],
+	"round_end_max_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你收集到的星尘比我还要高了！",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "|wave|我觉得你赢下了这局游戏，亲爱的。",
+		},
+	],
+	
+	
+	
+	"to_card_trade_first" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "现在我会拿出一些随机的卡牌，你可以用卡组中的牌交换。",
+		},
+	],
+	"to_card_trade" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "我们来拿一些新牌吧。",
+			"dialog_rand2"		: "我们来看看这次有什么。",
+			"dialog_rand3"		: "新卡要来了。",
+		},
+	],
+	"comment_nothing"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
+	"comment_choose_swap"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "选择你想要交换的卡。",
+	},
+	"comment_choose_done"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "交换完之后触碰这张卡。",
+	},
+	
+	
+	
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "在你离开之前，我有礼物要给你！",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "拿走你想要的吧。",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "等下，这是什么来着？",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "你要这个？",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "没别的想要了吗？",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "它很适合你，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "你还想要一个吗？",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "很高兴你喜欢它，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我想要你再收下一个。",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "看看我让你脸上绽放的微笑。",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你可以就这样睡在我身边，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "就我而言，在你醒来之前，你就是我最新的守护区了。",
+		},
+	],
+	
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "你的花冠真漂亮。|L|我很喜欢它！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 5,
+			"dialog_rand1"		: "亲爱的，你让我太高兴了，比上一只眼蝠找到一大堆甜味水果还要高兴。",
+			"dialog_rand2"		: "亲爱的，你让我感觉就像日之花在连续两周的雨后沐浴在阳光里一样。",
+			"dialog_rand3"		: "亲爱的，你让我感觉就像三轮满月下的夜之花。",
+			"dialog_rand4"		: "亲爱的，如果我是符文的话，你现在就要被心型石淹没了。",
+			"dialog_rand5"		: "亲爱的，再这样我可要把你抱起来狠狠蹭了啊，你的可爱都要蹭我身上了。",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|我爱你！",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你就是喜欢看到我的反应，对吧？",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "我一直在想，    你没有眼睛是怎么看到我的呢？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我不需要眼睛也能看见，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "有许多其他看的方式。",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "哦...我从来没有想过。",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_normal"],
+			"dialog"			: "游戏怎么样？",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "要是你能帮忙就太好了。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "那样就算是作弊了。",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "有时你要学着依靠自己。",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "我们还是在讨论游戏吗？",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "亲爱的，你的皇冠太美丽了。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "让你看起来非常有力量。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "我就知道你能理解看起来有力量的重要性。",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "你的花冠让你散发出一种压倒性的支配感。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "亲爱的，再这么说下去，我可就只能把你永远留在我身边了。",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "我希望你喜欢和我一起玩星之宝石，亲爱的。",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

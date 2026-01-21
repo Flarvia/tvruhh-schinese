@@ -655,7 +655,17 @@
 	"rpg_atk_dance2"			: "风之舞",
 	"rpg_atk_dance3"			: "谋杀之舞",
 	"rpg_atk_dance4"			: "晕眩舞蹈",
-	
+
+	"stargem_previous"			: "上一个",
+	"stargem_next"				: "下一个",
+	"stargem_stardust"			: "[VAL1]星尘",
+	"stargem_level"				: "等级[VAL1]",
+	"stargem_max"				: "满级[VAL1]",
+	"stargem_goal"				: "下级: [VAL1]",
+	"stargem_round"				: "本轮分数: [VAL1]",
+	"stargem_flips"				: "翻牌次数: [VAL1]",
+	"stargem_deck_title"		: "你的牌组",
+
 	"error_catch" 	: [
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],

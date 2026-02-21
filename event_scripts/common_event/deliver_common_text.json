@@ -632,6 +632,115 @@
 	],
 	
 	
+	"step1_response_B_sandrome" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "那扎拉登为我提供了友谊，但我回报了    |shake|暴力！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "但主意被计划出来了。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "一个礼物会为我们带来许多原谅。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "但是我有太多悔恨，没法自己去见扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "礼物运送的任务必须到你身上了！",
+		},
+	],
+	"comment_pickup_B_sandrome"	: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+		"dialog"	: "选择最适合原谅的礼物。",
+	},
+	"confirm_pickup_B_sandrome"		: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+		"dialog"	: "运送这个吗？",
+	},
+	
+	
+	"step1_response_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "你为你的行为感到许多后悔，是吗？",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "幸运的是有一个简单的解决方法。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "扎拉登爱宝藏！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我有许多宝藏能够给出！",
+		},
+	],
+	"step1_response_B_voladrome_devil" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shock"],
+			"dialog"			: "你必须明白，这位扎拉登渴望战斗！",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "她永远不会为此感到愤怒的。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "我有许多宝藏。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "给她带几个，你就能够明白她爱着你。",
+		},
+	],
+	"comment_pickup_B_voladrome"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "你会给出哪个宝藏？",
+	},
+	"confirm_pickup_B_voladrome"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "你想要这个，是吗？",
+	},
+	"pickup_next_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "你这样长度的海德龙一定能够带很多东西。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "你能够带走更多宝藏！",
+		},
+	],
+	"step1_bye_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "宝藏最棒的地方在于和朋友分享。",
+		},
+	],
+	"step1_bye_B_voladrome_devil" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "给她宝藏，她就会认为你值得担任运输！",
+		},
+	],
+	"step1_bye_unknown_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "我是名为[VAL1]的守护者。",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|我非常擅长守护。",
+		},
+	],
+
 	"step1_response_unknown_B_photoxai" : [
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
@@ -676,6 +785,80 @@
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
 			"dialog"			: "你可以叫我[VAL1]！",
+		},
+	],
+	
+	
+	"step1_response_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+			"dialog"			: "你的思考太低效了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "已经没有理由再感觉糟糕了。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "看看这个。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "我为她做了这些心型石。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "你把其中一个给她，她会很高兴见到你的！",
+		},
+	],
+	"step1_response_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised_blush"],
+			"dialog"			: "你的思考太低效了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "|shake|但我也是！|L|我完全没法不去想她！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "她人太好了，不可能会对你生气的。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "我有个主意。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "你把我的一个礼物送给她。|L|你需要个理由再去见她-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "并且再去见她之前我需要冷静下来。",
+		},
+	],
+	"comment_pickup_B_dendrohai"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "哪个礼物对她而言是最佳选择？",
+	},
+	"confirm_pickup_B_dendrohai"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "是这个吗？",
+	},
+	"pickup_next_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "等下，我还有东西给她。",
+		},
+	],
+	"step1_bye_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "她能够收到我的礼物，并且你同时也可以道歉。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|我就爱同时解决多个问题。",
 		},
 	],
 	
@@ -1361,7 +1544,42 @@
 			"dialog"			: "然而，你也可以使用哨卫的简称。",
 		},
 	],
+
 	
+	"comment_pickup_B_ventra"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "我应该给她哪一个？",
+	},
+	"confirm_pickup_B_ventra"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "这个吗？",
+	},
+	"pickup_next_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "实际上，我觉得我应该还能再给出一个。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "失去它我也没关系。",
+		},
+	],
+	"comment_pickup_B_ventra_B_sandrome"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"confirm_pickup_B_ventra_B_sandrome"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "..？",
+	},
+	"step1_bye_unknown_B_ventra" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|分配的名字：雯特拉",
+		},
+	],
+	
+
 	
 	"step1_response_B_dot" : [
 		{
@@ -2283,6 +2501,31 @@
 	],
 	
 	
+	"step1_response_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "你猜怎么着？我刚要把一个礼物送给那个扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "但我有点担心她其实不想再见到我。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "或许应该交给你来做。",
+		},
+	],
+	"comment_pickup_B_storm_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你觉得她想要什么？",
+	},
+	"confirm_pickup_B_storm_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+		"dialog"	: "你确定吗？",
+	},
+
+
+
 	"step1_response_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],

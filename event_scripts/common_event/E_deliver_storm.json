@@ -82,6 +82,8 @@
 		},
 	],
 	"step1_ask_B_blot"					: "step1_ask_unknown",
+	"step1_ask_B_sandrome"				: "step1_ask_unknown",
+	"step1_ask_B_voladrome"				: "step1_ask_unknown",
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
@@ -221,6 +223,7 @@
 	"step1_leave_B_blot"				: "step1_leave_unknown",
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_voladrome"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_ombroah"				: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
@@ -418,6 +421,44 @@
 		},
 	],
 	
+	"step1_leave_B_sandrome" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我会告诉她是来自你的，好吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "她绝对会原谅你的。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "你愿意和我分享原谅？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|我会为我的新朋友做任何事。",
+		},
+	],
+	
+	"step1_leave_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我会告诉她这些是来自你的。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "这可能是唯一能够治愈我大脑效率不足的方法了！",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "但或许我不想被治愈。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我还以为我永远看不到这一天呢。",
+		},
+	],
+
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -1062,7 +1103,91 @@
 		},
 	],
 	
-	
+	"step1_ask_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "你就像个移动电力储备。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "我在你附近就能够充能了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "你不会试着杀我吧，对吧？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "我不会这样做的。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "很久之前，有人告诉我虚空眷族并不总是威胁。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "啊，但你现在看起来有点不一样了...    我觉得。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "你一直都是有眼球的吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我记得   完全没有   没有过眼睛的时候",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "你看，我现在要进入紧急维修模式了。但你能帮我个小忙吗？",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "你今天刚刚被扎拉登的爱轰炸过，是吧？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "确实，但是你是怎么-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "我身上也发生了！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "你能否给她这些中的一个？",
+		},
+	],
+	"step1_leave_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "告诉她这些是来自[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "并且谢谢你的免费能量！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "我现在要先进入睡眠模式了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "谢谢你没有试着杀掉我！",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我都不知道她们会这么好。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "今天不可预料的事情真是一件接着一件。",
+		},
+	],
+
 	"step1_ask_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
@@ -1461,6 +1586,7 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
@@ -1658,6 +1784,7 @@
 	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_dendrohai_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",

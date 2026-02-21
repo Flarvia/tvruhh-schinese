@@ -114,6 +114,7 @@
 	"step1_ask_B_frozen_veyeral"	: "step1_ask_veyeral",
 	"step1_ask_B_vibrant_veyeral"	: "step1_ask_veyeral",
 	"step1_ask_B_veyeral_rain"		: "step1_ask_veyeral",
+	"step1_ask_B_storm_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_B_molten_veyeral"	: "step1_ask_veyeral",
 	"step1_ask_veyeral" : [
 		{
@@ -250,6 +251,7 @@
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_ventra"				: "step1_leave_unknown",
 	"step1_leave_B_dot"					: "step1_leave_unknown",
 	"step1_leave_B_glacia"				: "step1_leave_unknown",
 	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
@@ -400,7 +402,30 @@
 			"dialog"			: "来吧，我们来锻炼汝送达时的言语。",
 		},
 	],
-	
+
+	"step1_leave_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到许多心心从你的眼中爆出来！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "你生病了吗？",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "是的，并且恐怕是不治之症。",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "快在我还活着的时候把这些礼物送过去！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|前进！全速！",
+		},
+	],
+
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -759,7 +784,43 @@
 			"dialog"			: "给扎拉登礼物，负能量就会抵消。",
 		},
 	],
-	
+
+	"step1_ask_B_ventra" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|需求你的协助。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我正在这个区域正听到有任务给我。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "但我只见到有许多损伤的机器人。",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|请将-------送给-------",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我在破译这条信息！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "礼物必须要送给有许多爱的扎拉登，是吧？",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|答案正确。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我正在接受这个任务！",
+		},
+	],
+
+
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -840,7 +901,29 @@
 		},
 	],
 	
-	
+	"step1_leave_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我正在接受这个任务并且会送运这个礼物！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "我还会能够看出来这个礼物是正在要给谁。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "并且我们两个人都会有许多原谅。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "你会为了我做这种事情？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "|wave|我必须与我新的风暴朋友分享许多原谅。",
+		},
+	],
+
 	
 	"step2_intro_generic" : [
 		{
@@ -919,6 +1002,7 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
@@ -1094,6 +1178,7 @@
 	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_dendrohai_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",

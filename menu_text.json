@@ -18,6 +18,7 @@
 	"UI_extract"      	: "提取",
 	"UI_upgrade"      	: "升级",
 	"UI_take_gift"  	: "接受礼物",
+	"UI_take_burden"  	: "收下负担",
 	"UI_give"  			: "给予",
 	"UI_donate"  		: "捐赠",
 	"UI_rewards"      	: "奖励",
@@ -96,6 +97,11 @@
 		"footnote" 		: "该选项可以在设置中改变",
 	},
 	
+	"MENU_binding_reset_warning" : {
+		"title"    		: "键位绑定已被重置！",
+		"desc" 			: "增加了新的菜单控制按键！\n为了避免键位冲突导致游戏无法操作，你的键位已被重置为默认键位。你可以在设置中重新更改键位。",
+	},
+
 	"MENU_language_warning" : {
 		"title"    		: "你所使用的社区语言\n仅适用于游戏的另一个版本！",
 		"version"    	: "[VAL1]\n语言版本: [VAL2]\n游戏版本: [VAL3]",
@@ -151,7 +157,7 @@
 		"desc_instant2"  	: "当启用自动播放时，该设置会被减少至快速对话速度",
 		"desc_autoplay"  	: "设置场景与事件开始时是否默认启用自动播放",
 		"desc_auto_button1" : "你可以使用这个按钮在对话中的任意时刻开关自动播放",
-		"desc_auto_button2" : "这是\"另一个\"菜单键位，仅能够在控制菜单中进行更改",
+		"desc_auto_button2" : "这是\"其他1\"菜单键位，仅能够在控制菜单中进行更改",
 		"desc_delay" 		: "自动播放会等待这么长时间后播放下一句",
 		"desc_scene_x" 		: "部分场景会无视这一设定",
 		
@@ -173,14 +179,16 @@
 		"tag_visibility"		: "- 可见性 -",
 		"op_flash"      : "伤害闪烁",
 		"op_shake"  	: "屏幕震动",
-		"op_blur"  		: "子弹模糊",
 		"op_black"  	: "纯黑背景",
+		"op_invert"  		: "反色闪光",
+		"op_blur"  		: "子弹模糊",
 		"op_c_bullet"  	: "透明子弹",
 		"op_c_helper"  	: "透明帮手",
 		"desc_flash"    : "开关敌人受到伤害时的闪烁效果",
 		"shader_failed" : "该设备不支持着色器！",
 		"desc_shake" 	: "开启屏幕抖动",
 		"desc_black" 	: "选择在战斗中显示背景或使用纯黑背景",
+		"desc_invert" 		: "将战斗结束与心碎时的闪烁效果反色",
 		"desc_blur"     : "开启你的子弹的动态模糊",
 		"desc_c_bullet" : "让你的子弹变得透明",
 		"desc_c_helper" : "让你的帮手变得透明",
@@ -217,7 +225,10 @@
 	},
 	
 	"MENU_options_controls" : {
-		"conflict"		: "键位冲突",
+		"key_conflict1"	: "键位冲突: 移动键位",
+		"key_conflict2"	: "键位冲突: 菜单键位",
+		"key_conflict3"	: "已交换键位",
+		
 		"tag_other"		: "- 操控设定 -",
 		"tag_move"		: "- 移动操控 -",
 		"tag_battle"	: "- 战斗操控 -",
@@ -232,9 +243,12 @@
 		"key_focus"		: "专注",
 		"key_panic"		: "恐慌",
 		"key_pause"		: "暂停",
-		"key_select"    : "选择",
+		"key_accept"    : "接受",
 		"key_back" 		: "返回",
-		"key_other" 	: "其他",
+		"key_other" 	: "其他1",
+		"key_other2" 	: "其他2",
+		"key_tab_l" 	: "向左切换页面",
+		"key_tab_r" 	: "向右切换页面",
 		
 		"control_type"	: "控制器",
 		"deadzone"		: "死区",

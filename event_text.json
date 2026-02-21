@@ -218,6 +218,15 @@
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
 	},
+	"E_stage_repel" : {
+		"name"		: "驱斥怪物",
+		"hint"		: "[hint_stage_common]",
+		"details"	: "这群怪物似乎比平时更加回避。 |C3|她们全都会用危险气泡|C0|尝试将我推开，即便那并不是她们惯用的攻击手段。尽管有着重重戒备，但在内心深处，她们其实只是渴望着爱。",
+		"rule1"		: "[rule_stage1]",
+		"rule2"		: "[rule_stage2]",
+		"rule3"		: "[rule_karma]",
+		"rule4"		: "[rule_bounty_limit]",
+	},
 	"E_stage_mirror" : {
 		"name"		: "翻转之梦",
 		"hint"		: "[hint_stage_common]",
@@ -345,6 +354,14 @@
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
 	},
+	"E_stage_large" : {
+		"name"		: "我见到了所有人",
+		"hint"		: "[hint_stage_common]",
+		"details"	: "雨停了，哪怕只有一刻。没有雨滴从空中落下，一切都变得格外安静。|C3|有10只怪物|C0|围在我身边。它们盯着我，等待着我。要是能在雨再次落下、看不见其他怪物之前，能多选几个就好了。",
+		"rule1"		: "[rule_stage1]",
+		"rule2"		: "[rule_stage2]",
+	},
+
 	
 	
 	

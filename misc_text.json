@@ -41,6 +41,9 @@
 	
 	"wrath_tag"			: "狂怒",
 	"repel_tag"			: "驱逐",
+	"gloom_tag"			: "阴郁",
+	"plus_wisp_tag"		: "[VAL1]+幽火",
+
 	
 	"green_tet"			: "绿",
 	"red_tet"			: "红",
@@ -99,6 +102,20 @@
 	"TT_glass"		: "绽放钟楼",
 	"TT_veyeral"	: "迫近孤独",
 	
+	"totaria_taunts" : {
+		"taunt1"  : "HAhahAhaHa",
+		"taunt2"  : "hAhaHaAhaHahaAhaHhaha",
+		"taunt3"  : "haHAhAhHahaHahaHaA",
+		"taunt4"  : "HahAhaA",
+		"taunt5"  : "HAhaHahA",
+		"taunt6"  : "HahaAHaHahAhaHAhaAhHaha",
+		"taunt7"  : "hAHahHahAhaHa",
+		"taunt8"  : "我不需要爱",
+		"taunt9"  : "我不配得到爱",
+		"taunt10" : "你不配得到爱",
+		"taunt11" : "爱是谎言！",
+		"taunt12" : "数万声言嘲笑着你的灭亡！",
+	},
 
 	"music_groups" : {
 		"songs_unlocked"	: "解锁的音乐",
@@ -634,7 +651,7 @@
 		"B_shy_lila"			: "啊啊啊！",
 		"B_chemory"				: "咬你一口",
 		"B_astrayo"				: "对的对的",
-		"B_alter_blot"			: "怠惰",
+		"B_avoid_blot"			: "怠惰",
 		"B_alter_roundsaw"		: "冲击钻",
 		"B_alter_glacia"		: "浮冰女士",
 		"B_alter_syncron"		: "同步臭虫",
@@ -657,7 +674,7 @@
 		"B_lavalin"				: "世界的终结",
 		"B_heliola"				: "流行明星",
 		"B_vibrant_veyeral"		: "墨点",
-		"B_alter_vitrea"		: "古灵精怪模式",
+		"B_avoid_vitrea"		: "古灵精怪模式",
 		"B_null_blot"			: "哥特墨点",
 		"B_voladrome"			: "铁处女",
 		"B_shy_momo"			: "最佳演员",
@@ -702,7 +719,7 @@
 		"B_knot_knott"			: "邪恶妻子",
 		"B_shiny_knots"			: "邪恶寡妇",
 		"B_blot"				: "软泥怪女士",
-		"B_alter_blot"			: "剧毒软泥怪",
+		"B_avoid_blot"			: "剧毒软泥怪",
 		"B_null_blot"			: "电浆史莱姆",
 		"B_amalga"				: "阿玛加博士的怪物",
 		"B_calorie"				: "虾人鱼",
@@ -754,7 +771,7 @@
 		"B_alter_glacia"		: "冰封仙灵",
 		"B_null_glacia"			: "黑暗仙灵",
 		"B_vitrea"				: "宇航员水仙",
-		"B_alter_vitrea"		: "隐者",
+		"B_avoid_vitrea"		: "隐者",
 		"B_rage_duet"			: "爱人",
 		"B_pearl"				: "静寂的哈比",
 		"B_momo"				: "舞蹈皮克精",

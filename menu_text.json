@@ -305,6 +305,7 @@
 		"info_80-99"	: "这个存档中有着满溢的爱。\n继续？",
 		"info_full"		: "爱已经完全占据了这个存档…至少现在如此。",
 		"info_old"		: "这个存档来源于更早版本的游戏。\n部分进度可能被改变。",
+		"info_new"		: "这个存档来源于更新版本的游戏。\n加载这个存档可能会让你失去部分进度！",
 		"delete"  		: "删除这个存档？",
 		"warning1"  	: "你确定想要删除这个存档吗？",
 		"warning2"  	: "你真的确定吗？",
@@ -466,6 +467,9 @@
 	"MENU_stage_titles" : {
 		"normal_gift"	: "为这个礼物而爱",
 		"challenge_gift": "为这个礼物而挣扎",
+		"bless_bounty"	: "为这场战斗的馈赠",
+		"burden_bounty"	: "为这场战斗的负担",
+		"burden_gift"	: "承载她的负担",
 		"xstat_adjust"	: "这个怪物有着被改变的力量",
 		"underlevel"	: "这个怪物有着更低的等级",
 		"overlevel"		: "这个怪物有着更高的等级",

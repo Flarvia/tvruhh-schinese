@@ -208,6 +208,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "她们都为你准备了馈赠",
 	},
 	"E_stage_wrath" : {
 		"name"		: "狂怒怪物",
@@ -217,6 +218,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "这些怪物对你非常生气！",
 	},
 	"E_stage_repel" : {
 		"name"		: "驱斥怪物",
@@ -226,6 +228,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "这些怪物在躲着你！",
 	},
 	"E_stage_mirror" : {
 		"name"		: "翻转之梦",
@@ -235,6 +238,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "你感觉头晕目眩",
 	},
 	"E_stage_no_panic" : {
 		"name"		: "不要恐慌！",
@@ -263,6 +267,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "光耀怪物与礼物",
 	},
 	"E_stage_void" : {
 		"name"		: "一切皆入黑暗",
@@ -272,6 +277,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "虚空怪物与礼物",
 	},
 	"E_stage_burn" : {
 		"name"		: "一切皆在燃烧",
@@ -281,6 +287,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "燃烧怪物与礼物",
 	},
 	"E_stage_zap" : {
 		"name"		: "一切皆遭雷电",
@@ -290,6 +297,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "电击怪物与礼物",
 	},
 	"E_stage_toxic" : {
 		"name"		: "一切皆染毒素",
@@ -299,6 +307,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "毒素怪物与礼物",
 	},
 	"E_stage_shamble" : {
 		"name"		: "晃晃的画材补给",
@@ -308,6 +317,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群晃晃",
 	},
 	"E_stage_guardian" : {
 		"name"		: "守护者之盛宴",
@@ -317,6 +327,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群守护者",
 	},
 	"E_stage_glyph" : {
 		"name"		: "符文石之海",
@@ -326,6 +337,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群符文",
 	},
 	"E_stage_zaramech" : {
 		"name"		: "扎拉机械修复",
@@ -335,6 +347,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群扎拉机械",
 	},
 	"E_stage_glass" : {
 		"name"		: "宇宙花海",
@@ -344,6 +357,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群玻璃植物",
 	},
 	"E_stage_veyeral" : {
 		"name"		: "虚空访客",
@@ -353,6 +367,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "你发现了一大群维目尔",
 	},
 	"E_stage_large" : {
 		"name"		: "我见到了所有人",
@@ -360,6 +375,7 @@
 		"details"	: "雨停了，哪怕只有一刻。没有雨滴从空中落下，一切都变得格外安静。|C3|有10只怪物|C0|围在我身边。它们盯着我，等待着我。要是能在雨再次落下、看不见其他怪物之前，能多选几个就好了。",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_stage2]",
+		"stage_t"	: "一大群怪物！",
 	},
 
 	
